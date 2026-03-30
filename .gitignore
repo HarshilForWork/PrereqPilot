@@ -1,0 +1,26 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Runtime artifacts
+request_logs/*.json
+logs/*.log
+data/chroma_db/
+
+# Test/build artifacts
+.pytest_cache/
+dist/
+build/
+
+prompt.md
+
+# Monorepo ignores
+course-planning-frontend/

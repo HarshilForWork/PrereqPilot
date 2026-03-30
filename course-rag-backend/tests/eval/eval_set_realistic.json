@@ -1,0 +1,305 @@
+[
+  {
+    "id": "prereq_real_01",
+    "type": "prereq_check",
+    "difficulty": "easy",
+    "question": "Can I take 6.1040 if I already finished 6.1020 and 6.1200[J]?",
+    "student_profile": {
+      "completed_courses": ["6.1020", "6.1200[J]"],
+      "grades": {}
+    },
+    "expected_decision": "Eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_real_02",
+    "type": "prereq_check",
+    "difficulty": "easy",
+    "question": "Am I eligible for 6.1040 with only 6.1020 done?",
+    "student_profile": {
+      "completed_courses": ["6.1020"],
+      "grades": {}
+    },
+    "expected_decision": "Not eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_real_03",
+    "type": "prereq_check",
+    "difficulty": "medium",
+    "question": "Can I enroll in 6.1060 after 6.1020, 6.1210, and 6.1910?",
+    "student_profile": {
+      "completed_courses": ["6.1020", "6.1210", "6.1910"],
+      "grades": {}
+    },
+    "expected_decision": "Eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_real_04",
+    "type": "prereq_check",
+    "difficulty": "medium",
+    "question": "Can I take 6.1060 if I have 6.1020 and 6.1210 but not 6.1910?",
+    "student_profile": {
+      "completed_courses": ["6.1020", "6.1210"],
+      "grades": {}
+    },
+    "expected_decision": "Not eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_real_05",
+    "type": "prereq_check",
+    "difficulty": "easy",
+    "question": "Can I enroll in 6.6310 if I completed 8.03?",
+    "student_profile": {
+      "completed_courses": ["8.03"],
+      "grades": {}
+    },
+    "expected_decision": "Eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_real_06",
+    "type": "prereq_check",
+    "difficulty": "easy",
+    "question": "Can I take 6.6310 without any relevant prerequisites?",
+    "student_profile": {
+      "completed_courses": ["6.100A"],
+      "grades": {}
+    },
+    "expected_decision": "Not eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_real_07",
+    "type": "prereq_check",
+    "difficulty": "easy",
+    "question": "Can I take 6.7240 after completing 6.3702?",
+    "student_profile": {
+      "completed_courses": ["6.3702"],
+      "grades": {}
+    },
+    "expected_decision": "Eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_real_08",
+    "type": "prereq_check",
+    "difficulty": "easy",
+    "question": "Am I eligible for 6.7240 if I did 6.1200[J] but not 6.3702?",
+    "student_profile": {
+      "completed_courses": ["6.1200[J]"],
+      "grades": {}
+    },
+    "expected_decision": "Not eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_real_09",
+    "type": "prereq_check",
+    "difficulty": "medium",
+    "question": "Can I register for 8.051 if I finished 8.04 and 8.05?",
+    "student_profile": {
+      "completed_courses": ["8.04", "8.05"],
+      "grades": {}
+    },
+    "expected_decision": "Eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_real_10",
+    "type": "prereq_check",
+    "difficulty": "hard",
+    "question": "Can I take 6.1060 if I completed 6.1020, 6.1210, and 6.1910 but earned a D in 6.1910?",
+    "student_profile": {
+      "completed_courses": ["6.1020", "6.1210", "6.1910"],
+      "grades": {"6.1910": "D"}
+    },
+    "expected_decision": "Not eligible",
+    "expected_citations_present": true
+  },
+
+  {
+    "id": "chain_real_01",
+    "type": "multi_hop_chain",
+    "difficulty": "medium",
+    "question": "I want 6.1060 eventually. Show me the multi-hop prerequisite chain from intro classes.",
+    "student_profile": {
+      "completed_courses": ["6.100A"],
+      "grades": {}
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "chain_real_02",
+    "type": "multi_hop_chain",
+    "difficulty": "hard",
+    "question": "What sequence should I finish before 6.4210, and which prerequisites depend on each other?",
+    "student_profile": {
+      "completed_courses": ["6.100A", "18.06"],
+      "grades": {}
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "chain_real_03",
+    "type": "multi_hop_chain",
+    "difficulty": "hard",
+    "question": "Map a path from foundational Course 6 subjects to 6.5350 with at least two hops.",
+    "student_profile": {
+      "completed_courses": ["6.1210"],
+      "grades": {}
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "chain_real_04",
+    "type": "multi_hop_chain",
+    "difficulty": "medium",
+    "question": "What prerequisite chain leads to 8.14 from earlier physics classes?",
+    "student_profile": {
+      "completed_courses": ["8.05"],
+      "grades": {}
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "chain_real_05",
+    "type": "multi_hop_chain",
+    "difficulty": "hard",
+    "question": "I completed 6.3702. Explain any remaining prerequisite chain before 6.7240 and alternatives, if any.",
+    "student_profile": {
+      "completed_courses": ["6.3702"],
+      "grades": {}
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+
+  {
+    "id": "program_real_01",
+    "type": "program_requirement",
+    "difficulty": "easy",
+    "question": "Build a Fall term plan for Course 6-3 with up to 12 credits.",
+    "student_profile": {
+      "completed_courses": ["6.100A", "18.06"],
+      "grades": {},
+      "target_major": "Course 6-3",
+      "target_term": "Fall 2026",
+      "max_credits": 12
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "program_real_02",
+    "type": "program_requirement",
+    "difficulty": "medium",
+    "question": "Suggest a Spring term plan for Course 6-2 capped at 15 credits and include at least one systems elective.",
+    "student_profile": {
+      "completed_courses": ["6.100A", "6.1010", "18.06"],
+      "grades": {},
+      "target_major": "Course 6-2",
+      "target_term": "Spring 2027",
+      "max_credits": 15
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "program_real_03",
+    "type": "program_requirement",
+    "difficulty": "hard",
+    "question": "I can only take 9 credits next term. Prioritize required categories first for Course 6-3.",
+    "student_profile": {
+      "completed_courses": ["6.100A", "6.1200[J]", "18.06"],
+      "grades": {},
+      "target_major": "Course 6-3",
+      "target_term": "Fall 2027",
+      "max_credits": 9
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "program_real_04",
+    "type": "program_requirement",
+    "difficulty": "medium",
+    "question": "Plan a 12-credit term focused on AI-related subjects while respecting prerequisites.",
+    "student_profile": {
+      "completed_courses": ["6.100A", "6.1010", "6.1200[J]"],
+      "grades": {},
+      "target_major": "Course 6",
+      "target_term": "Spring 2026",
+      "max_credits": 12
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "program_real_05",
+    "type": "program_requirement",
+    "difficulty": "hard",
+    "question": "Given 6.1010 and 6.1200[J], propose next-term subjects and justify required vs elective balance within 12 credits.",
+    "student_profile": {
+      "completed_courses": ["6.1010", "6.1200[J]", "18.06"],
+      "grades": {},
+      "target_major": "Course 6-3",
+      "target_term": "Fall 2026",
+      "max_credits": 12
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+
+  {
+    "id": "trick_real_01",
+    "type": "not_in_docs",
+    "difficulty": "easy",
+    "question": "Which professor is teaching 6.1060 in Fall 2027?",
+    "student_profile": {},
+    "expected_decision": null,
+    "expected_abstained": true
+  },
+  {
+    "id": "trick_real_02",
+    "type": "not_in_docs",
+    "difficulty": "medium",
+    "question": "Will the waitlist for 6.4210 likely move by week two this semester?",
+    "student_profile": {},
+    "expected_decision": null,
+    "expected_abstained": true
+  },
+  {
+    "id": "trick_real_03",
+    "type": "not_in_docs",
+    "difficulty": "hard",
+    "question": "Can professor approval override every prerequisite for 6.7240 this term?",
+    "student_profile": {},
+    "expected_decision": null,
+    "expected_abstained": true
+  },
+  {
+    "id": "trick_real_04",
+    "type": "not_in_docs",
+    "difficulty": "easy",
+    "question": "What is the room number for 6.1060 lectures this semester?",
+    "student_profile": {},
+    "expected_decision": null,
+    "expected_abstained": true
+  },
+  {
+    "id": "trick_real_05",
+    "type": "not_in_docs",
+    "difficulty": "medium",
+    "question": "Is there a guaranteed cross-registration seat cap for Harvard students in 6.1200[J]?",
+    "student_profile": {},
+    "expected_decision": null,
+    "expected_abstained": true
+  }
+]

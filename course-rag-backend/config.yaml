@@ -1,0 +1,50 @@
+server:
+  host: "0.0.0.0"
+  port: 8000
+  reload: true
+
+paths:
+  catalog_docs_dir: "./data/catalog_docs"
+  chroma_persist_dir: "./data/chroma_db"
+  graph_store_path: "./data/graph_store.json"
+  logs_dir: "./logs"
+  request_logs_dir: "./request_logs"
+
+chroma:
+  collection_name: "course_catalog"
+  similarity_metric: "cosine"
+
+embeddings:
+  model: "multilingual-e5-large"
+  batch_size: 50
+  document_task_type: "passage"
+  query_task_type: "query"
+  max_tokens_per_minute: 150000
+  max_tokens_per_request: 30000
+  estimated_chars_per_token: 3
+  max_retries: 5
+
+llm:
+  model: "llama-3.1-8b-instant"
+  temperature_reasoning: 0.0
+  temperature_generation: 0.2
+  temperature_clarify: 0.1
+  max_tokens: 4096
+
+retrieval:
+  top_k: 8
+  score_threshold: 0.35
+
+chunking:
+  chunk_size: 500
+  chunk_overlap: 150
+
+ops:
+  track_latency: true
+  log_every_request: true
+
+crewai:
+  enabled: true
+  verbose: true
+  memory: true
+  timeout_seconds: 10000

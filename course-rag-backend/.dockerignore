@@ -1,0 +1,29 @@
+# VCS and local metadata
+.git
+.gitignore
+.env
+.env.*
+
+# Python cache/artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local/runtime outputs (not needed in image build context)
+logs/
+request_logs/
+output/
+
+# Dev-only
+tests/
+.tmp_crewai_smoke.py
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,193 @@
+HYBRID PDF PARSING OUTPUT
+==================================================
+Document: academic-performance-grades.pdf
+Method: hybrid_pymupdf_pdfplumber
+Pages: 4
+Tables: 0
+Text Blocks: 92
+Processing Time: 1.00s
+==================================================
+
+ACADEMIC PERFORMANCE AND GRADES
+
+ACADEMIC PERFORMANCE AND GRADES
+
+Pass 67% of cumulative units attempted (dened as pace)
+
+Not exceed 150% of the published length of the program
+
+Dropped subjects are not included in the GPA or pace calculations. Transfer credits, which carry no grade, are not included in the GPA calculation, but the number of transfer units a student has is included in the pace calculation. Grades from incomplete units are not included in the GPA calculation, but incomplete units are included in the pace calculation. Grades for repeated units are included in the GPA calculation, but repeated units can only be counted once in the pace calculation.
+
+Undergraduate Academic Standards
+
+The Committee on Academic Performance (CAP) ensures that the minimum academic standards proposed by the individual departments for undergraduate students are consistent throughout the Institute and conform to the rules and regulations approved by the Faculty. In view of the individual nature of student academic performance, the CAP does not establish rigid standards of academic performance to be used throughout the Institute. The Institute generally expects undergraduate students to complete the requirements for an SB degree in four years; passing an average of 48 units per term for eight terms will accomplish this goal. Normally, however, the CAP accepts a minimum academic record of at least 36 units of credit with a term rating above 3.0 (on a 5.0 scale) at the end of any regular term, unless the Committee has specically notied an individual student that a higher level of performance is required. (The latter would only occur as a result of previously poor performance.)
+
+If a students performance falls below any one of the above academic standards, and that student is eligible for federal student nancial assistance, the Committee on Academic Performance (CAP) will review the students progress at the end of the term. Aer taking special circumstances into account, the CAP will decide on the appropriate action.
+
+Students on, or eligible for, federal student nancial assistance who are placed on academic warning by the CAP are concurrently placed on federal nancial aid warning or federal nancial aid probation by Student Financial Services (SFS) .
+
+When these criteria are not met, the CAP considers each student's academic performance on an individual basis. Consideration is given not only to the grades received in the subjects for which the student is registered, but also to the total number of subject units, the nature of the subjects themselves, progress toward the degree, and personal or medical factors that may have aected academic performance in a given term. The CAP website gives more detailed information concerning end-of-term review procedures ( https:// advising.mit.edu/committee-on-academic-performance/cap-end- of-term-academic-review ). For further information, contact the CAP administrator ( cap@mit.edu ), Room 7-103, 617-253-4164.
+
+Students are put on federal nancial aid warning if they were
+
+not on academic warning in the prior term, but have been placed on academic warning by the CAP. Students on federal nancial aid warning may continue to receive federal student nancial assistance for the following term. Federal nancial aid warning status has no eect on the amount of nancial aid a student is eligible to receive from MIT, the federal government, or any other source during the federal nancial aid warning term.
+
+Students are put on federal nancial aid probation if they were
+
+on academic warning in the prior term and continue to be placed on academic warning by the CAP. Being on federal nancial aid probation allows students to retain eligibility for federal nancial aid, however, students may only be placed on federal nancial aid probation following a successful appeal. At MIT, the CAP review of a students academic progress constitutes the required appeal process. Any decision by the CAP other than requiring the student to take an academic leave from MIT constitutes approval of the appeal. Federal nancial aid probation status has no eect on the amount of nancial aid the student is eligible to receive from MIT, the federal government, or any other source during the federal nancial aid probation term.
+
+Undergraduate Academic Standards for Federal Student Financial Assistance
+
+Per federal regulations, an undergraduate student is eligible to receive federal student nancial assistance if the student is enrolled at least half time per term and maintains satisfactory academic progress in their course of study.
+
+Federal student nancial assistance for undergraduates includes: Federal Pell Grants, Federal Supplemental Educational Opportunity Grants, Iraq and Afghanistan Service Grants, Federal Direct Subsidized Loans, Federal Direct Unsubsidized Loans, Federal Direct PLUS Loans for Parents, and Federal Work-Study.
+
+A student under CAP review will be considered to be making satisfactory academic progress for federal student nancial assistance purposes unless the CAP requires the student to take a required academic leave from MIT.
+
+An MIT undergraduate must achieve all of the following academic standards to qualify and maintain federal student nancial assistance:
+
+Graduate Academic Standards
+
+Have a cumulative grade point average (GPA) of at least a C (3.0
+
+on MITs 5.0 scale)
+
+It is the responsibility of the Graduate Academic Performance Group (GAPG), operating with the authority of the Committee on
+
+Academic Performance and Grades   |   3
+
+ACADEMIC PERFORMANCE AND GRADES
+
+Graduate Programs (CGP), to monitor minimum academic standards for graduate students and special students in accordance with the rules and regulations of the Faculty. The GAPG reviews the academic records of all graduate students at the end of each term (including the summer session), giving particular attention to students with cumulative ratings below 3.5 to 4.0. Consideration is given to low grades and factors aecting a student's ability to meet the requirements for the degree program in which they are enrolled.
+
+Pass 67% of cumulative credit units attempted (dened as
+
+pace)
+
+Make satisfactory progress in their academic milestones, as
+
+evaluated by their graduate program; and
+
+Not exceed ve terms of enrollment for a Masters candidate and
+
+13 for a PhD or ScD candidate
+
+Dropped subjects are not included in the GPA or pace calculations. Transfer credits, which carry no grade, are not included in the GPA calculation, but the number of transfer units a student has is included in the pace calculation. Grades from incomplete units are not included in the GPA calculation, but incomplete units are included in the pace calculation. Grades for repeated units are included in the GPA calculation, but repeated units can only be counted once in the pace calculation.
+
+Students should consult with their specic graduate degree program regarding grade expectations for remaining in good standing. These expectations dier among graduate programs and in general are dierent from those for undergraduate degree programs. A passing grade in a particular class or classes may be one of many factors a program considers in evaluating whether a student is making adequate progress in the program. Note that in most departments and graduate programs, grades consistently below B are not normally considered an acceptable measure of progress towards degree objectives. It is each departments responsibility to inform students about academic performance requirements and expectations.
+
+At the end of each term, the Graduate Academic Performance Group (GAPG) considers the academic performance of all enrolled graduate students and decides on the appropriate action for students not making satisfactory academic performance (e.g. academic warning or denial of further registration).
+
+Recommendations for action by the GAPG are made by departmental graduate committees. Unless extenuating circumstances are found, students who are not making satisfactory progress towards a degree may be denied permission to continue or may be warned that without substantial improvement the following term, they may be refused further registration. In addition, departmental graduate committees may recommend to the GAPG that a student be allowed to register only for a less advanced degree.
+
+If a student is placed on academic warning, a set of requirements (academic plan) is set forth and communicated to the student so that they may continue to be eligible for enrollment.
+
+Students on, or eligible for, federal student nancial assistance who are placed on academic warning by the GAPG are concurrently placed on federal nancial aid warning or federal nancial aid probation by Student Financial Services (SFS).
+
+Students are put on federal nancial aid warning if they were
+
+More detailed information concerning procedures followed by this standing faculty committee may be found in the online publication, Graduate Policies and Procedures ( https://oge.mit.edu/gpp/ admissions-and-registration/academic-performance ).
+
+not on academic warning in the prior term, but have been placed on academic warning by the GAPG. Students on federal nancial aid warning may continue to receive federal student nancial assistance for the following term. Federal nancial aid warning status has no eect on the amount of nancial aid a student is eligible to receive from MIT, the federal government, or any other source during the federal nancial aid warning term.
+
+Graduate Academic Standards for Federal Student Financial Assistance
+
+Students are put on federal nancial aid probation if they
+
+Per federal regulations, a graduate student is eligible to receive federal student nancial assistance if the student is enrolled at least half-time per term and maintains satisfactory academic progress in their course of study.
+
+were on academic warning in the prior term and continue to be placed on academic warning by the GAPG. Being on federal nancial aid probation allows students to retain eligibility for federal nancial aid; however, students may only be placed on federal nancial aid probation aer a successful appeal. At MIT, the GAPG review of a graduate students academic progress constitutes the required appeal process. Graduate students are encouraged to engage with and provide relevant information to their academic programs during the GAPG review. Any decision by the GAPG other than requiring the student to withdraw from MIT constitutes a continuation of the students academic plan and enables students to be placed on federal nancial aid probation. Federal nancial aid probation status has no eect on the amount of nancial aid a student is eligible to receive
+
+Federal student nancial assistance for graduate students includes: Teacher Education Assistance for College and Higher Education Grants, Federal Direct Unsubsidized Loans, Federal Direct PLUS Loans for Graduate and Professional Degree Students, and Federal Work-Study.
+
+An MIT graduate student must achieve all of the following academic standards to qualify and maintain federal student nancial assistance:
+
+Have a cumulative grade point average (GPA) exceeding 4.0 on
+
+MITs 5.0 scale
+
+4   |   Academic Performance and Grades
+
+ACADEMIC PERFORMANCE AND GRADES
+
+from MIT, the federal government, or any other source during the federal nancial aid probation term.
+
+DN Signies a D grade on First-Year Pass/No Record and ABC/ No Record.
+
+F Failed. This grade also signies that the student must repeat the subject to receive credit.
+
+Grades
+
+FN Signies an F grade on First-Year Pass/No Record and ABC/No Record.
+
+The grade for each student shall be determined independently of other students in the class, and shall be related to the student's mastery of the material based on the grade descriptions below. Grades may not be awarded according to a predetermined distribution of letter grades. For example, grades in a subject may not be allocated according to set proportions of A, B, C, D, etc.
+
+O Absent. This grade indicates that the student was progressing satisfactorily during the subject but was either (a) absent from the nal examination or (b) absent during the last two weeks of the term (for a full-term subject) or the last week of the term (for a half-term subject), or both (a) and (b). An O grade carries no credit for the subject. Unsatisfactory performance because of absence throughout the term should be recorded as F.
+
+Passing Grades . Undergraduate and graduate students who satisfactorily complete the work of a subject by the end of the term receive one of the following grades:
+
+OX Absence satisfactorily explained to and excused by the Vice Chancellor or designee in the case of either an undergraduate student or a graduate student. The Faculty member in charge of the subject will be notied when an O is changed to an OX. An OX carries no credit for the subject. However, the Faculty member in charge must provide the student the opportunity to receive a credit- carrying grade. This may be done with or without the instructor requiring a postponed nal examination or other additional evaluation procedure.
+
+A Exceptionally good performance demonstrating a superior understanding of the subject matter, a foundation of extensive knowledge, and a skillful use of concepts and/ or materials.
+
+B Good performance demonstrating capacity to use the appropriate concepts, a good understanding of the subject matter, and an ability to handle the problems and materials encountered in the subject.
+
+C Adequate performance demonstrating an adequate understanding of the subject matter, an ability to handle relatively simple problems, and adequate preparation for moving on to more advanced work in the eld.
+
+I Incomplete. The grade I indicates that a minor part of the subject requirements has not been fullled and that a passing grade is to be expected when the work is completed. The grade I for the term remains permanently on the student's record even when the subject is completed. The work should normally be completed before Add Date of the succeeding term of the regular academic year; however, the faculty member in charge, in negotiation with the student, has the right to set an earlier or later date for pedagogical reasons or extenuating circumstances. Graduate students may extend the ve-week deadline with the explicit approval of the faculty member in charge.
+
+Note that the MIT internal grading system includes plus (+) and minus (-) modiers for use with the letter grades A, B, and C for all academic subjects (except advanced standing exams). These modiers appear only on internal grade reports. They do not appear on transcripts and are not used in calculating term or cumulative grade-point averages. The MIT grading system for external purposes does not include modiers.
+
+D Minimally acceptable performance demonstrating at least partial familiarity with the subject matter and some capacity to deal with relatively simple problems, but also demonstrating deciencies serious enough to make it inadvisable to proceed further in the eld without additional work. Some departments require students with D-level performance in certain prerequisite subjects within the departmental program to do additional work, or to retake the prerequisite, before proceeding with the follow-on subject.
+
+The instructor is required to submit an Instructor's Report Form for a grade of I reported for an undergraduate. On the form, the instructor provides the date by which the outstanding work is to be completed and a default nal grade. The default nal grade represents the grade the student would have earned, using appropriately low scores for the missing work. If the subject has not been completed by Add Date of the succeeding regular term, the default nal grade will be posted to the student's record unless a later deadline has been specically agreed upon by the instructor and the student.
+
+P When use of the passing grade P is authorized, it reflects performance at the level A, B, or C (A+ to C- with modiers used within MIT).
+
+No grade of I can be assigned to any undergraduate in the term in which he or she graduates. All grades of Incomplete must be resolved prior to graduation.
+
+Non-Passing Grades. The grades and notations used for subjects not passed or not completed by the end of the term are as follows.
+
+Academic Performance and Grades   |   5
+
+ACADEMIC PERFORMANCE AND GRADES
+
+page/#2-64 ), the use of the grades below may be authorized. These grades are not included in the calculations of grade point averages.
+
+J Notation assigned for work such as thesis, UROP, or At Plant registration (internship or industrial practice), which has progressed satisfactorily, but has not been completed. A modier of minus on a J grade indicates that a student partially met expectations of satisfactory academic performance or progress. Grade given upon completion of the work in a later term also covers this term. Faculty members must obtain approval from the Committee on Curricula or the Committee on Graduate Programs to use the grade of J in subjects other than those mentioned above.
+
+PE Performance at any of the levels A, B, or C, under the circumstance of an Institute emergency closure.
+
+NE Performance at the level of D or F for which no record will appear on the external transcript.
+
+IE Incomplete. Indicates that a portion of the subject requirements has not been fullled, due to a major disruption of the Institutes academic activities. A letter grade may be assigned if the work is subsequently completed. The grade IE remains permanently on the students record even when the subject is completed. To receive a letter grade, the work must be completed prior to a date set by the Chair of the Faculty. If the work is not completed prior to the established completion date, the grade will remain an IE on the students record and transcript. A grade of IE does not carry credit but need not be resolved prior to graduation.
+
+U Notation for thesis work that has not been completed and in which progress has been unsatisfactory. Grade given upon completion of the work in a later term also covers this term. Unless a student's progress improves signicantly, the student may expect that grade to be failing.
+
+T Temporary notation. Used for subjects which cover the equivalent of one term's work, but are scheduled over parts of two normal grading periods. Prior approval must have been obtained from the Committee on Curricula for undergraduate subjects or the Committee on Graduate Programs for graduate subjects. This notation is recorded only on the student's internal record. A permanent grade must be assigned when the subject is nished.
+
+Additional information regarding rst-year grading, hidden grades, and the flexible P/NR grading option is available in the Undergraduate Education section.
+
+Grade Reports and Transcripts
+
+Note that the MIT internal grading system includes the minus (-) modier for use with the J grade for all academic subjects that use this grade. This modier appears only on internal grade reports. It does not appear on transcripts and is not used in calculating term or cumulative grade-point averages. The MIT grading system for external purposes does not include modiers.
+
+Students may view their internal grade reports on WebSIS. Transcripts are available in an unocial version free of charge or in an ocial version at a cost currently set at $8 per copy. Students may request a copy of their academic record ( https:// registrar.mit.edu/transcripts-records/transcripts-certications- letters/transcripts/ordering-transcripts ) by following the steps on the Registrar's Oce website.
+
+Other Notations. The following notations are also used on the academic record.
+
+S Notation for credit awarded for work done elsewhere.
+
+SA Notation for satisfactorily completed doctoral thesis. Doctoral theses are not graded.
+
+DR Notation used only on the student's internal record for a subject dropped aer the h week of the regular term for full-term subjects, or aer the second week of instruction for half-term subjects.
+
+LIS Notation used only on the student's internal record for a subject the student registered for as a listener.
+
+URN Notation for a subject in UROP taken for pay or as a volunteer rather than academic credit.
+
+VIS Notation for a research subject taken as a non-degree visiting student.
+
+Alternate Grades. When a signicant disruption of academic activities is declared, as described in the Rules and Regulations of the Faculty ( https://facultygovernance.mit.edu/faculty-rules-
+
+6   |   Academic Performance and Grades

@@ -1,0 +1,83 @@
+HYBRID PDF PARSING OUTPUT
+==================================================
+Document: mit_registration_policies.pdf
+Method: hybrid_pymupdf_pdfplumber
+Pages: 2
+Tables: 0
+Text Blocks: 37
+Processing Time: 0.37s
+==================================================
+
+3/29/26, 4:25 PM Registration | MIT Course Catalog
+
+Registration
+
+Information on pre-registration and registration procedures is available on the Registrar's Office website.
+
+Retaining Student Status
+
+A person becomes an MIT student at the start of the term for which they are admitted or readmitted. Regular student status is retained until graduation, unless the student takes a leave or is disqualified.
+
+For the fall and spring terms, undergraduate and graduate students must complete the three steps listed below in order to continue student status during that term:
+
+Pre-registration must be completed according to instructions issued by the Registrar's Office.
+
+All Institute and Fraternity, Sorority, and Independent Living Group (FSILG) charges must be paid when due, or satisfactory alternative arrangements must be made with Student Financial Services or the FSILG.
+
+Registration must be approved by the student's advisor or registration officer and submitted by the student to the Registrar's Office by the published deadline.
+
+Students who do not complete these steps by the published deadlines are subject to fines. Failure to pay charges and complete registration by the end of the second week of the term will result in the loss of student status.
+
+International students are required by immigration regulations to be registered full-time when school is in session in order to maintain legal status in the US. Students should check with the International Students Office for details.
+
+Undergraduate and graduate students registered in the spring term who do not graduate or take a leave from MIT retain their student status through the following summer, whether or not they register for the summer session; they cease being students if they do not register in the fall (although the rules for student status with regard to loan repayment are somewhat different). Graduate students making progress toward a degree during the summer must register for the summer session in accordance with Office of Graduate Education regulations.
+
+Students do not have to register for the Independent Activities Period to retain student status between fall and spring terms.
+
+If a student has begun the registration process but wishes to take a leave, they must notify Student Support and Wellbeing if an undergraduate; their registration officer if a graduate student; and, in addition, the International Students Office if an international student.
+
+A person wishing to be reinstated as an undergraduate must apply to return through Student Support Services. No application to return to the undergraduate program will be considered from any applicant who has received a bachelor's degree or the equivalent from another institution. A person wishing to be reinstated as a graduate student must apply to return through the Admissions Office and the department. International students also need to be cleared by the International Students Office.
+
+People on campus who are not registered during a term are not considered students and have no student privileges.
+
+Prerequisites
+
+Prerequisites are used to indicate the sequence in which subjects are to be taken and the base of knowledge on which a particular subject will build. Before taking a subject, a student should complete any prerequisite(s) listed for that subject; corequisites, which are listed in italics, can be taken concurrently. (See subject listings by department/program ).
+
+Once prerequisites and corequisites are included in a subject listing, it is the responsibility of the instructor to ensure that the subject is taught at the appropriate level. At the first class, instructors
+
+https://catalog.mit.edu/mit/procedures/registration/ 1/2
+
+3/29/26, 4:25 PM Registration | MIT Course Catalog
+
+should reiterate the prerequisites and corequisites, and describe acceptable substitutions.
+
+Students who do not have the stated prerequisites should obtain the permission of the instructor. Instructors may choose to identify students without prerequisites, or may determine that a student does not have the required preparation and knowledge to take a subject and ask the Registrar's Office to remove the student from the subject.
+
+If the instructor allows a student to waive or make a substitution for a prerequisite, it is then the student's responsibility to master any missing background material in a timely fashion so that the content of the subject does not change for other students in the subject.
+
+Some departments require students with a D-level performance in certain prerequisite subjects within the departmental program to do additional work or to retake the prerequisite before proceeding with the follow-on subject.
+
+Credit Hours and Designations for Subjects
+
+The credit hours (units) for each subject indicate the total amount of time spent in class and laboratory, plus the estimated time that the average student spends on outside preparation, for one regular term. Each subject is listed in the online MIT Subject Listing & Schedule , with three credit numbers, showing in sequence the units allotted to class time (lecture and/or recitation); laboratory, design, or fieldwork; and preparation. Each unit represents about 14 hours of work per term, or about one hour of work per week for a subject that spans an entire term. The total unit credit for a subject is obtained by adding together all the units shown. Additional information regarding subject designations may be found in the Subjects Key.
+
+Advanced Standing Examinations/Credit
+
+Undergraduate Students
+
+Advanced standing examinations for undergraduate students are given in August/September, December, January/February, and May. These examinations may be taken only by students who have never been registered for or attended class at MIT in the subject concerned. Special students and cross-registered students are not eligible to take advanced standing examinations.
+
+Except for entering first-year and transfer students, who may take advanced standing examinations offered during orientation, students must petition to take an advanced standing examination. The petition must be approved by the instructor in charge of the subject and the student's advisor, and then submitted to the Registrar's Office, Room 5-117, at least three weeks before the first day of the examination period.
+
+Students interested in taking higher-level examinations should check in advance what preparation is required. The instructor may require evidence of competence in addition to the examination if the subject normally involves measures of student performance that are qualitatively different from the examination.
+
+If a student fails an advanced standing examination, they may not retake the examination, but may register for the same subject in any subsequent term.
+
+For more information, see the advanced standing examination procedures on the Registrar's website.
+
+Graduate Students
+
+Academic departments may decide to arrange advanced standing credit for their graduate students. The department may do so, in agreement with the faculty member in charge of the subject concerned, who may require evidence of competence in addition to an examination. A passing grade entitles a student to full credit for the subject. A failing grade will appear on the permanent record.
+
+https://catalog.mit.edu/mit/procedures/registration/ 2/2

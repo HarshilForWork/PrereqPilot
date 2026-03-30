@@ -1,0 +1,105 @@
+HYBRID PDF PARSING OUTPUT
+==================================================
+Document: mit_eecs_program_requirements.pdf
+Method: hybrid_pymupdf_pdfplumber
+Pages: 2
+Tables: 0
+Text Blocks: 48
+Processing Time: 0.19s
+==================================================
+
+3/29/26, 4:16 PM Electrical Engineering with Computing (Course 6-5) | MIT Course Catalog
+
+Electrical Engineering with Computing (Course 6-5)
+
+Department of Electrical Engineering and Computer Science
+
+Bachelor of Science in Electrical Engineering with Computing
+
+General Institute Requirements (GIRs) The General Institute Requirements include a Communication Requirement that is integrated into both the HASS Requirement and the requirements of each major; see details below.
+
+Summary of Subject Requirements Subjects
+
+Science Requirement 6
+
+Humanities, Arts, and Social Sciences (HASS) Requirement; at least two of these subjects must be designated as communication-intensive (CI-H) to fulfill the Communication Requirement.
+
+8
+
+Restricted Electives in Science and Technology (REST) Requirement [satisfied by 18.C06[J] and 6.1910 , 6.2000 , 6.3700 , or 18.05 in the Departmental Program]
+
+2
+
+Laboratory Requirement (12 units) [can be satisfied by 6.9000 in the Departmental Program] 1
+
+Total GIR Subjects Required for SB Degree 17
+
+Physical Education Requirement
+
+Swimming requirement, plus four physical education courses for eight points.
+
+Departmental Program Choose at least two subjects in the major that are designated as communication-intensive (CI-M) to fulfill the Communication Requirement.
+
+Students must satisfy at least one program requirement or elective with a subject from the Project-Based Laboratory (PLAB) list 1
+
+Fundamentals
+
+6.100A Introduction to Computer Science Programming in Python 6
+
+6.120A Discrete Mathematics and Proof for Computer Science 6-12
+
+or 6.1200[J] Mathematics for Computer Science
+
+6.1210 Introduction to Algorithms 12
+
+6.1903 Introduction to Low-level Programming in C and Assembly 6
+
+18.C06[J] Linear Algebra and Optimization 2 12
+
+Select one of the following: 12
+
+6.3700 Introduction to Probability
+
+6.3800 Introduction to Inference
+
+18.05 Introduction to Probability and Statistics
+
+System Design Centers
+
+6.1910 Computation Structures 12
+
+6.2000 Electrical Circuits: Modeling and Design of Physical Systems 12
+
+6.3000 Signal Processing 12
+
+System Design Lab
+
+6.9000 Engineering for Impact 12
+
+Select two subjects from one single EE track and two additional subjects from a different single EE track. 3
+
+48-51
+
+Select two Course 6 subjects that satisfy a degree requirement in 6-3, 6-4, or 6-5 24
+
+https://catalog.mit.edu/degree-charts/electrical-engineering-computing-course-6-5/ 1/2
+
+3/29/26, 4:16 PM Electrical Engineering with Computing (Course 6-5) | MIT Course Catalog
+
+Units in Major 174-186
+
+Unrestricted Electives 48
+
+Units in Major That Also Satisfy the GIRs (36)
+
+Total Units Beyond the GIRs Required for SB Degree 186-195
+
+The units for any subject that counts as one of the 17 GIR subjects cannot also be counted as units required beyond the GIRs.
+
+1 See EECS Subject Groupings for acceptable subjects.
+
+2 18.06 is also an acceptable option.
+
+3 See EECS Tracks for options.
+
+https://catalog.mit.edu/degree-charts/electrical-engineering-computing-course-6-5/ 2/2

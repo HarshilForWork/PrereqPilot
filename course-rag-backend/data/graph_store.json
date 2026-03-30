@@ -1,0 +1,5384 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "global_policy_requirements": [
+      {
+        "type": "gpa",
+        "operator": ">=",
+        "threshold": 3.0,
+        "scale_max": 5.0,
+        "audience": "graduate",
+        "scope": "general",
+        "source_chunk_id": "academic-performance-grades.pdf_7_0d4d4c1f",
+        "document_name": "academic-performance-grades.pdf",
+        "evidence_text": "Graduate Academic Standards Have a cumulative grade point average (GPA) of at least a C (3.0 It is the responsibility of the Graduate Academic Performance Group (GAPG), operating with the authority of the Committee on Academic Performance a"
+      },
+      {
+        "type": "gpa",
+        "operator": ">",
+        "threshold": 4.0,
+        "scale_max": null,
+        "audience": "graduate",
+        "scope": "financial_aid",
+        "source_chunk_id": "academic-performance-grades.pdf_14_dc38c5cc",
+        "document_name": "academic-performance-grades.pdf",
+        "evidence_text": "An MIT graduate student must achieve all of the following academic standards to qualify and maintain federal student nancial assistance: Have a cumulative grade point average (GPA) exceeding 4.0 on 4 | Academic Performance and Grades ACADEM"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "16.C20[J]"
+    },
+    {
+      "course_name": "Introduction to Computer Science and Programming",
+      "credits": 6,
+      "description_chunk_id": "6_coursestext.pdf_2_29796fd3",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.100L"
+    },
+    {
+      "course_name": "Fundamentals of Programming",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_3_68a87e62",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.1010"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "6.1000"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "6.100A"
+    },
+    {
+      "id": "6.100B"
+    },
+    {
+      "course_name": "Soware Construction",
+      "credits": 15,
+      "description_chunk_id": "6_coursestext.pdf_5_8b2b6eac",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.1020"
+    },
+    {
+      "course_name": "Soware Design",
+      "credits": 15,
+      "description_chunk_id": "6_coursestext.pdf_7_72d99b6f",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.1040"
+    },
+    {
+      "course_name": "Mathematics for Computer Science Same subject as 18.062[J]",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_15_a4e49762",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.1200[J]"
+    },
+    {
+      "course_name": "Soware Performance Engineering",
+      "credits": 18,
+      "description_chunk_id": "6_coursestext.pdf_9_e315a50e",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.1060"
+    },
+    {
+      "course_name": "Introduction to Algorithms",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_19_5124964e",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.1210"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "6.1910"
+    },
+    {
+      "course_name": "Computer Language Engineering",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_11_ded5add5",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.1100"
+    },
+    {
+      "course_name": "Foundations of Program Analysis",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_14_572ccfb9",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.5110"
+    },
+    {
+      "course_name": "Introduction to Probability and Statistics",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_7_ec80b375",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.05"
+    },
+    {
+      "id": "6.120A"
+    },
+    {
+      "course_name": "Introduction to Probability Subject meets with 6.3702",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_145_522fe9c6",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.3700"
+    },
+    {
+      "course_name": "Introduction to Inference",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_153_c1e2f6ee",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.3800"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "18.600"
+    },
+    {
+      "course_name": "Design and Analysis of Algorithms Same subject as 6.1220J",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_63_4c878c41",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.410[J]"
+    },
+    {
+      "course_name": "Theory of Computation Subject meets with 6.5400J, 18.4041J",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_62_4fc1f47f",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.404"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "6.1220[J]"
+    },
+    {
+      "course_name": "Distributed Algorithms Same subject as 6.5250J",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_71_e5f2c159",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.437[J]"
+    },
+    {
+      "course_name": "Theory of Computation Same subject as 6.5400J Subject meets with 18.404",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_60_a04e257f",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.4041[J]"
+    },
+    {
+      "course_name": "Randomness and Computation",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_30_d6a3d3c3",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.5420"
+    },
+    {
+      "course_name": "Matrix Multiplication and Graph Algorithms",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_32_87ef2bdc",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.5350"
+    },
+    {
+      "course_name": "Theory of Computation Same subject as 18.4041J Subject meets with 18.404",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_33_e24c471f",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.5400[J]"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "18.200"
+    },
+    {
+      "course_name": "Computer Systems Security",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_36_b612d08a",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.5660"
+    },
+    {
+      "course_name": "Computer Systems Engineering",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_37_9370d2d6",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.1800"
+    },
+    {
+      "id": "6.1810"
+    },
+    {
+      "course_name": "Foundations of Cryptography Same subject as 18.425[J]",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_39_6465bdb0",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.5620[J]"
+    },
+    {
+      "id": "6.1400[J]"
+    },
+    {
+      "course_name": "Computer Systems and Society Subject meets with 6.1852",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_42_a2f39d67",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.1850"
+    },
+    {
+      "course_name": "Operating System Engineering",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_47_770644a2",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.5810"
+    },
+    {
+      "course_name": "Computer Networks",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_49_f7a27bc8",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.5820"
+    },
+    {
+      "course_name": "Hardware Architecture for Deep Learning Subject meets with 6.5931",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_56_f465ae7e",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.5930"
+    },
+    {
+      "course_name": "Signal Processing Subject meets with 21M.584",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_112_a0f6f6a5",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.3000"
+    },
+    {
+      "id": "6.3900"
+    },
+    {
+      "course_name": "Hardware Architecture for Deep Learning Subject meets with 6.5930",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_58_9d4f3790",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.5931"
+    },
+    {
+      "course_name": "TinyML and Ecient Deep Learning Computing",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_60_66f413f1",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.5940"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "6.2000"
+    },
+    {
+      "course_name": "Digital Systems Laboratory",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_64_c35c036c",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.2050"
+    },
+    {
+      "course_name": "Electronics First Laboratory",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_66_d3a1c4a5",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.2030"
+    },
+    {
+      "course_name": "Analog Electronics Laboratory",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_68_58125a19",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.2040"
+    },
+    {
+      "course_name": "Solid-State Circuits Subject meets with 6.2092",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_70_44e1a6e8",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.2090"
+    },
+    {
+      "course_name": "Semiconductor Electronic Circuits",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_72_bcf30c18",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.2080"
+    },
+    {
+      "course_name": "CMOS Analog and Mixed-Signal Circuit Design",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_74_3e32e2f2",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.6000"
+    },
+    {
+      "course_name": "Analysis and Design of Digital Integrated Circuits",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_75_f5f53ab0",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.6010"
+    },
+    {
+      "id": "6.2500[J]"
+    },
+    {
+      "course_name": "Power Electronics Laboratory Subject meets with 6.2221, 6.2222",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_77_635c4660",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.2220"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "6.3100"
+    },
+    {
+      "course_name": "Electric Energy Systems",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_79_31c71ab0",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.2200"
+    },
+    {
+      "course_name": "Power Electronics Laboratory - Independent Inquiry Subject meets with 6.2220, 6.2222",
+      "credits": 15,
+      "description_chunk_id": "6_coursestext.pdf_80_b88ab37a",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.2221"
+    },
+    {
+      "course_name": "Power Electronics",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_82_392484df",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.6220"
+    },
+    {
+      "course_name": "Electric Machines",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_84_4556af68",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.6280"
+    },
+    {
+      "id": "6.690"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "6.2300"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "18.06"
+    },
+    {
+      "course_name": "Introduction to Quantum Systems Engineering",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_87_9160c34c",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.2400"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "18.C06[J]"
+    },
+    {
+      "course_name": "Quantum Engineering Platforms",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_89_89cf47de",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.2410"
+    },
+    {
+      "course_name": "Applied Quantum and Statistical Physics",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_97_64b49e7e",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.6400"
+    },
+    {
+      "course_name": "Quantum Computation Same subject as 2.111[J], 6.6410J, 8.370[J]",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_69_127e2509",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.435[J]"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "8.04"
+    },
+    {
+      "course_name": "Quantum Physics II",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_15_61bae01f",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.05"
+    },
+    {
+      "course_name": "Optics and Photonics",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_92_344e56ca",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.6310"
+    },
+    {
+      "course_name": "Physics III",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_5_249193a2",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.03"
+    },
+    {
+      "course_name": "Fundamentals of Photonics Subject meets with 6.6331",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_93_f51b7b6b",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.6330"
+    },
+    {
+      "id": "2.71"
+    },
+    {
+      "id": "8.07"
+    },
+    {
+      "course_name": "Optical Imaging Devices, and Systems Subject meets with 6.2370",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_94_eda7d0f0",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.6370"
+    },
+    {
+      "course_name": "Nonlinear Optics Same subject as 8.431[J]",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_96_42b05aa9",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.6340[J]"
+    },
+    {
+      "course_name": "Quantum Information Science Same subject as 6.6420J, 18.436[J]",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_51_5b50e9d5",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.371[J]"
+    },
+    {
+      "course_name": "Physics and Engineering of Superconducting Qubits (New) Same subject as 8.375[J]",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_100_67cd2502",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.6450[J]"
+    },
+    {
+      "id": "8.06"
+    },
+    {
+      "course_name": "Introduction to Nanoelectronics Subject meets with 6.2532",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_101_1ab7cf75",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.2530"
+    },
+    {
+      "course_name": "Nanoelectronics Subject meets with 6.2530",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_102_efc896df",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.2532"
+    },
+    {
+      "course_name": "Physics for Solid-State Applications",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_103_bb3786ca",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.6510"
+    },
+    {
+      "course_name": "Physics of Solids",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_107_6e0a07a7",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.6530"
+    },
+    {
+      "course_name": "Physics of Solids I",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_27_fb7beb06",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.231"
+    },
+    {
+      "course_name": "Integrated Microelectronic Devices Same subject as 3.43[J]",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_108_fe12a2fd",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.6500[J]"
+    },
+    {
+      "id": "3.42"
+    },
+    {
+      "course_name": "Signals, Systems and Inference",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_109_92eabd5c",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.3010"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "2.008"
+    },
+    {
+      "course_name": "Control of Manufacturing Processes Same subject as 2.830[J]",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_111_187aaa7b",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.6630[J]"
+    },
+    {
+      "id": "6.2600[J]"
+    },
+    {
+      "course_name": "Array Processing",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_116_d960156c",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.7020"
+    },
+    {
+      "id": "6.7000"
+    },
+    {
+      "id": "2.687"
+    },
+    {
+      "course_name": "Networks Same subject as 14.15[J] Subject meets with 14.150",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_121_1e5754ca",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.3260[J]"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "14.30"
+    },
+    {
+      "course_name": "Game Theory with Engineering Applications",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_124_d9bcdd9a",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.7240"
+    },
+    {
+      "id": "6.3702"
+    },
+    {
+      "course_name": "Network Science and Models",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_128_e993f435",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.7260"
+    },
+    {
+      "course_name": "Fast Methods for Partial Dierential and Integral Equations Same subject as 6.7340J",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_46_a78a6bfb",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.336[J]"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "16.920[J]"
+    },
+    {
+      "course_name": "Introduction to EECS via Communication Networks",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_133_f99b7e8e",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.3400"
+    },
+    {
+      "course_name": "Principles of Digital Communication Subject meets with 6.7411",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_135_a59ae797",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.7410"
+    },
+    {
+      "id": "6.3102"
+    },
+    {
+      "course_name": "Essential Coding Theory",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_137_1e36303f",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.7460"
+    },
+    {
+      "course_name": "Principles of Wireless Communication",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_139_ca016881",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.7440"
+    },
+    {
+      "course_name": "Discrete Stochastic Processes",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_148_ba82bb27",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.7710"
+    },
+    {
+      "id": "18.204"
+    },
+    {
+      "course_name": "Discrete Probability and Stochastic Processes Same subject as 15.070[J], 18.619[J]",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_149_37e119f0",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.7720[J]"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "6.7700[J]"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "18.100A"
+    },
+    {
+      "id": "18.100B"
+    },
+    {
+      "course_name": "Real Analysis",
+      "credits": 15,
+      "description_chunk_id": "mit_math_courses.pdf_26_72685efe",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.100Q"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "18.03"
+    },
+    {
+      "course_name": "Machine Learning",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_157_79add06a",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.7900"
+    },
+    {
+      "course_name": "AI, Decision Making, and Society Subject meets with 6.3952",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_158_8f4ec09c",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.3950"
+    },
+    {
+      "course_name": "Dynamic Programming and Reinforcement Learning",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_161_82eddb32",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.7940"
+    },
+    {
+      "course_name": "Deep Learning",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_163_1167a8e8",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.7960"
+    },
+    {
+      "id": "6.3720"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "6.C01"
+    },
+    {
+      "course_name": "Representation, Inference, and Reasoning in AI",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_168_2662d091",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.4110"
+    },
+    {
+      "course_name": "Tissues vs. Silicon in Machine Learning",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_169_9a422ed8",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.8120"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "1.00"
+    },
+    {
+      "course_name": "Robotic Manipulation Subject meets with 6.4212",
+      "credits": 15,
+      "description_chunk_id": "6_coursestext.pdf_173_ab29a297",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.4210"
+    },
+    {
+      "course_name": "Underactuated Robotics",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_175_4d7b4dd1",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.8210"
+    },
+    {
+      "course_name": "Computer Graphics",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_176_1e2797a8",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.4400"
+    },
+    {
+      "course_name": "Computational Design and Fabrication Same subject as 2.0911J Subject meets with 6.8420",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_177_3e47ed32",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.4420[J]"
+    },
+    {
+      "course_name": "Foundations of Information Policy Same subject as STS.085[J]",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_181_65cdd453",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.4590[J]"
+    },
+    {
+      "course_name": "Interactive Music Systems Same subject as 21M.385[J] Subject meets with 21M.585",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_183_a7b4438c",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.4550[J]"
+    },
+    {
+      "id": "21M.051"
+    },
+    {
+      "id": "21M.150"
+    },
+    {
+      "id": "21M.151"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "16.002"
+    },
+    {
+      "course_name": "Principles of Synthetic Biology Same subject as 20.405[J] Subject meets with 6.8721J, 20.305[J]",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_192_d26ea85b",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.8720[J]"
+    },
+    {
+      "course_name": "Principles of Synthetic Biology Same subject as 20.305[J] Subject meets with 6.8720J, 20.405[J]",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_193_990f6c84",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.8721[J]"
+    },
+    {
+      "course_name": "Medical Device Design Same subject as 2.750[J] Subject meets with 2.75[J], 6.4861J, HST.552[J]",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_199_965367dc",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.4860[J]"
+    },
+    {
+      "id": "6.2060"
+    },
+    {
+      "id": "22.071"
+    },
+    {
+      "course_name": "Biomedical Signal and Image Processing Same subject as HST.482[J] Subject meets with 6.8800J, 16.456[J], HST.582[J]",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_207_b4ef4d5b",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.8801[J]"
+    },
+    {
+      "id": "2.004"
+    },
+    {
+      "id": "18.085"
+    },
+    {
+      "course_name": "Special Subject in Electrical Engineering and Computer Science",
+      "credits": 0,
+      "description_chunk_id": "6_coursestext.pdf_212_8611c5d4",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S058"
+    },
+    {
+      "course_name": "Digital and Computational Photography Subject meets with 6.8370",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_214_ad362eba",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.8371"
+    },
+    {
+      "course_name": "Quantitative Methods for Natural Language Processing",
+      "credits": 15,
+      "description_chunk_id": "6_coursestext.pdf_219_12b4f6a4",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.8611"
+    },
+    {
+      "course_name": "Introduction to EECS via Robotics",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_221_f5d5e5ad",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9080"
+    },
+    {
+      "course_name": "Oral Communication",
+      "credits": 9,
+      "description_chunk_id": "6_coursestext.pdf_225_121ea390",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.UAT"
+    },
+    {
+      "course_name": "Design Thinking and Innovation Leadership for Engineers Engineering School-Wide Elective Subject. Oered under: 2.723A, 6.910A, 16.662A",
+      "credits": 3,
+      "description_chunk_id": "6_coursestext.pdf_228_9054269f",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.910A"
+    },
+    {
+      "id": "6.9110"
+    },
+    {
+      "course_name": "Engineering Innovation: Global Security Systems Same subject as 15.3621J",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_230_37f280f6",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9160[J]"
+    },
+    {
+      "course_name": "Engineering Innovation: Global Security Systems Same subject as 15.362[J]",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_232_4a3d7883",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9162[J]"
+    },
+    {
+      "course_name": "Leading Creative Teams Same subject as 15.674[J], 16.990[J]",
+      "credits": 9,
+      "description_chunk_id": "6_coursestext.pdf_236_b9764ec2",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9280[J]"
+    },
+    {
+      "course_name": "Multistakeholder Negotiation for Technical Experts",
+      "credits": 6,
+      "description_chunk_id": "6_coursestext.pdf_238_87e8d46b",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9260"
+    },
+    {
+      "course_name": "Negotiation and Influence Skills for Technical Leaders",
+      "credits": 6,
+      "description_chunk_id": "6_coursestext.pdf_239_b2e981a4",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9270"
+    },
+    {
+      "course_name": "StartMIT: Exploring Entrepreneurship and Innovation Same subject as 15.352[J]",
+      "credits": 6,
+      "description_chunk_id": "6_coursestext.pdf_241_57e81e2a",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9302[J]"
+    },
+    {
+      "course_name": "Patents, Copyrights, and the Law of Intellectual Property",
+      "credits": 6,
+      "description_chunk_id": "6_coursestext.pdf_243_44a42506",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9310"
+    },
+    {
+      "course_name": "Introduction to Electrical Engineering Lab Skills",
+      "credits": 6,
+      "description_chunk_id": "6_coursestext.pdf_247_cc8fe0e2",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9520"
+    },
+    {
+      "course_name": "Mobile Autonomous Systems Laboratory: MASLAB",
+      "credits": 6,
+      "description_chunk_id": "6_coursestext.pdf_248_378267a3",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9600"
+    },
+    {
+      "course_name": "Web Lab: A Web Programming Class and Competition",
+      "credits": 6,
+      "description_chunk_id": "6_coursestext.pdf_251_9a72b046",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9620"
+    },
+    {
+      "course_name": "Internship in Articial Intelligence and Decision Making",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_252_3a70697c",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9710"
+    },
+    {
+      "course_name": "Research in Articial Intelligence and Decision Making",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_253_1ccfde87",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9720"
+    },
+    {
+      "course_name": "Practical Experience in EECS",
+      "credits": 1,
+      "description_chunk_id": "6_coursestext.pdf_254_0eb5f245",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9840"
+    },
+    {
+      "course_name": "Practical Internship Experience",
+      "credits": 1,
+      "description_chunk_id": "6_coursestext.pdf_255_4930bc48",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9820"
+    },
+    {
+      "course_name": "6-A Internship",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_256_f7f8bdfb",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9850"
+    },
+    {
+      "course_name": "Advanced 6-A Internship",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_257_a6c67efa",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9860"
+    },
+    {
+      "course_name": "Networking Seminars in EECS",
+      "credits": 3,
+      "description_chunk_id": "6_coursestext.pdf_259_91380581",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9930"
+    },
+    {
+      "course_name": "Academic Progress in PhD: Thesis for Master of Science in EECS (New)",
+      "credits": 6,
+      "description_chunk_id": "6_coursestext.pdf_265_c74bc2a0",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9992"
+    },
+    {
+      "course_name": "Academic Job Search",
+      "credits": 6,
+      "description_chunk_id": "6_coursestext.pdf_266_dacccba8",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9970"
+    },
+    {
+      "course_name": "Academic Progress in PhD - PhD Thesis Committee Meeting (New)",
+      "credits": 6,
+      "description_chunk_id": "6_coursestext.pdf_268_a425b178",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.9995"
+    },
+    {
+      "course_name": "Special Subject in Electrical Engineering and Computer Science",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_273_7832464d",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S046"
+    },
+    {
+      "course_name": "Special Subject in Electrical Engineering and Computer Science",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_274_21abbb1a",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S057"
+    },
+    {
+      "course_name": "Special Subject in Electrical Engineering and Computer Science",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_276_f9529bc0",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S061"
+    },
+    {
+      "course_name": "Special Subject in Electrical Engineering and Computer Science",
+      "credits": 0,
+      "description_chunk_id": "6_coursestext.pdf_279_e82544e4",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S077"
+    },
+    {
+      "course_name": "Special Subject in Electrical Engineering and Computer Science",
+      "credits": 0,
+      "description_chunk_id": "6_coursestext.pdf_282_9692c2ba",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S085"
+    },
+    {
+      "course_name": "Special Subject in Electrical Engineering and Computer Science",
+      "credits": 0,
+      "description_chunk_id": "6_coursestext.pdf_285_806e6f3e",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S097"
+    },
+    {
+      "course_name": "Special Laboratory Subject in Electrical Engineering and Computer Science",
+      "credits": 0,
+      "description_chunk_id": "6_coursestext.pdf_287_5a7d066f",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S183"
+    },
+    {
+      "course_name": "Special Laboratory Subject in Electrical Engineering and Computer Science",
+      "credits": 0,
+      "description_chunk_id": "6_coursestext.pdf_290_ced989b9",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S191"
+    },
+    {
+      "course_name": "Special Subject in Engineering Leadership",
+      "credits": 0,
+      "description_chunk_id": "6_coursestext.pdf_291_a0a16f55",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S630"
+    },
+    {
+      "course_name": "Special Subject in Electrical Engineering and Computer Science",
+      "credits": 0,
+      "description_chunk_id": "6_coursestext.pdf_292_e3d5acf8",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S891"
+    },
+    {
+      "course_name": "Special Subject in Electrical Engineering and Computer Science",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_294_3341cd43",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S894"
+    },
+    {
+      "course_name": "Special Subject in Computer Science",
+      "credits": 0,
+      "description_chunk_id": "6_coursestext.pdf_297_e455c8f8",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S899"
+    },
+    {
+      "course_name": "Special Subject in Electrical Engineering and Computer Science",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_299_6aec63ce",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S953"
+    },
+    {
+      "course_name": "Special Studies: Electrical Engineering and Computer Science",
+      "credits": 0,
+      "description_chunk_id": "6_coursestext.pdf_304_383aecad",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S961"
+    },
+    {
+      "course_name": "Special Subject in Electrical Engineering and Computer Science",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_309_f2a200d4",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S984"
+    },
+    {
+      "id": "1.C01"
+    },
+    {
+      "id": "2.C01"
+    },
+    {
+      "id": "3.C01[J]"
+    },
+    {
+      "id": "6.C011"
+    },
+    {
+      "id": "7.C01"
+    },
+    {
+      "id": "15.C01"
+    },
+    {
+      "id": "22.C01"
+    },
+    {
+      "course_name": "Special Subject in Electrical Engineering and Computer Science",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_311_41e0278b",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.S986"
+    },
+    {
+      "course_name": "Interactive Data Visualization and Society Same subject as 11.C35[J], CMS.C35[J], IDS.C35[J] Subject meets with 6.C85[J], 11.C85[J], CMS.C85[J], IDS.C85[J]",
+      "credits": 15,
+      "description_chunk_id": "6_coursestext.pdf_313_5a9f6fad",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.C35[J]"
+    },
+    {
+      "course_name": "Computational Imaging: Physics and Algorithms Same subject as 2.C67[J], 3.C67[J] Subject meets with 2.C27[J], 3.C27[J], 6.C27[J]",
+      "credits": 12,
+      "description_chunk_id": "6_coursestext.pdf_318_7c64d0cf",
+      "document_name": "6_coursestext.pdf",
+      "id": "6.C67[J]"
+    },
+    {
+      "id": "1.000"
+    },
+    {
+      "id": "2.086"
+    },
+    {
+      "id": "3.019"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "18.01"
+    },
+    {
+      "course_name": "System Functions and the Laplace Transform",
+      "credits": 3,
+      "description_chunk_id": "mit_math_courses.pdf_8_a6c9fc22",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.031"
+    },
+    {
+      "course_name": "Matrix Calculus for Machine Learning and Beyond",
+      "credits": 3,
+      "description_chunk_id": "mit_math_courses.pdf_9_5a0f9bf8",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.063"
+    },
+    {
+      "course_name": "Matrix Methods in Data Analysis, Signal Processing, and Machine Learning Subject meets with 18.065",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_12_9cbf49bd",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.0651"
+    },
+    {
+      "course_name": "Computational Science and Engineering II",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_16_bfd11e2d",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.0861"
+    },
+    {
+      "id": "18.032"
+    },
+    {
+      "course_name": "Mathematics Lecture Series",
+      "credits": 6,
+      "description_chunk_id": "mit_math_courses.pdf_18_eccde0f6",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.095"
+    },
+    {
+      "course_name": "Internship in Mathematics",
+      "credits": 0,
+      "description_chunk_id": "mit_math_courses.pdf_19_04414c37",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.098"
+    },
+    {
+      "course_name": "Independent Study",
+      "credits": 3,
+      "description_chunk_id": "mit_math_courses.pdf_20_6cb56e71",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.099"
+    },
+    {
+      "course_name": "Real Analysis",
+      "credits": 15,
+      "description_chunk_id": "mit_math_courses.pdf_25_bae73353",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.100P"
+    },
+    {
+      "course_name": "Functions of a Complex Variable Subject meets with 18.112",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_32_14fc466a",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.1121"
+    },
+    {
+      "course_name": "Linear Algebra",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_82_5d8339bb",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.700"
+    },
+    {
+      "course_name": "Algebra I",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_83_365fb883",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.701"
+    },
+    {
+      "course_name": "Introduction to Microlocal Analysis",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_34_756cbf4e",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.157"
+    },
+    {
+      "id": "18.155"
+    },
+    {
+      "course_name": "Introduction to Partial Dierential Equations Subject meets with 18.152",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_35_19c092d3",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.1521"
+    },
+    {
+      "course_name": "Dierential Analysis II",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_37_07426e38",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.156"
+    },
+    {
+      "course_name": "Combinatorial Analysis",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_40_bf34e08e",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.211"
+    },
+    {
+      "course_name": "Algebraic Combinatorics",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_41_471df246",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.212"
+    },
+    {
+      "id": "18.703"
+    },
+    {
+      "course_name": "Advanced Partial Dierential Equations with Applications",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_45_b8726a04",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.306"
+    },
+    {
+      "id": "18.04"
+    },
+    {
+      "id": "18.075"
+    },
+    {
+      "id": "18.112"
+    },
+    {
+      "id": "6.7300[J]"
+    },
+    {
+      "id": "18.335[J]"
+    },
+    {
+      "course_name": "Eigenvalues of Random Matrices",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_50_8aa2f5cd",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.338"
+    },
+    {
+      "course_name": "Fluid Mechanics",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_51_5eeefe8f",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.355"
+    },
+    {
+      "id": "2.25"
+    },
+    {
+      "id": "12.800"
+    },
+    {
+      "id": "18.354[J]"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "12.006[J]"
+    },
+    {
+      "course_name": "Undergraduate Seminar in Physical Mathematics",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_57_72ecc338",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.384"
+    },
+    {
+      "id": "18.300"
+    },
+    {
+      "course_name": "Wave Propagation Same subject as 1.138[J], 2.062[J]",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_59_33ed9934",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.376[J]"
+    },
+    {
+      "id": "2.003[J]"
+    },
+    {
+      "course_name": "Advanced Complexity Theory Same subject as 6.5410J",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_61_3d99f74d",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.405[J]"
+    },
+    {
+      "course_name": "Topics in Computational Molecular Biology Same subject as HST.504[J]",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_66_da78f1ef",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.418[J]"
+    },
+    {
+      "id": "6.8701[J]"
+    },
+    {
+      "id": "18.417"
+    },
+    {
+      "course_name": "Randomized Algorithms Same subject as 6.5220J",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_67_3a76dc27",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.416[J]"
+    },
+    {
+      "id": "6.5210[J]"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "18.675"
+    },
+    {
+      "course_name": "Topics in Stochastic Processes",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_81_859ac34c",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.677"
+    },
+    {
+      "id": "18.090"
+    },
+    {
+      "id": "18.705"
+    },
+    {
+      "course_name": "Algebraic Geometry I",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_84_fd7749e1",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.725"
+    },
+    {
+      "course_name": "Topics in Algebra",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_85_36d28054",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.708"
+    },
+    {
+      "course_name": "Representations of Lie Groups",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_87_845e74c1",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.757"
+    },
+    {
+      "id": "18.745"
+    },
+    {
+      "id": "18.755"
+    },
+    {
+      "course_name": "Innite-dimensional Lie Algebras",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_88_78779e69",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.747"
+    },
+    {
+      "course_name": "Theory of Numbers",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_89_bf745ae5",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.781"
+    },
+    {
+      "course_name": "Introduction to Arithmetic Geometry",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_90_3207edac",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.782"
+    },
+    {
+      "id": "18.702"
+    },
+    {
+      "course_name": "Number Theory II",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_91_a90f6b51",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.786"
+    },
+    {
+      "id": "18.785"
+    },
+    {
+      "course_name": "Elliptic Curves Subject meets with 18.783",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_92_0a56ecef",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.7831"
+    },
+    {
+      "course_name": "Project Laboratory in Mathematics",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_93_8532ec3c",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.821"
+    },
+    {
+      "id": "18.100"
+    },
+    {
+      "course_name": "Seminar in Number Theory",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_94_4a7f6f29",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.784"
+    },
+    {
+      "course_name": "Internship in Mathematics",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_96_5cea2b7e",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.899"
+    },
+    {
+      "course_name": "Algebraic Topology I",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_97_26b8e1eb",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.905"
+    },
+    {
+      "id": "18.901"
+    },
+    {
+      "course_name": "Theory of Dierential Forms",
+      "credits": 12,
+      "description_chunk_id": "mit_math_courses.pdf_101_f2a4c25d",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.952"
+    },
+    {
+      "id": "18.101"
+    },
+    {
+      "course_name": "Introduction to Computational Science and Engineering Same subject as 9.C20[J], 16.C20[J], CSE.C20[J]",
+      "credits": 6,
+      "description_chunk_id": "mit_math_courses.pdf_104_15dfc90b",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.C20[J]"
+    },
+    {
+      "course_name": "Physics I",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_2_c0c9c754",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.01"
+    },
+    {
+      "course_name": "Special Subject in Mathematics",
+      "credits": 0,
+      "description_chunk_id": "mit_math_courses.pdf_109_dcbbde21",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.S096"
+    },
+    {
+      "course_name": "Special Subject in Mathematics",
+      "credits": 0,
+      "description_chunk_id": "mit_math_courses.pdf_110_23401a9b",
+      "document_name": "mit_math_courses.pdf",
+      "id": "18.S995"
+    },
+    {
+      "course_name": "Physics I",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_0_e4702ddc",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.011"
+    },
+    {
+      "course_name": "Physics I",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_4_b90195e5",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.01L"
+    },
+    {
+      "course_name": "Quantum Physics II",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_11_fc026f7f",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.051"
+    },
+    {
+      "course_name": "Statistical Physics I",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_13_1e4fc139",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.044"
+    },
+    {
+      "id": "8.041"
+    },
+    {
+      "course_name": "Statistical Physics II Subject meets with 8.308",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_18_376abc8f",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.08"
+    },
+    {
+      "course_name": "Experimental Physics II",
+      "credits": 18,
+      "description_chunk_id": "mit_physics_courses.pdf_19_c359b399",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.14"
+    },
+    {
+      "id": "8.13"
+    },
+    {
+      "course_name": "Classical Mechanics III Subject meets with 8.309",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_20_8823f990",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.09"
+    },
+    {
+      "id": "8.223"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "8.033"
+    },
+    {
+      "course_name": "Readings in Physics",
+      "credits": 6,
+      "description_chunk_id": "mit_physics_courses.pdf_24_f4b1160f",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.19"
+    },
+    {
+      "course_name": "Forty-three Orders of Magnitude",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_29_2a42937a",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.226"
+    },
+    {
+      "course_name": "Introduction to Particle Accelerators",
+      "credits": 0,
+      "description_chunk_id": "mit_physics_courses.pdf_30_7026877a",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.277"
+    },
+    {
+      "course_name": "String Theory for Undergraduates",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_31_12018084",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.251"
+    },
+    {
+      "course_name": "Nuclear and Particle Physics",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_33_4dc0acf6",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.276"
+    },
+    {
+      "course_name": "Modern Astrophysics",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_34_37e2d8a0",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.284"
+    },
+    {
+      "course_name": "Fluid Physics Same subject as 1.066[J], 12.330[J]",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_35_ad4b4ffb",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.292[J]"
+    },
+    {
+      "id": "5.60"
+    },
+    {
+      "course_name": "Practical Experience in Physics",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_37_e230ef34",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.295"
+    },
+    {
+      "course_name": "Special Subject: Physics",
+      "credits": 1,
+      "description_chunk_id": "mit_physics_courses.pdf_39_dbd86763",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.S199"
+    },
+    {
+      "course_name": "Special Subject: Physics",
+      "credits": 6,
+      "description_chunk_id": "mit_physics_courses.pdf_40_7d9cbba5",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.S271"
+    },
+    {
+      "course_name": "Special Subject: Physics",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_41_499218d0",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.S50"
+    },
+    {
+      "course_name": "Electromagnetic Theory I",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_42_5b1ab457",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.311"
+    },
+    {
+      "course_name": "Relativistic Quantum Field Theory I",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_45_6cd9d0c7",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.323"
+    },
+    {
+      "id": "8.321"
+    },
+    {
+      "course_name": "Relativistic Quantum Field Theory II",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_47_c1474e08",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.324"
+    },
+    {
+      "course_name": "Quantum Theory II",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_50_9691ca1e",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.322"
+    },
+    {
+      "course_name": "Relativistic Quantum Field Theory III",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_49_249aa9ba",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.325"
+    },
+    {
+      "course_name": "Physics and Engineering of Superconducting Qubits (New) Same subject as 6.6450J",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_54_65fd6024",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.375[J]"
+    },
+    {
+      "course_name": "Physics Teaching",
+      "credits": 3,
+      "description_chunk_id": "mit_physics_courses.pdf_58_b350e702",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.399"
+    },
+    {
+      "course_name": "Theory of Solids I",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_60_66ffcd24",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.511"
+    },
+    {
+      "course_name": "Theory of Solids II",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_62_76effbf7",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.512"
+    },
+    {
+      "course_name": "Nonlinear Optics Same subject as 6.6340J",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_64_a7ee8e33",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.431[J]"
+    },
+    {
+      "course_name": "",
+      "credits": 0,
+      "id": "22.611[J]"
+    },
+    {
+      "course_name": "Plasma Waves",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_69_44bc3419",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.624"
+    },
+    {
+      "course_name": "Physics of High-Energy Plasmas I",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_71_b43673be",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.641"
+    },
+    {
+      "course_name": "Introduction to Plasma Physics I Same subject as 22.611[J]",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_72_d72816ae",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.613[J]"
+    },
+    {
+      "course_name": "Introduction to Nuclear and Particle Physics",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_74_9b16a520",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.701"
+    },
+    {
+      "course_name": "Advanced Topics in Nuclear Physics",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_77_70f7c8ef",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.712"
+    },
+    {
+      "id": "8.711"
+    },
+    {
+      "course_name": "Symmetry and its Applications to Machine Learning (New) Same subject as 6.7970J",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_78_218574a2",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.750[J]"
+    },
+    {
+      "course_name": "Quantum Technology and Devices Same subject as 22.51[J] Subject meets with 22.022",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_79_a2c0d7dc",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.751[J]"
+    },
+    {
+      "id": "22.11"
+    },
+    {
+      "course_name": "Astrophysics I",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_82_de3bf0d9",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.901"
+    },
+    {
+      "course_name": "Astrophysics II",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_84_696e7f2f",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.902"
+    },
+    {
+      "course_name": "Stellar Structure and Evolution",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_86_5e4a4777",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.921"
+    },
+    {
+      "course_name": "Cosmology",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_88_3639556b",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.942"
+    },
+    {
+      "course_name": "Plasma Astrophysics II",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_89_7ef2b11f",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.914"
+    },
+    {
+      "course_name": "Particle Physics of the Early Universe",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_90_b2e04a87",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.952"
+    },
+    {
+      "course_name": "Teaching and Mentoring MIT Students",
+      "credits": 3,
+      "description_chunk_id": "mit_physics_courses.pdf_92_64c8e6eb",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.998"
+    },
+    {
+      "course_name": "Astrophysics Seminar",
+      "credits": 6,
+      "description_chunk_id": "mit_physics_courses.pdf_94_1bc2b06d",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.972"
+    },
+    {
+      "course_name": "Graduate Physics Thesis",
+      "credits": 12,
+      "description_chunk_id": "mit_physics_courses.pdf_96_87f236f2",
+      "document_name": "mit_physics_courses.pdf",
+      "id": "8.THG"
+    }
+  ],
+  "links": [
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "86fc28c1",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_3_68a87e62",
+      "source": "16.C20[J]",
+      "target": "6.1010"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "mit_physics_courses.pdf_0_e4702ddc",
+      "source": "6.100L",
+      "target": "8.011"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_5_8b2b6eac",
+      "source": "6.1010",
+      "target": "6.1020"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_168_2662d091",
+      "source": "6.1010",
+      "target": "6.4110"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_176_1e2797a8",
+      "source": "6.1010",
+      "target": "6.4400"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_177_3e47ed32",
+      "source": "6.1010",
+      "target": "6.4420[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_183_a7b4438c",
+      "source": "6.1010",
+      "target": "6.4550[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_214_ad362eba",
+      "source": "6.1010",
+      "target": "6.8371"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "86fc28c1",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_3_68a87e62",
+      "source": "6.1000",
+      "target": "6.1010"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "86fc28c1",
+      "either_or_branches": [
+        "b1",
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_3_68a87e62",
+      "source": "6.100A",
+      "target": "6.1010"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_19_5124964e",
+      "source": "6.100A",
+      "target": "6.1210"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_112_a0f6f6a5",
+      "source": "6.100A",
+      "target": "6.3000"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_133_f99b7e8e",
+      "source": "6.100A",
+      "target": "6.3400"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_173_ab29a297",
+      "source": "6.100A",
+      "target": "6.4210"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_221_f5d5e5ad",
+      "source": "6.100A",
+      "target": "6.9080"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e83a6932",
+      "either_or_branches": [
+        "b4"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_318_7c64d0cf",
+      "source": "6.100A",
+      "target": "6.C67[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_104_15dfc90b",
+      "source": "6.100A",
+      "target": "18.C20[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_78_218574a2",
+      "source": "6.100A",
+      "target": "8.750[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "86fc28c1",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_3_68a87e62",
+      "source": "6.100B",
+      "target": "6.1010"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_7_72d99b6f",
+      "source": "6.1020",
+      "target": "6.1040"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_9_e315a50e",
+      "source": "6.1020",
+      "target": "6.1060"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_11_ded5add5",
+      "source": "6.1020",
+      "target": "6.1100"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_36_b612d08a",
+      "source": "6.1020",
+      "target": "6.5660"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_47_770644a2",
+      "source": "6.1020",
+      "target": "6.5810"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_7_72d99b6f",
+      "source": "6.1200[J]",
+      "target": "6.1040"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e949ea01",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_19_5124964e",
+      "source": "6.1200[J]",
+      "target": "6.1210"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "3705f3e8",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_33_e24c471f",
+      "source": "6.1200[J]",
+      "target": "6.5400[J]"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "6_coursestext.pdf_158_8f4ec09c",
+      "source": "6.1200[J]",
+      "target": "6.3950"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "31b239be",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_60_a04e257f",
+      "source": "6.1200[J]",
+      "target": "18.4041[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "f5b173db",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_62_4fc1f47f",
+      "source": "6.1200[J]",
+      "target": "18.404"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_63_4c878c41",
+      "source": "6.1200[J]",
+      "target": "18.410[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "8d1b444d",
+      "either_or_branches": [
+        "b0",
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_67_3a76dc27",
+      "source": "6.1200[J]",
+      "target": "18.416[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_9_e315a50e",
+      "source": "6.1210",
+      "target": "6.1060"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_137_1e36303f",
+      "source": "6.1210",
+      "target": "6.7460"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_168_2662d091",
+      "source": "6.1210",
+      "target": "6.4110"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_63_4c878c41",
+      "source": "6.1210",
+      "target": "18.410[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_78_218574a2",
+      "source": "6.1210",
+      "target": "8.750[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_9_e315a50e",
+      "source": "6.1910",
+      "target": "6.1060"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_11_ded5add5",
+      "source": "6.1910",
+      "target": "6.1100"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_37_9370d2d6",
+      "source": "6.1910",
+      "target": "6.1800"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_56_f465ae7e",
+      "source": "6.1910",
+      "target": "6.5930"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_58_9d4f3790",
+      "source": "6.1910",
+      "target": "6.5931"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_60_66f413f1",
+      "source": "6.1910",
+      "target": "6.5940"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_64_c35c036c",
+      "source": "6.1910",
+      "target": "6.2050"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_75_f5f53ab0",
+      "source": "6.1910",
+      "target": "6.6010"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_14_572ccfb9",
+      "source": "6.1100",
+      "target": "6.5110"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e949ea01",
+      "either_or_branches": [
+        "b3"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_19_5124964e",
+      "source": "18.05",
+      "target": "6.1210"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "51e630bb",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_109_92eabd5c",
+      "source": "18.05",
+      "target": "6.3010"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e1fef10b",
+      "either_or_branches": [
+        "b2",
+        "b5"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_135_a59ae797",
+      "source": "18.05",
+      "target": "6.7410"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "6_coursestext.pdf_158_8f4ec09c",
+      "source": "18.05",
+      "target": "6.3950"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_163_1167a8e8",
+      "source": "18.05",
+      "target": "6.7960"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e44526ac",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_168_2662d091",
+      "source": "18.05",
+      "target": "6.4110"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e949ea01",
+      "either_or_branches": [
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_19_5124964e",
+      "source": "6.120A",
+      "target": "6.1210"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e949ea01",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_19_5124964e",
+      "source": "6.3700",
+      "target": "6.1210"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "51e630bb",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_109_92eabd5c",
+      "source": "6.3700",
+      "target": "6.3010"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "7cba53a7",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_111_187aaa7b",
+      "source": "6.3700",
+      "target": "6.6630[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "05e0ec3a",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_121_1e5754ca",
+      "source": "6.3700",
+      "target": "6.3260[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e1fef10b",
+      "either_or_branches": [
+        "b0",
+        "b3"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_135_a59ae797",
+      "source": "6.3700",
+      "target": "6.7410"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "4de5b5c6",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_157_79add06a",
+      "source": "6.3700",
+      "target": "6.7900"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "6_coursestext.pdf_158_8f4ec09c",
+      "source": "6.3700",
+      "target": "6.3950"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "036a5b2d",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_161_82eddb32",
+      "source": "6.3700",
+      "target": "6.7940"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e44526ac",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_168_2662d091",
+      "source": "6.3700",
+      "target": "6.4110"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_207_b4ef4d5b",
+      "source": "6.3700",
+      "target": "6.8801[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "8d1b444d",
+      "either_or_branches": [
+        "b2",
+        "b3"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_67_3a76dc27",
+      "source": "6.3700",
+      "target": "18.416[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e949ea01",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_19_5124964e",
+      "source": "6.3800",
+      "target": "6.1210"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "51e630bb",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_109_92eabd5c",
+      "source": "6.3800",
+      "target": "6.3010"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e1fef10b",
+      "either_or_branches": [
+        "b1",
+        "b4"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_135_a59ae797",
+      "source": "6.3800",
+      "target": "6.7410"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "4de5b5c6",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_157_79add06a",
+      "source": "6.3800",
+      "target": "6.7900"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "6_coursestext.pdf_158_8f4ec09c",
+      "source": "6.3800",
+      "target": "6.3950"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e44526ac",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_168_2662d091",
+      "source": "6.3800",
+      "target": "6.4110"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e949ea01",
+      "either_or_branches": [
+        "b4"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_19_5124964e",
+      "source": "18.600",
+      "target": "6.1210"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "4de5b5c6",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_157_79add06a",
+      "source": "18.600",
+      "target": "6.7900"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "6_coursestext.pdf_158_8f4ec09c",
+      "source": "18.600",
+      "target": "6.3950"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "036a5b2d",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_161_82eddb32",
+      "source": "18.600",
+      "target": "6.7940"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e44526ac",
+      "either_or_branches": [
+        "b3"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_168_2662d091",
+      "source": "18.600",
+      "target": "6.4110"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_61_3d99f74d",
+      "source": "18.404",
+      "target": "18.405[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_30_d6a3d3c3",
+      "source": "6.1220[J]",
+      "target": "6.5420"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_32_87ef2bdc",
+      "source": "6.1220[J]",
+      "target": "6.5350"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "ae351f43",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_39_6465bdb0",
+      "source": "6.1220[J]",
+      "target": "6.5620[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "8d1b444d",
+      "either_or_branches": [
+        "b0",
+        "b2"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_67_3a76dc27",
+      "source": "6.1220[J]",
+      "target": "18.416[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_71_e5f2c159",
+      "source": "6.1220[J]",
+      "target": "18.437[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_30_d6a3d3c3",
+      "source": "18.4041[J]",
+      "target": "6.5420"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "ae351f43",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_39_6465bdb0",
+      "source": "18.4041[J]",
+      "target": "6.5620[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "3705f3e8",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_33_e24c471f",
+      "source": "18.200",
+      "target": "6.5400[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "31b239be",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_60_a04e257f",
+      "source": "18.200",
+      "target": "18.4041[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "f5b173db",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_62_4fc1f47f",
+      "source": "18.200",
+      "target": "18.404"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "ff84e316",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_36_b612d08a",
+      "source": "6.1800",
+      "target": "6.5660"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_42_a2f39d67",
+      "source": "6.1800",
+      "target": "6.1850"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "fd1a8e02",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_47_770644a2",
+      "source": "6.1800",
+      "target": "6.5810"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_49_f7a27bc8",
+      "source": "6.1800",
+      "target": "6.5820"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "ff84e316",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_36_b612d08a",
+      "source": "6.1810",
+      "target": "6.5660"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "fd1a8e02",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_47_770644a2",
+      "source": "6.1810",
+      "target": "6.5810"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "ae351f43",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_39_6465bdb0",
+      "source": "6.1400[J]",
+      "target": "6.5620[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_137_1e36303f",
+      "source": "6.1400[J]",
+      "target": "6.7460"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "ad62e2ae",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_56_f465ae7e",
+      "source": "6.3000",
+      "target": "6.5930"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e8682887",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_58_9d4f3790",
+      "source": "6.3000",
+      "target": "6.5931"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "7d7ea20f",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_80_b88ab37a",
+      "source": "6.3000",
+      "target": "6.2221"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_94_eda7d0f0",
+      "source": "6.3000",
+      "target": "6.6370"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_101_1ab7cf75",
+      "source": "6.3000",
+      "target": "6.2530"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_102_efc896df",
+      "source": "6.3000",
+      "target": "6.2532"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_109_92eabd5c",
+      "source": "6.3000",
+      "target": "6.3010"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e1fef10b",
+      "either_or_branches": [
+        "b0",
+        "b1",
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_135_a59ae797",
+      "source": "6.3000",
+      "target": "6.7410"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "6a82f33c",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_207_b4ef4d5b",
+      "source": "6.3000",
+      "target": "6.8801[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "ad62e2ae",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_56_f465ae7e",
+      "source": "6.3900",
+      "target": "6.5930"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e8682887",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_58_9d4f3790",
+      "source": "6.3900",
+      "target": "6.5931"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_60_66f413f1",
+      "source": "6.3900",
+      "target": "6.5940"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e308de64",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_163_1167a8e8",
+      "source": "6.3900",
+      "target": "6.7960"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_169_9a422ed8",
+      "source": "6.3900",
+      "target": "6.8120"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_173_ab29a297",
+      "source": "6.3900",
+      "target": "6.4210"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_219_12b4f6a4",
+      "source": "6.3900",
+      "target": "6.8611"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_68_58125a19",
+      "source": "6.2000",
+      "target": "6.2040"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_72_bcf30c18",
+      "source": "6.2000",
+      "target": "6.2080"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "82ed8e3d",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_77_635c4660",
+      "source": "6.2000",
+      "target": "6.2220"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_79_31c71ab0",
+      "source": "6.2000",
+      "target": "6.2200"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "7d7ea20f",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_80_b88ab37a",
+      "source": "6.2000",
+      "target": "6.2221"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "d1c8aa7a",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_199_965367dc",
+      "source": "6.2050",
+      "target": "6.4860[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "69899505",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_70_44e1a6e8",
+      "source": "6.2040",
+      "target": "6.2090"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "a04e1e5b",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_82_392484df",
+      "source": "6.2040",
+      "target": "6.6220"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "d1c8aa7a",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_199_965367dc",
+      "source": "6.2040",
+      "target": "6.4860[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_74_3e32e2f2",
+      "source": "6.2090",
+      "target": "6.6000"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "69899505",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_70_44e1a6e8",
+      "source": "6.2080",
+      "target": "6.2090"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "1b9e0ede",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_75_f5f53ab0",
+      "source": "6.2080",
+      "target": "6.6010"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "a04e1e5b",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_82_392484df",
+      "source": "6.2080",
+      "target": "6.6220"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "1b9e0ede",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_75_f5f53ab0",
+      "source": "6.2500[J]",
+      "target": "6.6010"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "a04e1e5b",
+      "either_or_branches": [
+        "b3"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_82_392484df",
+      "source": "6.2500[J]",
+      "target": "6.6220"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "5d923f3c",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_108_fe12a2fd",
+      "source": "6.2500[J]",
+      "target": "6.6500[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "a04e1e5b",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_82_392484df",
+      "source": "6.2220",
+      "target": "6.6220"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "82ed8e3d",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_77_635c4660",
+      "source": "6.3100",
+      "target": "6.2220"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "4a8b0afd",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_84_4556af68",
+      "source": "6.2200",
+      "target": "6.6280"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "4a8b0afd",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_84_4556af68",
+      "source": "6.690",
+      "target": "6.6280"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "c9f2fc5c",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_92_344e56ca",
+      "source": "6.2300",
+      "target": "6.6310"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "636a3045",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_93_f51b7b6b",
+      "source": "6.2300",
+      "target": "6.6330"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "ed629da4",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_96_42b05aa9",
+      "source": "6.2300",
+      "target": "6.6340[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_103_bb3786ca",
+      "source": "6.2300",
+      "target": "6.6510"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "8a3642ed",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_physics_courses.pdf_30_7026877a",
+      "source": "6.2300",
+      "target": "8.277"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "8e7e78ab",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_physics_courses.pdf_64_a7ee8e33",
+      "source": "6.2300",
+      "target": "8.431[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "6d6585a2",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_physics_courses.pdf_72_d72816ae",
+      "source": "6.2300",
+      "target": "8.613[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "eb794043",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_87_9160c34c",
+      "source": "18.06",
+      "target": "6.2400"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_97_64b49e7e",
+      "source": "18.06",
+      "target": "6.6400"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "cbe4bb09",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_116_d960156c",
+      "source": "18.06",
+      "target": "6.7020"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_128_e993f435",
+      "source": "18.06",
+      "target": "6.7260"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_157_79add06a",
+      "source": "18.06",
+      "target": "6.7900"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_175_4d7b4dd1",
+      "source": "18.06",
+      "target": "6.8210"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "f8413aa4",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_176_1e2797a8",
+      "source": "18.06",
+      "target": "6.4400"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "00262493",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_219_12b4f6a4",
+      "source": "18.06",
+      "target": "6.8611"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_9_5a0f9bf8",
+      "source": "18.06",
+      "target": "18.063"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_12_9cbf49bd",
+      "source": "18.06",
+      "target": "18.0651"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "663d94b4",
+      "either_or_branches": [
+        "b0",
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_32_14fc466a",
+      "source": "18.06",
+      "target": "18.1121"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "b05a6873",
+      "either_or_branches": [
+        "b0",
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_35_19c092d3",
+      "source": "18.06",
+      "target": "18.1521"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "mit_math_courses.pdf_37_07426e38",
+      "source": "18.06",
+      "target": "18.156"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "a2db5904",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_40_bf34e08e",
+      "source": "18.06",
+      "target": "18.211"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "8c5deefc",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_69_127e2509",
+      "source": "18.06",
+      "target": "18.435[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "33202aa8",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_94_4a7f6f29",
+      "source": "18.06",
+      "target": "18.784"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "3591ea27",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_89_89cf47de",
+      "source": "6.2400",
+      "target": "6.2410"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "eb794043",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_87_9160c34c",
+      "source": "18.C06[J]",
+      "target": "6.2400"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "f8413aa4",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_176_1e2797a8",
+      "source": "18.C06[J]",
+      "target": "6.4400"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "00262493",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_219_12b4f6a4",
+      "source": "18.C06[J]",
+      "target": "6.8611"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_318_7c64d0cf",
+      "source": "18.C06[J]",
+      "target": "6.C67[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "8c5deefc",
+      "either_or_branches": [
+        "b4"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_69_127e2509",
+      "source": "18.C06[J]",
+      "target": "18.435[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_78_218574a2",
+      "source": "18.C06[J]",
+      "target": "8.750[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "3591ea27",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_89_89cf47de",
+      "source": "6.6400",
+      "target": "6.2410"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "cf14f397",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_100_67cd2502",
+      "source": "6.6400",
+      "target": "6.6450[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_103_bb3786ca",
+      "source": "6.6400",
+      "target": "6.6510"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "f46c99d2",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_physics_courses.pdf_54_65fd6024",
+      "source": "6.6400",
+      "target": "8.375[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "3591ea27",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_89_89cf47de",
+      "source": "18.435[J]",
+      "target": "6.2410"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_51_5b50e9d5",
+      "source": "18.435[J]",
+      "target": "8.371[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "3591ea27",
+      "either_or_branches": [
+        "b3"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_89_89cf47de",
+      "source": "8.04",
+      "target": "6.2410"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_11_fc026f7f",
+      "source": "8.04",
+      "target": "8.051"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "247fc847",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_physics_courses.pdf_15_61bae01f",
+      "source": "8.04",
+      "target": "8.05"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_29_2a42937a",
+      "source": "8.04",
+      "target": "8.226"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_33_4dc0acf6",
+      "source": "8.04",
+      "target": "8.276"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_34_37e2d8a0",
+      "source": "8.04",
+      "target": "8.284"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "3591ea27",
+      "either_or_branches": [
+        "b3"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_89_89cf47de",
+      "source": "8.05",
+      "target": "6.2410"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "8c5deefc",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_69_127e2509",
+      "source": "8.05",
+      "target": "18.435[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_18_376abc8f",
+      "source": "8.05",
+      "target": "8.08"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_19_c359b399",
+      "source": "8.05",
+      "target": "8.14"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "mit_physics_courses.pdf_27_fb7beb06",
+      "source": "8.05",
+      "target": "8.231"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_31_12018084",
+      "source": "8.05",
+      "target": "8.251"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "c9f2fc5c",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_92_344e56ca",
+      "source": "8.03",
+      "target": "6.6310"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "ed629da4",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_96_42b05aa9",
+      "source": "8.03",
+      "target": "6.6340[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_13_1e4fc139",
+      "source": "8.03",
+      "target": "8.044"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "8e7e78ab",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_physics_courses.pdf_64_a7ee8e33",
+      "source": "8.03",
+      "target": "8.431[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "636a3045",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_93_f51b7b6b",
+      "source": "2.71",
+      "target": "6.6330"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "636a3045",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_93_f51b7b6b",
+      "source": "8.07",
+      "target": "6.6330"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "8a3642ed",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_physics_courses.pdf_30_7026877a",
+      "source": "8.07",
+      "target": "8.277"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_42_5b1ab457",
+      "source": "8.07",
+      "target": "8.311"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_50_9691ca1e",
+      "source": "8.07",
+      "target": "8.322"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "6d6585a2",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_physics_courses.pdf_72_d72816ae",
+      "source": "8.07",
+      "target": "8.613[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "cf14f397",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_100_67cd2502",
+      "source": "8.06",
+      "target": "6.6450[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "f46c99d2",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_physics_courses.pdf_54_65fd6024",
+      "source": "8.06",
+      "target": "8.375[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "22e72417",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_107_6e0a07a7",
+      "source": "6.6510",
+      "target": "6.6530"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "22e72417",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_107_6e0a07a7",
+      "source": "8.231",
+      "target": "6.6530"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_60_66ffcd24",
+      "source": "8.231",
+      "target": "8.511"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "5d923f3c",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_108_fe12a2fd",
+      "source": "3.42",
+      "target": "6.6500[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "cbe4bb09",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_116_d960156c",
+      "source": "6.3010",
+      "target": "6.7020"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "7cba53a7",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_111_187aaa7b",
+      "source": "2.008",
+      "target": "6.6630[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "d1c8aa7a",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_199_965367dc",
+      "source": "2.008",
+      "target": "6.4860[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "7cba53a7",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_111_187aaa7b",
+      "source": "6.2600[J]",
+      "target": "6.6630[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_116_d960156c",
+      "source": "6.7000",
+      "target": "6.7020"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "cbe4bb09",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_116_d960156c",
+      "source": "2.687",
+      "target": "6.7020"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "05e0ec3a",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_121_1e5754ca",
+      "source": "14.30",
+      "target": "6.3260[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_124_d9bcdd9a",
+      "source": "6.3702",
+      "target": "6.7240"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_128_e993f435",
+      "source": "6.3702",
+      "target": "6.7260"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e02fed3d",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_148_ba82bb27",
+      "source": "6.3702",
+      "target": "6.7710"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "05dcbc86",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_149_37e119f0",
+      "source": "6.3702",
+      "target": "6.7720[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "98bbd6c1",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_46_a78a6bfb",
+      "source": "16.920[J]",
+      "target": "18.336[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_139_ca016881",
+      "source": "6.7410",
+      "target": "6.7440"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e1fef10b",
+      "either_or_branches": [
+        "b3",
+        "b4",
+        "b5"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_135_a59ae797",
+      "source": "6.3102",
+      "target": "6.7410"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e02fed3d",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_148_ba82bb27",
+      "source": "18.204",
+      "target": "6.7710"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "05dcbc86",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_149_37e119f0",
+      "source": "6.7700[J]",
+      "target": "6.7720[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "05dcbc86",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_149_37e119f0",
+      "source": "18.100A",
+      "target": "6.7720[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "663d94b4",
+      "either_or_branches": [
+        "b0",
+        "b4",
+        "b8"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_32_14fc466a",
+      "source": "18.100A",
+      "target": "18.1121"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "b05a6873",
+      "either_or_branches": [
+        "b0",
+        "b4",
+        "b8"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_35_19c092d3",
+      "source": "18.100A",
+      "target": "18.1521"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "cab5e555",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_83_365fb883",
+      "source": "18.100A",
+      "target": "18.701"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "05dcbc86",
+      "either_or_branches": [
+        "b3"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_149_37e119f0",
+      "source": "18.100B",
+      "target": "6.7720[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "663d94b4",
+      "either_or_branches": [
+        "b1",
+        "b5",
+        "b9"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_32_14fc466a",
+      "source": "18.100B",
+      "target": "18.1121"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "b05a6873",
+      "either_or_branches": [
+        "b1",
+        "b5",
+        "b9"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_35_19c092d3",
+      "source": "18.100B",
+      "target": "18.1521"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "cab5e555",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_83_365fb883",
+      "source": "18.100B",
+      "target": "18.701"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "05dcbc86",
+      "either_or_branches": [
+        "b4"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_149_37e119f0",
+      "source": "18.100Q",
+      "target": "6.7720[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "663d94b4",
+      "either_or_branches": [
+        "b11",
+        "b3",
+        "b7"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_32_14fc466a",
+      "source": "18.100Q",
+      "target": "18.1121"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "b05a6873",
+      "either_or_branches": [
+        "b11",
+        "b3",
+        "b7"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_35_19c092d3",
+      "source": "18.100Q",
+      "target": "18.1521"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "cab5e555",
+      "either_or_branches": [
+        "b3"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_83_365fb883",
+      "source": "18.100Q",
+      "target": "18.701"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_175_4d7b4dd1",
+      "source": "18.03",
+      "target": "6.8210"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "mit_math_courses.pdf_7_ec80b375",
+      "source": "18.03",
+      "target": "18.05"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "mit_math_courses.pdf_8_a6c9fc22",
+      "source": "18.03",
+      "target": "18.031"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "42283e5e",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_16_bfd11e2d",
+      "source": "18.03",
+      "target": "18.0861"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "f3232757",
+      "either_or_branches": [
+        "b0",
+        "b1",
+        "b2"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_45_b8726a04",
+      "source": "18.03",
+      "target": "18.306"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "mit_math_courses.pdf_50_8aa2f5cd",
+      "source": "18.03",
+      "target": "18.338"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_13_1e4fc139",
+      "source": "18.03",
+      "target": "8.044"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e308de64",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_163_1167a8e8",
+      "source": "6.3720",
+      "target": "6.7960"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e308de64",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_163_1167a8e8",
+      "source": "6.C01",
+      "target": "6.7960"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e83a6932",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_318_7c64d0cf",
+      "source": "1.00",
+      "target": "6.C67[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "4e180542",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_183_a7b4438c",
+      "source": "21M.051",
+      "target": "6.4550[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "4e180542",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_183_a7b4438c",
+      "source": "21M.150",
+      "target": "6.4550[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "4e180542",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_183_a7b4438c",
+      "source": "21M.151",
+      "target": "6.4550[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "6a82f33c",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_207_b4ef4d5b",
+      "source": "16.002",
+      "target": "6.8801[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "d1c8aa7a",
+      "either_or_branches": [
+        "b3"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_199_965367dc",
+      "source": "6.2060",
+      "target": "6.4860[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "d1c8aa7a",
+      "either_or_branches": [
+        "b4"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_199_965367dc",
+      "source": "22.071",
+      "target": "6.4860[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "6a82f33c",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_207_b4ef4d5b",
+      "source": "2.004",
+      "target": "6.8801[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "6a82f33c",
+      "either_or_branches": [
+        "b3"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_207_b4ef4d5b",
+      "source": "18.085",
+      "target": "6.8801[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "98bbd6c1",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_46_a78a6bfb",
+      "source": "18.085",
+      "target": "18.336[J]"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "6_coursestext.pdf_228_9054269f",
+      "source": "6.9110",
+      "target": "6.910A"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "6_coursestext.pdf_257_a6c67efa",
+      "source": "6.9850",
+      "target": "6.9860"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "6_coursestext.pdf_309_f2a200d4",
+      "source": "1.C01",
+      "target": "6.S984"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "6_coursestext.pdf_309_f2a200d4",
+      "source": "2.C01",
+      "target": "6.S984"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "6_coursestext.pdf_309_f2a200d4",
+      "source": "3.C01[J]",
+      "target": "6.S984"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "6_coursestext.pdf_309_f2a200d4",
+      "source": "6.C011",
+      "target": "6.S984"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "6_coursestext.pdf_309_f2a200d4",
+      "source": "7.C01",
+      "target": "6.S984"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "6_coursestext.pdf_309_f2a200d4",
+      "source": "15.C01",
+      "target": "6.S984"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "6_coursestext.pdf_309_f2a200d4",
+      "source": "22.C01",
+      "target": "6.S984"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e83a6932",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_318_7c64d0cf",
+      "source": "1.000",
+      "target": "6.C67[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e83a6932",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_318_7c64d0cf",
+      "source": "2.086",
+      "target": "6.C67[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "e83a6932",
+      "either_or_branches": [
+        "b3"
+      ],
+      "source_chunk_id": "6_coursestext.pdf_318_7c64d0cf",
+      "source": "3.019",
+      "target": "6.C67[J]"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "mit_math_courses.pdf_104_15dfc90b",
+      "source": "18.01",
+      "target": "18.C20[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "42283e5e",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_16_bfd11e2d",
+      "source": "18.032",
+      "target": "18.0861"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "f3232757",
+      "either_or_branches": [
+        "b3",
+        "b4",
+        "b5"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_45_b8726a04",
+      "source": "18.032",
+      "target": "18.306"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "663d94b4",
+      "either_or_branches": [
+        "b10",
+        "b2",
+        "b6"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_32_14fc466a",
+      "source": "18.100P",
+      "target": "18.1121"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "b05a6873",
+      "either_or_branches": [
+        "b10",
+        "b2",
+        "b6"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_35_19c092d3",
+      "source": "18.100P",
+      "target": "18.1521"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "cab5e555",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_83_365fb883",
+      "source": "18.100P",
+      "target": "18.701"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "663d94b4",
+      "either_or_branches": [
+        "b4",
+        "b5",
+        "b6",
+        "b7"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_32_14fc466a",
+      "source": "18.700",
+      "target": "18.1121"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "b05a6873",
+      "either_or_branches": [
+        "b4",
+        "b5",
+        "b6",
+        "b7"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_35_19c092d3",
+      "source": "18.700",
+      "target": "18.1521"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "a2db5904",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_40_bf34e08e",
+      "source": "18.700",
+      "target": "18.211"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "8c5deefc",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_69_127e2509",
+      "source": "18.700",
+      "target": "18.435[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "33202aa8",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_94_4a7f6f29",
+      "source": "18.700",
+      "target": "18.784"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "3a6c536c",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_101_f2a4c25d",
+      "source": "18.700",
+      "target": "18.952"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "663d94b4",
+      "either_or_branches": [
+        "b10",
+        "b11",
+        "b8",
+        "b9"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_32_14fc466a",
+      "source": "18.701",
+      "target": "18.1121"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "b05a6873",
+      "either_or_branches": [
+        "b10",
+        "b11",
+        "b8",
+        "b9"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_35_19c092d3",
+      "source": "18.701",
+      "target": "18.1521"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "a2db5904",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_40_bf34e08e",
+      "source": "18.701",
+      "target": "18.211"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "3ebd82ba",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_41_471df246",
+      "source": "18.701",
+      "target": "18.212"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_50_8aa2f5cd",
+      "source": "18.701",
+      "target": "18.338"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "8c5deefc",
+      "either_or_branches": [
+        "b3"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_69_127e2509",
+      "source": "18.701",
+      "target": "18.435[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "33202aa8",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_94_4a7f6f29",
+      "source": "18.701",
+      "target": "18.784"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "4dd8e7ff",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_97_26b8e1eb",
+      "source": "18.701",
+      "target": "18.905"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "3a6c536c",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_101_f2a4c25d",
+      "source": "18.701",
+      "target": "18.952"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_34_756cbf4e",
+      "source": "18.155",
+      "target": "18.157"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_37_07426e38",
+      "source": "18.155",
+      "target": "18.156"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "3ebd82ba",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_41_471df246",
+      "source": "18.703",
+      "target": "18.212"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "a1900311",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_92_0a56ecef",
+      "source": "18.703",
+      "target": "18.7831"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "33202aa8",
+      "either_or_branches": [
+        "b1",
+        "b2"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_94_4a7f6f29",
+      "source": "18.703",
+      "target": "18.784"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "4dd8e7ff",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_97_26b8e1eb",
+      "source": "18.703",
+      "target": "18.905"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "f3232757",
+      "either_or_branches": [
+        "b0",
+        "b3"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_45_b8726a04",
+      "source": "18.04",
+      "target": "18.306"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_72_d72816ae",
+      "source": "18.04",
+      "target": "8.613[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "f3232757",
+      "either_or_branches": [
+        "b1",
+        "b4"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_45_b8726a04",
+      "source": "18.075",
+      "target": "18.306"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_59_33ed9934",
+      "source": "18.075",
+      "target": "18.376[J]"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "mit_physics_courses.pdf_71_b43673be",
+      "source": "18.075",
+      "target": "8.641"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "mit_physics_courses.pdf_72_d72816ae",
+      "source": "18.075",
+      "target": "8.613[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "f3232757",
+      "either_or_branches": [
+        "b2",
+        "b5"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_45_b8726a04",
+      "source": "18.112",
+      "target": "18.306"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "98bbd6c1",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_46_a78a6bfb",
+      "source": "6.7300[J]",
+      "target": "18.336[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "98bbd6c1",
+      "either_or_branches": [
+        "b3"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_46_a78a6bfb",
+      "source": "18.335[J]",
+      "target": "18.336[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "7c2c68ad",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_51_5eeefe8f",
+      "source": "2.25",
+      "target": "18.355"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "7c2c68ad",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_51_5eeefe8f",
+      "source": "12.800",
+      "target": "18.355"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "7c2c68ad",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_51_5eeefe8f",
+      "source": "18.354[J]",
+      "target": "18.355"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "97ee3442",
+      "either_or_branches": [
+        "b2"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_57_72ecc338",
+      "source": "18.354[J]",
+      "target": "18.384"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "97ee3442",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_57_72ecc338",
+      "source": "12.006[J]",
+      "target": "18.384"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "97ee3442",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_57_72ecc338",
+      "source": "18.300",
+      "target": "18.384"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_59_33ed9934",
+      "source": "2.003[J]",
+      "target": "18.376[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "b43bca3f",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_66_da78f1ef",
+      "source": "6.8701[J]",
+      "target": "18.418[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "b43bca3f",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_66_da78f1ef",
+      "source": "18.417",
+      "target": "18.418[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "8d1b444d",
+      "either_or_branches": [
+        "b1",
+        "b3"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_67_3a76dc27",
+      "source": "6.5210[J]",
+      "target": "18.416[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_81_859ac34c",
+      "source": "18.675",
+      "target": "18.677"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "cab5e555",
+      "either_or_branches": [
+        "b4"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_83_365fb883",
+      "source": "18.090",
+      "target": "18.701"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "mit_math_courses.pdf_83_365fb883",
+      "source": "18.705",
+      "target": "18.701"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "mit_math_courses.pdf_84_fd7749e1",
+      "source": "18.705",
+      "target": "18.725"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_85_36d28054",
+      "source": "18.705",
+      "target": "18.708"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "mit_math_courses.pdf_94_4a7f6f29",
+      "source": "18.705",
+      "target": "18.784"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "eaf79ac8",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_87_845e74c1",
+      "source": "18.745",
+      "target": "18.757"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_88_78779e69",
+      "source": "18.745",
+      "target": "18.747"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "eaf79ac8",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_87_845e74c1",
+      "source": "18.755",
+      "target": "18.757"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_90_3207edac",
+      "source": "18.702",
+      "target": "18.782"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "a1900311",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_math_courses.pdf_92_0a56ecef",
+      "source": "18.702",
+      "target": "18.7831"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_91_a90f6b51",
+      "source": "18.785",
+      "target": "18.786"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_93_8532ec3c",
+      "source": "18.100",
+      "target": "18.821"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_97_26b8e1eb",
+      "source": "18.901",
+      "target": "18.905"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_math_courses.pdf_101_f2a4c25d",
+      "source": "18.101",
+      "target": "18.952"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "mit_math_courses.pdf_104_15dfc90b",
+      "source": "8.01",
+      "target": "18.C20[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_18_376abc8f",
+      "source": "8.044",
+      "target": "8.08"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_27_fb7beb06",
+      "source": "8.044",
+      "target": "8.231"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_29_2a42937a",
+      "source": "8.044",
+      "target": "8.226"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_31_12018084",
+      "source": "8.044",
+      "target": "8.251"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "be9885fa",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_physics_courses.pdf_35_ad4b4ffb",
+      "source": "8.044",
+      "target": "8.292[J]"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "247fc847",
+      "either_or_branches": [
+        "b1"
+      ],
+      "source_chunk_id": "mit_physics_courses.pdf_15_61bae01f",
+      "source": "8.041",
+      "target": "8.05"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_19_c359b399",
+      "source": "8.13",
+      "target": "8.14"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_20_8823f990",
+      "source": "8.223",
+      "target": "8.09"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_31_12018084",
+      "source": "8.033",
+      "target": "8.251"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_33_4dc0acf6",
+      "source": "8.033",
+      "target": "8.276"
+    },
+    {
+      "requirement_type": "either_or",
+      "min_grade": "",
+      "either_or_group": "be9885fa",
+      "either_or_branches": [
+        "b0"
+      ],
+      "source_chunk_id": "mit_physics_courses.pdf_35_ad4b4ffb",
+      "source": "5.60",
+      "target": "8.292[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_47_c1474e08",
+      "source": "8.323",
+      "target": "8.324"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_90_b2e04a87",
+      "source": "8.323",
+      "target": "8.952"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_45_6cd9d0c7",
+      "source": "8.321",
+      "target": "8.323"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_50_9691ca1e",
+      "source": "8.321",
+      "target": "8.322"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "mit_physics_courses.pdf_74_9b16a520",
+      "source": "8.321",
+      "target": "8.701"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_49_249aa9ba",
+      "source": "8.324",
+      "target": "8.325"
+    },
+    {
+      "requirement_type": "corequisite",
+      "min_grade": "",
+      "either_or_group": null,
+      "source_chunk_id": "mit_physics_courses.pdf_90_b2e04a87",
+      "source": "8.324",
+      "target": "8.952"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_47_c1474e08",
+      "source": "8.322",
+      "target": "8.324"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_62_76effbf7",
+      "source": "8.511",
+      "target": "8.512"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_69_44bc3419",
+      "source": "22.611[J]",
+      "target": "8.624"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_71_b43673be",
+      "source": "22.611[J]",
+      "target": "8.641"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_77_70f7c8ef",
+      "source": "8.711",
+      "target": "8.712"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_79_a2c0d7dc",
+      "source": "22.11",
+      "target": "8.751[J]"
+    },
+    {
+      "requirement_type": "required",
+      "min_grade": "",
+      "either_or_group": null,
+      "either_or_branches": [],
+      "source_chunk_id": "mit_physics_courses.pdf_84_696e7f2f",
+      "source": "8.901",
+      "target": "8.902"
+    }
+  ]
+}

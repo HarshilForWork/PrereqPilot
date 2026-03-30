@@ -1,0 +1,277 @@
+[
+  {
+    "id": "prereq_01",
+    "type": "prereq_check",
+    "question": "Can I take 6.1040 if I completed 6.1020 and 6.1200[J]?",
+    "student_profile": {
+      "completed_courses": ["6.1020", "6.1200[J]"],
+      "grades": {}
+    },
+    "expected_decision": "Eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_02",
+    "type": "prereq_check",
+    "question": "Am I eligible for 6.1040 with only 6.1020 completed?",
+    "student_profile": {
+      "completed_courses": ["6.1020"],
+      "grades": {}
+    },
+    "expected_decision": "Not eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_03",
+    "type": "prereq_check",
+    "question": "Can I enroll in 6.1060 after 6.1020, 6.1210, and 6.1910?",
+    "student_profile": {
+      "completed_courses": ["6.1020", "6.1210", "6.1910"],
+      "grades": {}
+    },
+    "expected_decision": "Eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_04",
+    "type": "prereq_check",
+    "question": "Can I take 6.1060 if I have 6.1020 and 6.1210 but not 6.1910?",
+    "student_profile": {
+      "completed_courses": ["6.1020", "6.1210"],
+      "grades": {}
+    },
+    "expected_decision": "Not eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_05",
+    "type": "prereq_check",
+    "question": "Am I eligible for 6.6310 if I completed 8.03?",
+    "student_profile": {
+      "completed_courses": ["8.03"],
+      "grades": {}
+    },
+    "expected_decision": "Eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_06",
+    "type": "prereq_check",
+    "question": "Can I enroll in 6.6310 with no completed prerequisites?",
+    "student_profile": {
+      "completed_courses": ["6.100A"],
+      "grades": {}
+    },
+    "expected_decision": "Not eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_07",
+    "type": "prereq_check",
+    "question": "Can I take 6.7240 after completing 6.3702?",
+    "student_profile": {
+      "completed_courses": ["6.3702"],
+      "grades": {}
+    },
+    "expected_decision": "Eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_08",
+    "type": "prereq_check",
+    "question": "Am I eligible for 6.7240 without 6.3702?",
+    "student_profile": {
+      "completed_courses": ["6.100A"],
+      "grades": {}
+    },
+    "expected_decision": "Not eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_09",
+    "type": "prereq_check",
+    "question": "Can I register for 8.051 if I completed 8.04 and 8.05?",
+    "student_profile": {
+      "completed_courses": ["8.04", "8.05"],
+      "grades": {}
+    },
+    "expected_decision": "Eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "prereq_10",
+    "type": "prereq_check",
+    "question": "Can I register for 8.051 with only 8.04 completed?",
+    "student_profile": {
+      "completed_courses": ["8.04"],
+      "grades": {}
+    },
+    "expected_decision": "Not eligible",
+    "expected_citations_present": true
+  },
+  {
+    "id": "chain_01",
+    "type": "multi_hop_chain",
+    "question": "Show the prerequisite chain that leads to 6.1060.",
+    "student_profile": {
+      "completed_courses": ["6.100A"],
+      "grades": {}
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "chain_02",
+    "type": "multi_hop_chain",
+    "question": "What sequence of subjects should I finish before 6.4210?",
+    "student_profile": {
+      "completed_courses": ["6.100A"],
+      "grades": {}
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "chain_03",
+    "type": "multi_hop_chain",
+    "question": "Map a path from introductory subjects to 6.5350.",
+    "student_profile": {
+      "completed_courses": ["6.1210"],
+      "grades": {}
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "chain_04",
+    "type": "multi_hop_chain",
+    "question": "What prerequisites connect to 8.14 from earlier physics subjects?",
+    "student_profile": {
+      "completed_courses": ["8.05"],
+      "grades": {}
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "chain_05",
+    "type": "multi_hop_chain",
+    "question": "I completed 6.3702; what remaining prerequisite chain exists before 6.7240?",
+    "student_profile": {
+      "completed_courses": ["6.3702"],
+      "grades": {}
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "program_01",
+    "type": "program_requirement",
+    "question": "Build a Fall term plan for Course 6-3 with up to 12 credits.",
+    "student_profile": {
+      "completed_courses": ["6.100A", "18.06"],
+      "grades": {},
+      "target_major": "Course 6-3",
+      "target_term": "Fall 2026",
+      "max_credits": 12
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "program_02",
+    "type": "program_requirement",
+    "question": "Suggest a Spring term plan for Course 6-2 capped at 15 credits.",
+    "student_profile": {
+      "completed_courses": ["6.100A", "6.1010", "18.06"],
+      "grades": {},
+      "target_major": "Course 6-2",
+      "target_term": "Spring 2027",
+      "max_credits": 15
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "program_03",
+    "type": "program_requirement",
+    "question": "What should I take next term for Course 6-3 if I can only take 9 credits?",
+    "student_profile": {
+      "completed_courses": ["6.100A", "6.1200[J]", "18.06"],
+      "grades": {},
+      "target_major": "Course 6-3",
+      "target_term": "Fall 2027",
+      "max_credits": 9
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "program_04",
+    "type": "program_requirement",
+    "question": "Plan a 12-credit term focused on AI-oriented subjects within Course 6.",
+    "student_profile": {
+      "completed_courses": ["6.100A", "6.1010", "6.1200[J]"],
+      "grades": {},
+      "target_major": "Course 6",
+      "target_term": "Spring 2026",
+      "max_credits": 12
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "program_05",
+    "type": "program_requirement",
+    "question": "Given I finished 6.1010 and 6.1200[J], propose next-term subjects for Course 6-3 within 12 credits.",
+    "student_profile": {
+      "completed_courses": ["6.1010", "6.1200[J]", "18.06"],
+      "grades": {},
+      "target_major": "Course 6-3",
+      "target_term": "Fall 2026",
+      "max_credits": 12
+    },
+    "expected_decision": null,
+    "expected_citations_present": true
+  },
+  {
+    "id": "trick_01",
+    "type": "not_in_docs",
+    "question": "What is the Wi-Fi password in Stata Center right now?",
+    "student_profile": {},
+    "expected_decision": null,
+    "expected_abstained": true
+  },
+  {
+    "id": "trick_02",
+    "type": "not_in_docs",
+    "question": "Which professor is teaching 6.1060 in Fall 2027?",
+    "student_profile": {},
+    "expected_decision": null,
+    "expected_abstained": true
+  },
+  {
+    "id": "trick_03",
+    "type": "not_in_docs",
+    "question": "What is the campus cafeteria lunch menu today?",
+    "student_profile": {},
+    "expected_decision": null,
+    "expected_abstained": true
+  },
+  {
+    "id": "trick_04",
+    "type": "not_in_docs",
+    "question": "Can I park for free near Building 32 after 5 PM?",
+    "student_profile": {},
+    "expected_decision": null,
+    "expected_abstained": true
+  },
+  {
+    "id": "trick_05",
+    "type": "not_in_docs",
+    "question": "What is MIT's basketball score tonight?",
+    "student_profile": {},
+    "expected_decision": null,
+    "expected_abstained": true
+  }
+]

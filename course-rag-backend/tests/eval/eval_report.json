@@ -1,0 +1,355 @@
+{
+  "summary": {
+    "total_queries": 25,
+    "citation_coverage_rate": 75.0,
+    "eligibility_correctness_rate": 90.0,
+    "abstention_accuracy_rate": 100.0
+  },
+  "details": [
+    {
+      "id": "prereq_01",
+      "type": "prereq_check",
+      "question": "Can I take 6.1040 if I completed 6.1020 and 6.1200[J]?",
+      "actual_answer": "Yes, you can take 6.1040 since you've completed the required prerequisites.",
+      "expected_decision": "Eligible",
+      "actual_decision": "Eligible",
+      "expected_abstained": null,
+      "actual_abstained": false,
+      "expected_citations_present": true,
+      "actual_citations_present": true
+    },
+    {
+      "id": "prereq_02",
+      "type": "prereq_check",
+      "question": "Am I eligible for 6.1040 with only 6.1020 completed?",
+      "actual_answer": "You are not eligible for 6.1040 with only 6.1020 completed. You need to complete 6.1200[J] first.",
+      "expected_decision": "Not eligible",
+      "actual_decision": "Not eligible",
+      "expected_abstained": null,
+      "actual_abstained": false,
+      "expected_citations_present": true,
+      "actual_citations_present": true
+    },
+    {
+      "id": "prereq_03",
+      "type": "prereq_check",
+      "question": "Can I enroll in 6.1060 after 6.1020, 6.1210, and 6.1910?",
+      "actual_answer": "Yes, you can enroll in 6.1060 after 6.1020, 6.1210, and 6.1910.",
+      "expected_decision": "Eligible",
+      "actual_decision": "Eligible",
+      "expected_abstained": null,
+      "actual_abstained": false,
+      "expected_citations_present": true,
+      "actual_citations_present": true
+    },
+    {
+      "id": "prereq_04",
+      "type": "prereq_check",
+      "question": "Can I take 6.1060 if I have 6.1020 and 6.1210 but not 6.1910?",
+      "actual_answer": "No, you are not eligible to take 6.1060. You are missing the prerequisite 6.1910.",
+      "expected_decision": "Not eligible",
+      "actual_decision": "Not eligible",
+      "expected_abstained": null,
+      "actual_abstained": false,
+      "expected_citations_present": true,
+      "actual_citations_present": true
+    },
+    {
+      "id": "prereq_05",
+      "type": "prereq_check",
+      "question": "Am I eligible for 6.6310 if I completed 8.03?",
+      "actual_answer": "Yes, you are eligible for 6.6310 since you completed 8.03.",
+      "expected_decision": "Eligible",
+      "actual_decision": "Eligible",
+      "expected_abstained": null,
+      "actual_abstained": false,
+      "expected_citations_present": true,
+      "actual_citations_present": true
+    },
+    {
+      "id": "prereq_06",
+      "type": "prereq_check",
+      "question": "Can I enroll in 6.6310 with no completed prerequisites?",
+      "actual_answer": "You're not eligible to enroll in 6.6310 with no completed prerequisites. You need to complete one option from each prerequisite group: 6.2300 OR 8.03.",
+      "expected_decision": "Not eligible",
+      "actual_decision": "Not eligible",
+      "expected_abstained": null,
+      "actual_abstained": false,
+      "expected_citations_present": true,
+      "actual_citations_present": true
+    },
+    {
+      "id": "prereq_07",
+      "type": "prereq_check",
+      "question": "Can I take 6.7240 after completing 6.3702?",
+      "actual_answer": "Yes, you can take 6.7240 after completing 6.3702.",
+      "expected_decision": "Eligible",
+      "actual_decision": "Eligible",
+      "expected_abstained": null,
+      "actual_abstained": false,
+      "expected_citations_present": true,
+      "actual_citations_present": true
+    },
+    {
+      "id": "prereq_08",
+      "type": "prereq_check",
+      "question": "Am I eligible for 6.7240 without 6.3702?",
+      "actual_answer": "You are not eligible for 6.7240 without completing 6.3702.",
+      "expected_decision": "Not eligible",
+      "actual_decision": "Not eligible",
+      "expected_abstained": null,
+      "actual_abstained": false,
+      "expected_citations_present": true,
+      "actual_citations_present": true
+    },
+    {
+      "id": "prereq_09",
+      "type": "prereq_check",
+      "question": "Can I register for 8.051 if I completed 8.04 and 8.05?",
+      "actual_answer": "You can register for 8.051.",
+      "expected_decision": "Eligible",
+      "actual_decision": "Eligible",
+      "expected_abstained": null,
+      "actual_abstained": false,
+      "expected_citations_present": true,
+      "actual_citations_present": true
+    },
+    {
+      "id": "prereq_10",
+      "type": "prereq_check",
+      "question": "Can I register for 8.051 with only 8.04 completed?",
+      "actual_answer": "Yes, you can register for 8.051 with only 8.04 completed.",
+      "expected_decision": "Not eligible",
+      "actual_decision": "Eligible",
+      "expected_abstained": null,
+      "actual_abstained": false,
+      "expected_citations_present": true,
+      "actual_citations_present": true
+    },
+    {
+      "id": "chain_01",
+      "type": "multi_hop_chain",
+      "question": "Show the prerequisite chain that leads to 6.1060.",
+      "actual_answer": "The prerequisite chain that leads to 6.1060 is: 6.100A, 6.3800, 6.120A, 18.600, 16.C20[J], 18.03, 6.1000, 6.1910.",
+      "expected_decision": null,
+      "actual_decision": "Not eligible",
+      "expected_abstained": null,
+      "actual_abstained": false,
+      "expected_citations_present": true,
+      "actual_citations_present": true
+    },
+    {
+      "id": "chain_02",
+      "type": "multi_hop_chain",
+      "question": "What sequence of subjects should I finish before 6.4210?",
+      "actual_answer": "To take 6.4210, you should first complete 6.100A and 6.3900.",
+      "expected_decision": null,
+      "actual_decision": "Not eligible",
+      "expected_abstained": null,
+      "actual_abstained": false,
+      "expected_citations_present": true,
+      "actual_citations_present": true
+    },
+    {
+      "id": "chain_03",
+      "type": "multi_hop_chain",
+      "question": "Map a path from introductory subjects to 6.5350.",
+      "actual_answer": "To map a path from introductory subjects to 6.5350, you need to complete the missing prerequisite 6.1220[J] first.",
+      "expected_decision": null,
+      "actual_decision": "Not eligible",
+      "expected_abstained": null,
+      "actual_abstained": false,
+      "expected_citations_present": true,
+      "actual_citations_present": true
+    },
+    {
+      "id": "chain_04",
+      "type": "multi_hop_chain",
+      "question": "What prerequisites connect to 8.14 from earlier physics subjects?",
+      "actual_answer": "To take 8.14, you need to complete 8.04, 8.05, and 8.041, and also 8.13 from earlier physics subjects.",
+      "expected_decision": null,
+      "actual_decision": "Not eligible",
+      "expected_abstained": null,
+      "actual_abstained": false,
+      "expected_citations_present": true,
+      "actual_citations_present": true
+    },
+    {
+      "id": "chain_05",
+      "type": "multi_hop_chain",
+      "question": "I completed 6.3702; what remaining prerequisite chain exists before 6.7240?",
+      "actual_answer": "You have completed all prerequisites for 6.7240.",
+      "expected_decision": null,
+      "actual_decision": "Eligible",
+      "expected_abstained": null,
+      "actual_abstained": false,
+      "expected_citations_present": true,
+      "actual_citations_present": true
+    },
+    {
+      "id": "program_01",
+      "type": "program_requirement",
+      "question": "Build a Fall term plan for Course 6-3 with up to 12 credits.",
+      "actual_answer": "",
+      "expected_decision": null,
+      "actual_decision": null,
+      "expected_abstained": null,
+      "actual_abstained": true,
+      "expected_citations_present": true,
+      "actual_citations_present": false
+    },
+    {
+      "id": "program_02",
+      "type": "program_requirement",
+      "question": "Suggest a Spring term plan for Course 6-2 capped at 15 credits.",
+      "actual_answer": "",
+      "expected_decision": null,
+      "actual_decision": null,
+      "expected_abstained": null,
+      "actual_abstained": true,
+      "expected_citations_present": true,
+      "actual_citations_present": false
+    },
+    {
+      "id": "program_03",
+      "type": "program_requirement",
+      "question": "What should I take next term for Course 6-3 if I can only take 9 credits?",
+      "actual_answer": "",
+      "expected_decision": null,
+      "actual_decision": null,
+      "expected_abstained": null,
+      "actual_abstained": true,
+      "expected_citations_present": true,
+      "actual_citations_present": false
+    },
+    {
+      "id": "program_04",
+      "type": "program_requirement",
+      "question": "Plan a 12-credit term focused on AI-oriented subjects within Course 6.",
+      "actual_answer": "",
+      "expected_decision": null,
+      "actual_decision": null,
+      "expected_abstained": null,
+      "actual_abstained": true,
+      "expected_citations_present": true,
+      "actual_citations_present": false
+    },
+    {
+      "id": "program_05",
+      "type": "program_requirement",
+      "question": "Given I finished 6.1010 and 6.1200[J], propose next-term subjects for Course 6-3 within 12 credits.",
+      "actual_answer": "",
+      "expected_decision": null,
+      "actual_decision": null,
+      "expected_abstained": null,
+      "actual_abstained": true,
+      "expected_citations_present": true,
+      "actual_citations_present": false
+    },
+    {
+      "id": "trick_01",
+      "type": "not_in_docs",
+      "question": "What is the Wi-Fi password in Stata Center right now?",
+      "actual_answer": "I don't have that information in the provided catalog/policies. Please check: your academic advisor, the department's official website, or the current schedule of classes.",
+      "expected_decision": null,
+      "actual_decision": null,
+      "expected_abstained": true,
+      "actual_abstained": true,
+      "expected_citations_present": false,
+      "actual_citations_present": false
+    },
+    {
+      "id": "trick_02",
+      "type": "not_in_docs",
+      "question": "Which professor is teaching 6.1060 in Fall 2027?",
+      "actual_answer": "I don't have that information in the provided catalog/policies. Please check: your academic advisor, the department's official website, or the current schedule of classes.",
+      "expected_decision": null,
+      "actual_decision": null,
+      "expected_abstained": true,
+      "actual_abstained": true,
+      "expected_citations_present": false,
+      "actual_citations_present": false
+    },
+    {
+      "id": "trick_03",
+      "type": "not_in_docs",
+      "question": "What is the campus cafeteria lunch menu today?",
+      "actual_answer": "I don't have that information in the provided catalog/policies. Please check: your academic advisor, the department's official website, or the current schedule of classes.",
+      "expected_decision": null,
+      "actual_decision": null,
+      "expected_abstained": true,
+      "actual_abstained": true,
+      "expected_citations_present": false,
+      "actual_citations_present": false
+    },
+    {
+      "id": "trick_04",
+      "type": "not_in_docs",
+      "question": "Can I park for free near Building 32 after 5 PM?",
+      "actual_answer": "I don't have that information in the provided catalog/policies. Please check: your academic advisor, the department's official website, or the current schedule of classes.",
+      "expected_decision": null,
+      "actual_decision": null,
+      "expected_abstained": true,
+      "actual_abstained": true,
+      "expected_citations_present": false,
+      "actual_citations_present": false
+    },
+    {
+      "id": "trick_05",
+      "type": "not_in_docs",
+      "question": "What is MIT's basketball score tonight?",
+      "actual_answer": "I don't have that information in the provided catalog/policies. Please check: your academic advisor, the department's official website, or the current schedule of classes.",
+      "expected_decision": null,
+      "actual_decision": null,
+      "expected_abstained": true,
+      "actual_abstained": true,
+      "expected_citations_present": false,
+      "actual_citations_present": false
+    }
+  ],
+  "transcripts": {
+    "eligibility_with_citations": {
+      "id": "prereq_03",
+      "question": "Can I enroll in 6.1060 after 6.1020, 6.1210, and 6.1910?",
+      "assistant": {
+        "decision": "Eligible",
+        "answer": "Yes, you can enroll in 6.1060 after 6.1020, 6.1210, and 6.1910.",
+        "citations": [
+          {
+            "chunk_id": "6_coursestext.pdf_230_37f280f6",
+            "document_name": "6_coursestext.pdf",
+            "section_heading": ""
+          },
+          {
+            "chunk_id": "6_coursestext.pdf_130_4090fc82",
+            "document_name": "6_coursestext.pdf",
+            "section_heading": ""
+          },
+          {
+            "chunk_id": "6_coursestext.pdf_10_565cdc3c",
+            "document_name": "6_coursestext.pdf",
+            "section_heading": ""
+          }
+        ]
+      }
+    },
+    "plan_with_citations": {
+      "id": "program_01",
+      "question": "Build a Fall term plan for Course 6-3 with up to 12 credits.",
+      "assistant": {
+        "plan": [],
+        "citations": []
+      }
+    },
+    "abstention_with_guidance": {
+      "id": "trick_01",
+      "question": "What is the Wi-Fi password in Stata Center right now?",
+      "assistant": {
+        "abstained": true,
+        "answer": "I don't have that information in the provided catalog/policies. Please check: your academic advisor, the department's official website, or the current schedule of classes.",
+        "guidance": "For instructor/schedule/facility details, check official MIT registrar and department sites.",
+        "citations": []
+      }
+    }
+  }
+}

@@ -1,0 +1,939 @@
+HYBRID PDF PARSING OUTPUT
+==================================================
+Document: mit_math_courses.pdf
+Method: hybrid_pymupdf_pdfplumber
+Pages: 28
+Tables: 0
+Text Blocks: 465
+Processing Time: 5.13s
+==================================================
+
+MATHEMATICS (COURSE 18)
+
+MATHEMATICS (COURSE 18)
+
+18.01L Calculus (New) Prereq: None U (Fall, IAP) 5-0-7 units. CALC I Credit cannot also be received for 18.01, 18.01A, CC.1801, ES.1801, ES.181A
+
+General Mathematics
+
+18.01 Calculus Prereq: None U (Fall, Spring) 5-0-7 units. CALC I Credit cannot also be received for 18.01A, 18.01L, CC.1801, ES.1801, ES.181A
+
+Dierentiation and integration of functions of one variable, with applications (see full description under 18.01). Material covered over a longer interval so that the subject is completed by the end of IAP. Emphasis given to ensuring foundational concepts are developed. Content, depth, and diculty is otherwise identical to that of 18.01. The subject is designated as 18.01 on the transcript. M. King
+
+Dierentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Dierentiation: denition, rules, application to graphing, rates, approximations, and extremum problems. Indenite integration; separable rst-order dierential equations. Denite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Innite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions. Fall, L. Guth. Spring, Information, W. Minicozzi
+
+18.02 Calculus Prereq: Calculus I (GIR) U (Fall, Spring) 5-0-7 units. CALC II Credit cannot also be received for 18.022, 18.02A, CC.1802, ES.1802, ES.182A
+
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial dierentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact dierentials and conservative elds; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications. Fall: S Dyatlov. Spring: D Jerison
+
+18.01A Calculus Prereq: Knowledge of dierentiation and elementary integration U (Fall; rst half of term) 5-0-7 units. CALC I Credit cannot also be received for 18.01, 18.01L, CC.1801, ES.1801, ES.181A
+
+Six-week review of one-variable calculus, emphasizing material not on the high-school AB syllabus: integration techniques and applications, improper integrals, innite series, applications to other topics, such as probability and statistics, as time permits. Prerequisites: one year of high-school calculus or the equivalent, with a score of 5 on the AB Calculus test (or the AB portion of the BC test, or an equivalent score on a standard international exam), or equivalent college transfer credit, or a passing grade on the rst half of the 18.01 advanced standing exam. A. Moitra
+
+18.02A Calculus Prereq: Calculus I (GIR) U (Fall, IAP, Spring; second half of term) 5-0-7 units. CALC II Credit cannot also be received for 18.02, 18.022, CC.1802, ES.1802, ES.182A
+
+First half is taught during the last six weeks of the Fall term; covers material in the rst half of 18.02 (through double integrals). Second half of 18.02A can be taken either during IAP (daily lectures) or during the second half of the Spring term; it covers the remaining material in 18.02. Fall, IAP: J. W. M. Bush. Spring: D. Jerison
+
+Mathematics (Course 18)   |   3
+
+MATHEMATICS (COURSE 18)
+
+18.022 Calculus Prereq: Calculus I (GIR) U (Fall) 5-0-7 units. CALC II Credit cannot also be received for 18.02, 18.02A, CC.1802, ES.1802, ES.182A
+
+18.032 Dierential Equations Prereq: None. Coreq: Calculus II (GIR) U (Spring) 5-0-7 units. REST Credit cannot also be received for 18.03, CC.1803, ES.1803
+
+Covers much of the same material as 18.03 with more emphasis on theory. The point of view is rigorous and results are proven. Local existence and uniqueness of solutions. A. Lawrie
+
+Calculus of several variables. Topics as in 18.02 but with more focus on mathematical concepts. Vector algebra, dot product, matrices, determinant. Functions of several variables, continuity, dierentiability, derivative. Parametrized curves, arc length, curvature, torsion. Vector elds, gradient, curl, divergence. Multiple integrals, change of variables, line integrals, surface integrals. Stokes' theorem in one, two, and three dimensions. W. Minicozzi
+
+18.04 Complex Variables with Applications Prereq: Calculus II (GIR) and (18.03 or 18.032) U (Spring) 4-0-8 units Credit cannot also be received for 18.075, 18.0751
+
+18.03 Dierential Equations Prereq: None. Coreq: Calculus II (GIR) U (Fall, Spring) 5-0-7 units. REST Credit cannot also be received for 18.032, CC.1803, ES.1803
+
+Complex algebra and functions; analyticity; contour integration, Cauchy's theorem; singularities, Taylor and Laurent series; residues, evaluation of integrals; multivalued functions, potential theory in two dimensions; Fourier analysis, Laplace transforms, and partial dierential equations. H. Cheng
+
+Study of dierential equations, including modeling physical systems. Solution of rst-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coecients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams. Fall: J. Dunkel. Spring: L. Demanet
+
+18.05 Introduction to Probability and Statistics Prereq: Calculus II (GIR) U (Spring) 4-0-8 units. REST
+
+A unied introduction to probability, Bayesian inference, and frequentist statistics. Topics include: combinatorics, random variables, (joint) distributions, covariance, central limit theorem; Bayesian updating, odds, posterior prediction; signicance tests, condence intervals, bootstrapping, regression. Students also develop computational skills and statistical thinking by using R to simulate, analyze, and visualize data; and by exploring privacy, fairness, and causality in contemporary media and research. Flipped subject taught in a Technology Enabled Active Learning (TEAL) classroom to facilitate discussion, group problem solving, and coding studios with ample mentorship. J. Bloom
+
+18.031 System Functions and the Laplace Transform Prereq: None. Coreq: 18.03 U (IAP) 1-0-2 units
+
+Studies basic continuous control theory as well as representation of functions in the complex frequency domain. Covers generalized functions, unit impulse response, and convolution; and Laplace transform, system (or transfer) function, and the pole diagram. Includes examples from mechanical and electrical engineering. Information: H. R. Miller
+
+4   |   Mathematics (Course 18)
+
+MATHEMATICS (COURSE 18)
+
+18.06 Linear Algebra Prereq: Calculus II (GIR) U (Fall, Spring) 4-0-8 units. REST Credit cannot also be received for 6.C06[J], 18.700, 18.C06[J], CC.1806
+
+18.063 Matrix Calculus for Machine Learning and Beyond Prereq: Calculus II (GIR) and 18.06 U (IAP; partial term) 1-0-2 units
+
+Covers a coherent approach to matrix calculus, showing techniques that allow the student to think of a matrix holistically, rather than as an array of scalars; generalize and compute derivatives of important matrix factorizations and other complicated-looking operations; and understand how dierentiation formulas must be reimagined in large-scale computing. Discusses "adjoint" or "reverse-mode" dierentiation, custom vector-Jacobian products, and how modern automatic dierentiation is more computer science than calculus. S. Johnson, A. Edelman
+
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive denite matrices. Applications to least-squares approximations, stability of dierential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra soware. Compared with 18.700, more emphasis on matrix algorithms and many applications. Fall, TBD. Spring, A. Borodin
+
+18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning Subject meets with 18.0651 Prereq: 18.06 Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (Spring) 3-0-9 units
+
+18.C06[J] Linear Algebra and Optimization Same subject as 6.C06[J] Prereq: Calculus II (GIR) U (Fall) 5-0-7 units. REST Credit cannot also be received for 18.06, 18.700, CC.1806
+
+Reviews linear algebra with applications to life sciences, nance, engineering, and big data. Covers singular value decomposition, weighted least squares, signal and image processing, principal component analysis, covariance and correlation matrices, directed and undirected graphs, matrix factorizations, neural nets, machine learning, and computations with large matrices. Sta
+
+Introductory course in linear algebra and optimization, assuming no prior exposure to linear algebra and starting from the basics, including vectors, matrices, eigenvalues, singular values, and least squares. Covers the basics in optimization including convex optimization, linear/quadratic programming, gradient descent, and regularization, building on insights from linear algebra. Explores a variety of applications in science and engineering, where the tools developed give powerful ways to understand complex systems and also extract structure from data. A. Moitra, P. Parrilo
+
+18.0651 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning Subject meets with 18.065 Prereq: 18.06 Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units
+
+18.062[J] Mathematics for Computer Science Same subject as 6.1200J Prereq: Calculus I (GIR) U (Fall, Spring) 5-0-7 units. REST
+
+Reviews linear algebra with applications to life sciences, nance, engineering, and big data. Covers singular value decomposition, weighted least squares, signal and image processing, principal component analysis, covariance and correlation matrices, directed and undirected graphs, matrix factorizations, neural nets, machine learning, and computations with large matrices. Students in Course 18 must register for the undergraduate version, 18.065. Sta
+
+See description under subject 6.1200J. Z. R. Abel, F. T. Leighton, A. Moitra
+
+Mathematics (Course 18)   |   5
+
+MATHEMATICS (COURSE 18)
+
+18.075 Methods for Scientists and Engineers Subject meets with 18.0751 Prereq: Calculus II (GIR) and 18.03 U (Spring) Not oered regularly; consult department 3-0-9 units Credit cannot also be received for 18.04
+
+18.0851 Computational Science and Engineering I Subject meets with 18.085 Prereq: Calculus II (GIR) and (18.03 or 18.032) G (Fall, Spring, Summer) 3-0-9 units
+
+Review of linear algebra, applications to networks, structures, and estimation, nite dierence and nite element solution of dierential equations, Laplace's equation and potential flow, boundary-value problems, Fourier series, discrete Fourier transform, convolution. Frequent use of MATLAB in a wide range of scientic and engineering applications. Students in Course 18 must register for the undergraduate version, 18.085. Fall: D. Kouskoulas. Spring: Sta
+
+Covers functions of a complex variable; calculus of residues. Includes ordinary dierential equations; Bessel and Legendre functions; Sturm-Liouville theory; partial dierential equations; heat equation; and wave equations. H. Cheng
+
+18.0751 Methods for Scientists and Engineers Subject meets with 18.075 Prereq: Calculus II (GIR) and 18.03 G (Spring) Not oered regularly; consult department 3-0-9 units Credit cannot also be received for 18.04
+
+18.086 Computational Science and Engineering II Prereq: Calculus II (GIR) and (18.03 or 18.032) U (Spring) Not oered regularly; consult department 3-0-9 units
+
+Initial value problems: nite dierence methods, accuracy and stability, heat equation, wave equations, conservation laws and shocks, level sets, Navier-Stokes. Solving large systems: elimination with reordering, iterative methods, preconditioning, multigrid, Krylov subspaces, conjugate gradients. Optimization and minimum principles: weighted least squares, constraints, inverse problems, calculus of variations, saddle point problems, linear programming, duality, adjoint methods. Information: W. G. Strang
+
+Covers functions of a complex variable; calculus of residues. Includes ordinary dierential equations; Bessel and Legendre functions; Sturm-Liouville theory; partial dierential equations; heat equation; and wave equations. Students in Courses 6, 8, 12, 18, and 22 must register for undergraduate version, 18.075. H. Cheng
+
+18.085 Computational Science and Engineering I Subject meets with 18.0851 Prereq: Calculus II (GIR) and (18.03 or 18.032) U (Fall, Spring, Summer) 3-0-9 units
+
+18.0861 Computational Science and Engineering II Prereq: Calculus II (GIR) and (18.03 or 18.032) G (Spring) Not oered regularly; consult department 3-0-9 units
+
+Review of linear algebra, applications to networks, structures, and estimation, nite dierence and nite element solution of dierential equations, Laplace's equation and potential flow, boundary-value problems, Fourier series, discrete Fourier transform, convolution. Frequent use of MATLAB in a wide range of scientic and engineering applications. Fall: D. Kouskoulas. Spring: Sta
+
+Initial value problems: nite dierence methods, accuracy and stability, heat equation, wave equations, conservation laws and shocks, level sets, Navier-Stokes. Solving large systems: elimination with reordering, iterative methods, preconditioning, multigrid, Krylov subspaces, conjugate gradients. Optimization and minimum principles: weighted least squares, constraints, inverse problems, calculus of variations, saddle point problems, linear programming, duality, adjoint methods. Students in Course 18 must register for the undergraduate version, 18.086. Information: W. G. Strang
+
+6   |   Mathematics (Course 18)
+
+MATHEMATICS (COURSE 18)
+
+18.089 Review of Mathematics Prereq: Permission of instructor G (Summer) 5-0-7 units
+
+18.095 Mathematics Lecture Series Prereq: Calculus I (GIR) U (IAP) 2-0-4 units Can be repeated for credit.
+
+One-week review of one-variable calculus (18.01), followed by concentrated study covering multivariable calculus (18.02), two hours per day for ve weeks. Primarily for graduate students in Course 2N. Degree credit allowed only in special circumstances. Information: W. Minicozzi
+
+Ten lectures by mathematics faculty members on interesting topics from both classical and modern mathematics. All lectures accessible to students with calculus background and an interest in mathematics. At each lecture, reading and exercises are assigned. Students prepare these for discussion in a weekly problem session. Information: W. Minicozzi
+
+18.090 Introduction to Mathematical Reasoning Prereq: None. Coreq: Calculus II (GIR) U (Spring) 3-0-9 units. REST
+
+18.098 Internship in Mathematics Prereq: Permission of instructor U (Fall, IAP, Spring, Summer) Units arranged [P/D/F] Can be repeated for credit.
+
+Focuses on understanding and constructing mathematical arguments. Discusses foundational topics (such as innite sets, quantiers, and methods of proof) as well as selected concepts from algebra (permutations, vector spaces, elds) and analysis (sequences of real numbers). Particularly suitable for students desiring additional experience with proofs before going on to more advanced mathematics subjects or subjects in related areas with signicant mathematical content. S. Dyatlov, B. Poonen, P. Seidel
+
+Provides academic credit for students pursuing internships to gain practical experience in the applications of mathematical concepts and methods. Information: W. Minicozzi
+
+18.099 Independent Study Prereq: Permission of instructor U (Fall, IAP, Spring, Summer) Units arranged Can be repeated for credit.
+
+18.091 Introduction to Metric Spaces Prereq: 18.100A U (IAP; partial term) 1-0-2 units
+
+Studies (during IAP) or special individual reading (during regular terms). Arranged in consultation with individual faculty members and subject to departmental approval.  May not be used to satisfy Mathematics major requirements. Information: W. Minicozzi
+
+Covers metrics, open and closed sets, continuous functions (from a topological perspective), function spaces, completeness, and compactness. Aims to provide more complex concepts and proofs for students who have taken 18.100A as their real analysis subject. W. Minicozzi
+
+18.094[J] Teaching College-Level Science and Engineering Same subject as 1.95[J], 5.95[J], 7.59[J], 8.395[J] Subject meets with 2.978 Prereq: None Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Fall) 2-0-2 units
+
+See description under subject 5.95[J]. J. Rankin
+
+Mathematics (Course 18)   |   7
+
+MATHEMATICS (COURSE 18)
+
+18.100A Real Analysis Subject meets with 18.1001 Prereq: Calculus II (GIR) U (Fall, Spring) 3-0-9 units Credit cannot also be received for 18.1001, 18.1002, 18.100B, 18.100P, 18.100Q
+
+Analysis
+
+18.1001 Real Analysis Subject meets with 18.100A Prereq: Calculus II (GIR) G (Fall, Spring) 3-0-9 units Credit cannot also be received for 18.1002, 18.100A, 18.100B, 18.100P, 18.100Q
+
+Covers fundamentals of mathematical analysis: convergence of sequences and series, continuity, dierentiability, Riemann integral, sequences and series of functions, uniformity, interchange of limit operations. Shows the utility of abstract concepts and teaches understanding and construction of proofs. Proofs and denitions are less abstract than in 18.100B. Gives applications where possible. Concerned primarily with the real line. Fall: Q. Deng. Spring: J. Zhu
+
+Covers fundamentals of mathematical analysis: convergence of sequences and series, continuity, dierentiability, Riemann integral, sequences and series of functions, uniformity, interchange of limit operations. Shows the utility of abstract concepts and teaches understanding and construction of proofs. Proofs and denitions are less abstract than in 18.100B. Gives applications where possible. Concerned primarily with the real line. Students in Course 18 must register for undergraduate version 18.100A. Fall: Q. Deng. Spring: J. Zhu
+
+18.100B Real Analysis Subject meets with 18.1002 Prereq: Calculus II (GIR) U (Fall, Spring) 3-0-9 units Credit cannot also be received for 18.1001, 18.1002, 18.100A, 18.100P, 18.100Q
+
+18.1002 Real Analysis Subject meets with 18.100B Prereq: Calculus II (GIR) G (Fall, Spring) 3-0-9 units Credit cannot also be received for 18.1001, 18.100A, 18.100B, 18.100P, 18.100Q
+
+Covers fundamentals of mathematical analysis: convergence of sequences and series, continuity, dierentiability, Riemann integral, sequences and series of functions, uniformity, interchange of limit operations. Shows the utility of abstract concepts and teaches understanding and construction of proofs. More demanding than 18.100A, for students with more mathematical maturity. Places more emphasis on point-set topology and n-space. Fall: R. Melrose. Spring: G. Franz
+
+Covers fundamentals of mathematical analysis: convergence of sequences and series, continuity, dierentiability, Riemann integral, sequences and series of functions, uniformity, interchange of limit operations. Shows the utility of abstract concepts and teaches understanding and construction of proofs. More demanding than 18.100A, for students with more mathematical maturity. Places more emphasis on point-set topology and n-space. Students in Course 18 must register for undergraduate version 18.100B. Fall: R. Melrose. Spring: G. Franz
+
+18.100P Real Analysis Prereq: Calculus II (GIR) U (Spring) 4-0-11 units Credit cannot also be received for 18.1001, 18.1002, 18.100A, 18.100B, 18.100Q
+
+Covers fundamentals of mathematical analysis: convergence of sequences and series, continuity, dierentiability, Riemann integral, sequences and series of functions, uniformity, interchange of limit operations. Shows the utility of abstract concepts and teaches understanding and construction of proofs. Proofs and denitions are less abstract than in 18.100B. Gives applications where possible. Concerned primarily with the real line. Includes instruction and practice in written communication. Enrollment limited. K. Na
+
+8   |   Mathematics (Course 18)
+
+MATHEMATICS (COURSE 18)
+
+18.100Q Real Analysis Prereq: Calculus II (GIR) U (Fall) 4-0-11 units Credit cannot also be received for 18.1001, 18.1002, 18.100A, 18.100B, 18.100P
+
+18.102 Introduction to Functional Analysis Subject meets with 18.1021 Prereq: (18.06, 18.700, or 18.701) and (18.100A, 18.100B, 18.100P, or 18.100Q) U (Spring) 3-0-9 units
+
+Covers fundamentals of mathematical analysis: convergence of sequences and series, continuity, dierentiability, Riemann integral, sequences and series of functions, uniformity, interchange of limit operations. Shows the utility of abstract concepts and teaches understanding and construction of proofs. More demanding than 18.100A, for students with more mathematical maturity. Places more emphasis on point-set topology and n-space. Includes instruction and practice in written communication. Enrollment limited. C. Oh
+
+Normed spaces, completeness, functionals, Hahn-Banach theorem, duality, operators. Lebesgue measure, measurable functions, integrability, completeness of L-p spaces. Hilbert space. Compact, Hilbert-Schmidt and trace class operators. Spectral theorem. M. Jezequel
+
+18.1021 Introduction to Functional Analysis Subject meets with 18.102 Prereq: (18.06, 18.700, or 18.701) and (18.100A, 18.100B, 18.100P, or 18.100Q) G (Spring) 3-0-9 units
+
+18.101 Analysis and Manifolds Subject meets with 18.1011 Prereq: (18.06, 18.700, or 18.701) and (18.100A, 18.100B, 18.100P, or 18.100Q) Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (Fall) 3-0-9 units
+
+Normed spaces, completeness, functionals, Hahn-Banach theorem, duality, operators. Lebesgue measure, measurable functions, integrability, completeness of L-p spaces. Hilbert space. Compact, Hilbert-Schmidt and trace class operators. Spectral theorem. Students in Course 18 must register for the undergraduate version, 18.102. M. Jezequel
+
+Introduction to the theory of manifolds: vector elds and densities on manifolds, integral calculus in the manifold setting and the manifold version of the divergence theorem. 18.901 helpful but not required. M. Jezequel
+
+18.103 Fourier Analysis: Theory and Applications Subject meets with 18.1031 Prereq: (18.06, 18.700, or 18.701) and (18.100A, 18.100B, 18.100P, or 18.100Q) U (Spring) 3-0-9 units
+
+18.1011 Analysis and Manifolds Subject meets with 18.101 Prereq: (18.06, 18.700, or 18.701) and (18.100A, 18.100B, 18.100P, or 18.100Q) Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Fall) 3-0-9 units
+
+Roughly half the subject devoted to the theory of the Lebesgue integral with applications to probability, and half to Fourier series and Fourier integrals. J. Shi
+
+Introduction to the theory of manifolds: vector elds and densities on manifolds, integral calculus in the manifold setting and the manifold version of the divergence theorem. 18.9011 helpful but not required. Students in Course 18 must register for the undergraduate version, 18.101. M. Jezequel
+
+18.1031 Fourier Analysis: Theory and Applications Subject meets with 18.103 Prereq: (18.06, 18.700, or 18.701) and (18.100A, 18.100B, 18.100P, or 18.100Q) Acad Year 2025-2026: G (Spring) Acad Year 2026-2027: Not oered 3-0-9 units
+
+Roughly half the subject devoted to the theory of the Lebesgue integral with applications to probability, and half to Fourier series and Fourier integrals. Students in Course 18 must register for the undergraduate version, 18.103. J. Shi
+
+Mathematics (Course 18)   |   9
+
+MATHEMATICS (COURSE 18)
+
+18.104 Seminar in Analysis Prereq: 18.100A, 18.100B, 18.100P, or 18.100Q U (Fall, Spring) 3-0-9 units
+
+18.116 Riemann Surfaces Prereq: 18.112 Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Fall) 3-0-9 units
+
+Students present and discuss material from books or journals. Topics vary from year to year. Instruction and practice in written and oral communication provided. Enrollment limited. Fall: T. Ozuch-Meersseman. Spring: G. Stalani
+
+Riemann surfaces, uniformization, Riemann-Roch Theorem. Theory of elliptic functions and modular forms. Some applications, such as to number theory. P. I. Etingof
+
+18.112 Functions of a Complex Variable Subject meets with 18.1121 Prereq: (18.06, 18.700, or 18.701) and (18.100A, 18.100B, 18.100P, or 18.100Q) U (Fall) 3-0-9 units
+
+18.117 Topics in Several Complex Variables Prereq: 18.112 and 18.965 Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units Can be repeated for credit.
+
+Studies the basic properties of analytic functions of one complex variable. Conformal mappings and the Poincare model of non- Euclidean geometry. Cauchy-Goursat theorem and Cauchy integral formula. Taylor and Laurent decompositions. Singularities, residues and computation of integrals. Harmonic functions and Dirichlet's problem for the Laplace equation. The partial fractions decomposition. Innite series and innite product expansions. The Gamma function. The Riemann mapping theorem. Elliptic functions. A. Lawrie
+
+Harmonic theory on complex manifolds, Hodge decomposition theorem, Hard Lefschetz theorem. Vanishing theorems. Theory of Stein manifolds. As time permits students also study holomorphic vector bundles on Kahler manifolds. B. Poonen
+
+18.118 Topics in Analysis Prereq: Permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units Can be repeated for credit.
+
+18.1121 Functions of a Complex Variable Subject meets with 18.112 Prereq: (18.06, 18.700, or 18.701) and (18.100A, 18.100B, 18.100P, or 18.100Q) G (Fall) 3-0-9 units
+
+Topics vary from year to year. S. Dyatlov
+
+18.125 Measure Theory and Analysis Prereq: 18.100A, 18.100B, 18.100P, or 18.100Q Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units
+
+Studies the basic properties of analytic functions of one complex variable. Conformal mappings and the Poincare model of non- Euclidean geometry. Cauchy-Goursat theorem and Cauchy integral formula. Taylor and Laurent decompositions. Singularities, residues and computation of integrals. Harmonic functions and Dirichlet's problem for the Laplace equation. The partial fractions decomposition. Innite series and innite product expansions. The Gamma function. The Riemann mapping theorem. Elliptic functions. Students in Course 18 must register for the undergraduate version, 18.112. A. Lawrie
+
+Provides a rigorous introduction to Lebesgue's theory of measure and integration. Covers material that is essential in analysis, probability theory, and dierential geometry. M. Jezequel
+
+18.137 Topics in Geometric Partial Dierential Equations Prereq: Permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Fall) 3-0-9 units Can be repeated for credit.
+
+Topics vary from year to year. T. Colding
+
+10   |   Mathematics (Course 18)
+
+MATHEMATICS (COURSE 18)
+
+18.152 Introduction to Partial Dierential Equations Subject meets with 18.1521 Prereq: (18.06, 18.700, or 18.701) and (18.100A, 18.100B, 18.100P, or 18.100Q) Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (Fall) 3-0-9 units
+
+18.157 Introduction to Microlocal Analysis Prereq: 18.155 Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units
+
+The semi-classical theory of partial dierential equations. Discussion of Pseudodierential operators, Fourier integral operators, asymptotic solutions of partial dierential equations, and the spectral theory of Schroedinger operators from the semi-classical perspective. Heavy emphasis placed on the symplectic geometric underpinnings of this subject. R. B. Melrose
+
+Introduces three main types of partial dierential equations: diusion, elliptic, and hyperbolic. Includes mathematical tools, real-world examples and applications, such as the Black-Scholes equation, the European options problem, water waves, scalar conservation laws, rst order equations and trac problems. T. Collins
+
+18.158 Topics in Dierential Equations Prereq: 18.157 Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units Can be repeated for credit.
+
+18.1521 Introduction to Partial Dierential Equations Subject meets with 18.152 Prereq: (18.06, 18.700, or 18.701) and (18.100A, 18.100B, 18.100P, or 18.100Q) Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units
+
+Topics vary from year to year. L. Guth
+
+Introduces three main types of partial dierential equations: diusion, elliptic, and hyperbolic. Includes mathematical tools, real-world examples and applications, such as the Black-Scholes equation, the European options problem, water waves, scalar conservation laws, rst order equations and trac problems. Students in Course 18 must register for the undergraduate version, 18.152. T. Collins
+
+18.199 Graduate Analysis Seminar Prereq: Permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units Can be repeated for credit.
+
+Studies original papers in dierential analysis and dierential equations. Intended for rst- and second-year graduate students. Permission must be secured in advance. V. W. Guillemin
+
+18.155 Dierential Analysis I Prereq: 18.102 or 18.103 G (Fall) 3-0-9 units
+
+Discrete Applied Mathematics
+
+First part of a two-subject sequence. Review of Lebesgue integration. Lp spaces. Distributions. Fourier transform. Sobolev spaces. Spectral theorem, discrete and continuous spectrum. Homogeneous distributions. Fundamental solutions for elliptic, hyperbolic and parabolic dierential operators. Recommended prerequisite: 18.112. S. Dyatlov
+
+18.200 Principles of Discrete Applied Mathematics Prereq: None. Coreq: 18.06 U (Spring) 4-0-11 units Credit cannot also be received for 18.200A
+
+18.156 Dierential Analysis II Prereq: 18.155 G (Spring) 3-0-9 units
+
+Study of illustrative topics in discrete applied mathematics, including probability theory, information theory, coding theory, secret codes, generating functions, and linear programming. Instruction and practice in written communication provided. Enrollment limited. P. W. Shor, A. Moitra
+
+Second part of a two-subject sequence. Covers variable coecient elliptic, parabolic and hyperbolic partial dierential equations. D. Jerison
+
+Mathematics (Course 18)   |   11
+
+MATHEMATICS (COURSE 18)
+
+18.200A Principles of Discrete Applied Mathematics Prereq: None. Coreq: 18.06 Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (Fall) 3-0-9 units Credit cannot also be received for 18.200
+
+18.218 Topics in Combinatorics Prereq: Permission of instructor G (Spring) 3-0-9 units Can be repeated for credit.
+
+Topics vary from year to year. L. Sauermann
+
+Study of illustrative topics in discrete applied mathematics, including probability theory, information theory, coding theory, secret codes, generating functions, and linear programming. Sta
+
+18.219 Seminar in Combinatorics Prereq: Permission of instructor G (Fall) Not oered regularly; consult department 3-0-9 units Can be repeated for credit.
+
+18.204 Undergraduate Seminar in Discrete Mathematics Prereq: ((6.1200[J] or 18.200) and (18.06, 18.700, or 18.701)) or permission of instructor U (Fall, Spring) 3-0-9 units
+
+Content varies from year to year. Readings from current research papers in combinatorics. Topics to be chosen and presented by the class. Information: Y. Zhao
+
+Seminar in combinatorics, graph theory, and discrete mathematics in general. Participants read and present papers from recent mathematics literature. Instruction and practice in written and oral communication provided. Enrollment limited. J. He, D. Mikulincer, M. Sherman-Bennett, A. Weigandt
+
+18.225 Graph Theory and Additive Combinatorics Prereq: ((18.701 or 18.703) and (18.100A, 18.100B, 18.100P, or 18.100Q)) or permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Fall) 3-0-9 units
+
+18.211 Combinatorial Analysis Prereq: Calculus II (GIR) and (18.06, 18.700, or 18.701) U (Fall) 3-0-9 units
+
+Introduction to extremal graph theory and additive combinatorics. Highlights common themes, such as the dichotomy between structure versus pseudorandomness. Topics include Turan- type problems, Szemeredi's regularity lemma and applications, pseudorandom graphs, spectral graph theory, graph limits, arithmetic progressions (Roth, Szemeredi, Green-Tao), discrete Fourier analysis, Freiman's theorem on sumsets and structure. Discusses current research topics and open problems. Y. Zhao
+
+Combinatorial problems and methods for their solution. Enumeration, generating functions, recurrence relations, construction of bijections. Introduction to graph theory. Prior experience with abstraction and proofs is helpful. A. Weigandt
+
+18.212 Algebraic Combinatorics Prereq: 18.701 or 18.703 U (Spring) 3-0-9 units
+
+Applications of algebra to combinatorics. Topics include walks in graphs, the Radon transform, groups acting on posets, Young tableaux, electrical networks. A. Postnikov
+
+18.217 Combinatorial Theory Prereq: Permission of instructor G (Fall) 3-0-9 units Can be repeated for credit.
+
+Content varies from year to year. A. Postnikov
+
+12   |   Mathematics (Course 18)
+
+MATHEMATICS (COURSE 18)
+
+18.226 Probabilistic Methods in Combinatorics Prereq: (18.211, 18.600, and (18.100A, 18.100B, 18.100P, or 18.100Q)) or permission of instructor Acad Year 2025-2026: G (Spring) Acad Year 2026-2027: Not oered 3-0-9 units
+
+18.303 Linear Partial Dierential Equations: Analysis and Numerics Prereq: 18.06 or 18.700 Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (Fall) 3-0-9 units
+
+Introduction to the probabilistic method, a fundamental and powerful technique in combinatorics and theoretical computer science. Focuses on methodology as well as combinatorial applications. Suitable for students with strong interest and background in mathematical problem solving. Topics include linearity of expectations, alteration, second moment, Lovasz local lemma, correlation inequalities, Janson inequalities, concentration inequalities, entropy method. Y. Zhao
+
+Provides students with the basic analytical and computational tools of linear partial dierential equations (PDEs) for practical applications in science and engineering, including heat/diusion, wave, and Poisson equations. Analytics emphasize the viewpoint of linear algebra and the analogy with nite matrix problems. Studies operator adjoints and eigenproblems, series solutions, Green's functions, and separation of variables. Numerics focus on nite- dierence and nite-element techniques to reduce PDEs to matrix problems, including stability and convergence analysis and implicit/ explicit timestepping. Some programming required for homework and nal project. V. Heinonen
+
+Continuous Applied Mathematics
+
+18.300 Principles of Continuum Applied Mathematics Prereq: Calculus II (GIR) and (18.03 or 18.032) U (Spring) 3-0-9 units
+
+18.305 Advanced Analytic Methods in Science and Engineering Prereq: 18.04, 18.075, or 18.112 Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Fall) 3-0-9 units
+
+Covers fundamental concepts in continuous applied mathematics. Applications from trac flow, fluids, elasticity, granular flows, etc. Also covers continuum limit; conservation laws, quasi-equilibrium; kinematic waves; characteristics, simple waves, shocks; diusion (linear and nonlinear); numerical solution of wave equations; nite dierences, consistency, stability; discrete and fast Fourier transforms; spectral methods; transforms and series (Fourier, Laplace). Additional topics may include sonic booms, Mach cone, caustics, lattices, dispersion and group velocity. Uses MATLAB computing environment. B. Geshkovski
+
+Covers expansion around singular points: the WKB method on ordinary and partial dierential equations; the method of stationary phase and the saddle point method; the two-scale method and the method of renormalized perturbation; singular perturbation and boundary-layer techniques; WKB method on partial dierential equations. H. Cheng
+
+18.306 Advanced Partial Dierential Equations with Applications Prereq: (18.03 or 18.032) and (18.04, 18.075, or 18.112) Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units
+
+Concepts and techniques for partial dierential equations, especially nonlinear. Diusion, dispersion and other phenomena. Initial and boundary value problems. Normal mode analysis, Green's functions, and transforms. Conservation laws, kinematic waves, hyperbolic equations, characteristics shocks, simple waves. Geometrical optics, caustics. Free-boundary problems. Dimensional analysis. Singular perturbation, boundary layers, homogenization. Variational methods. Solitons. Applications from fluid dynamics, materials science, optics, trac flow, etc. R. R. Rosales
+
+Mathematics (Course 18)   |   13
+
+MATHEMATICS (COURSE 18)
+
+18.327 Topics in Applied Mathematics Prereq: Permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Fall) 3-0-9 units Can be repeated for credit.
+
+18.336[J] Fast Methods for Partial Dierential and Integral Equations Same subject as 6.7340J Prereq: 6.7300[J], 16.920[J], 18.085, 18.335[J], or permission of instructor G (Spring) 3-0-9 units
+
+Topics vary from year to year. L. Demanet
+
+Unied introduction to the theory and practice of modern, near linear-time, numerical methods for large-scale partial-dierential and integral equations. Topics include preconditioned iterative methods; generalized Fast Fourier Transform and other butterfly- based methods; multiresolution approaches, such as multigrid algorithms and hierarchical low-rank matrix decompositions; and low and high frequency Fast Multipole Methods. Example applications include aircra design, cardiovascular system modeling, electronic structure computation, and tomographic imaging. K. Burns
+
+18.330 Introduction to Numerical Analysis Prereq: Calculus II (GIR) and (18.03 or 18.032) U (Spring) Not oered regularly; consult department 3-0-9 units
+
+Basic techniques for the ecient numerical solution of problems in science and engineering. Root nding, interpolation, approximation of functions, integration, dierential equations, direct and iterative methods in linear algebra. Knowledge of programming in a language such as MATLAB, Python, or Julia is helpful. L. Demanet
+
+18.337[J] Parallel Computing and Scientic Machine Learning Same subject as 6.7320J Prereq: 18.06, 18.700, or 18.701 Acad Year 2025-2026: G (Spring) Acad Year 2026-2027: Not oered 3-0-9 units
+
+18.335[J] Introduction to Numerical Methods Same subject as 6.7310J Prereq: 18.06, 18.700, or 18.701 Acad Year 2025-2026: G (Fall) Acad Year 2026-2027: Not oered 3-0-9 units
+
+Introduction to scientic machine learning with an emphasis on developing scalable dierentiable programs. Covers scientic computing topics (numerical dierential equations, dense and sparse linear algebra, Fourier transformations, parallelization of large-scale scientic simulation) simultaneously with modern data science (machine learning, deep neural networks, automatic dierentiation), focusing on the emerging techniques at the connection between these areas, such as neural dierential equations and physics-informed deep learning. Provides direct experience with the modern realities of optimizing code performance for supercomputers, GPUs, and multicores in a high-level language. A. Edelman
+
+Advanced introduction to numerical analysis: accuracy and eciency of numerical algorithms. In-depth coverage of sparse-matrix/iterative and dense-matrix algorithms in numerical linear algebra (for linear systems and eigenproblems). Floating-point arithmetic, backwards error analysis, conditioning, and stability. Other computational topics (e.g., numerical integration or nonlinear optimization) may also be surveyed. Final project involves some programming. A. J. Horning
+
+18.338 Eigenvalues of Random Matrices Prereq: 18.701 or permission of instructor G (Fall) 3-0-9 units
+
+Covers the modern main results of random matrix theory as it is currently applied in engineering and science. Topics include matrix calculus for nite and innite matrices (e.g., Wigner's semi- circle and Marcenko-Pastur laws), free probability, random graphs, combinatorial methods, matrix statistics, stochastic operators, passage to the continuum limit, moment methods, and compressed sensing. Knowledge of Julia helpful, but not required. A. Edelman
+
+14   |   Mathematics (Course 18)
+
+MATHEMATICS (COURSE 18)
+
+18.352[J] Nonlinear Dynamics: The Natural Environment Same subject as 12.009[J] Prereq: Calculus II (GIR) and Physics I (GIR); Coreq: 18.03 U (Fall) Not oered regularly; consult department 3-0-9 units
+
+18.355 Fluid Mechanics Prereq: 2.25, 12.800, or 18.354[J] Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units
+
+Topics include the development of Navier-Stokes equations, inviscid flows, boundary layers, lubrication theory, Stokes flows, and surface tension. Fundamental concepts illustrated through problems drawn from a variety of areas, including geophysics, biology, and the dynamics of sport. Particular emphasis on the interplay between dimensional analysis, scaling arguments, and theory. Includes classroom and laboratory demonstrations. J. W. Bush
+
+See description under subject 12.009[J]. D. H. Rothman
+
+18.353[J] Nonlinear Dynamics: Chaos Same subject as 2.050[J], 12.006[J] Prereq: Physics II (GIR) and (18.03 or 18.032) U (Fall) 3-0-9 units
+
+18.357 Interfacial Phenomena Prereq: 2.25, 12.800, 18.354[J], 18.355, or permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units
+
+See description under subject 12.006[J]. D. Rothman
+
+18.354[J] Nonlinear Dynamics: Continuum Systems Same subject as 1.062[J], 12.207[J] Subject meets with 18.3541 Prereq: Physics II (GIR) and (18.03 or 18.032) U (Spring) 3-0-9 units
+
+Fluid systems dominated by the influence of interfacial tension. Elucidates the roles of curvature pressure and Marangoni stress in a variety of hydrodynamic settings. Particular attention to drops and bubbles, soap lms and minimal surfaces, wetting phenomena, water-repellency, surfactants, Marangoni flows, capillary origami and contact line dynamics. Theoretical developments are accompanied by classroom demonstrations. Highlights the role of surface tension in biology. J. W. Bush
+
+General mathematical principles of continuum systems. From microscopic to macroscopic descriptions in the form of linear or nonlinear (partial) dierential equations. Exact solutions, dimensional analysis, calculus of variations and singular perturbation methods. Stability, waves and pattern formation in continuum systems. Subject matter illustrated using natural fluid and solid systems found, for example, in geophysics and biology. B. Primkulov
+
+18.358[J] Nonlinear Dynamics and Turbulence Same subject as 1.686[J], 2.033[J] Subject meets with 1.068 Prereq: 1.060A Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-2-7 units
+
+18.3541 Nonlinear Dynamics: Continuum Systems Subject meets with 1.062[J], 12.207[J], 18.354[J] Prereq: Physics II (GIR) and (18.03 or 18.032) G (Spring) 3-0-9 units
+
+See description under subject 1.686[J]. L. Bourouiba
+
+General mathematical principles of continuum systems. From microscopic to macroscopic descriptions in the form of linear or nonlinear (partial) dierential equations. Exact solutions, dimensional analysis, calculus of variations and singular perturbation methods. Stability, waves and pattern formation in continuum systems. Subject matter illustrated using natural fluid and solid systems found, for example, in geophysics and biology. Students in Courses 1, 12, and 18 must register for undergraduate version, 18.354[J]. B. Primkulov
+
+Mathematics (Course 18)   |   15
+
+MATHEMATICS (COURSE 18)
+
+18.367 Waves and Imaging Prereq: Permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Fall) 3-0-9 units
+
+18.377[J] Nonlinear Dynamics and Waves Same subject as 1.685[J], 2.034[J] Prereq: Permission of instructor G (Fall) Not oered regularly; consult department 3-0-9 units
+
+The mathematics of inverse problems involving waves, with examples taken from reflection seismology, synthetic aperture radar, and computerized tomography. Suitable for graduate students from all departments who have anities with applied mathematics. Topics include acoustic, elastic, electromagnetic wave equations; geometrical optics; scattering series and inversion; migration and backprojection; adjoint-state methods; Radon and curvilinear Radon transforms; microlocal analysis of imaging; optimization, regularization, and sparse regression. L. Demanet
+
+A unied treatment of nonlinear oscillations and wave phenomena with applications to mechanical, optical, geophysical, fluid, electrical and flow-structure interaction problems. Nonlinear free and forced vibrations; nonlinear resonances; self-excited oscillations; lock-in phenomena. Nonlinear dispersive and nondispersive waves; resonant wave interactions; propagation of wave pulses and nonlinear Schrodinger equation. Nonlinear long waves and breaking; theory of characteristics; the Korteweg-de Vries equation; solitons and solitary wave interactions. Stability of shear flows. Some topics and applications may vary from year to year. R. R. Rosales
+
+18.369[J] Mathematical Methods in Nanophotonics Same subject as 8.315[J] Prereq: 8.07, 18.303, or permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units
+
+18.384 Undergraduate Seminar in Physical Mathematics Prereq: 12.006[J], 18.300, 18.354[J], or permission of instructor U (Spring) 3-0-9 units
+
+High-level approaches to understanding complex optical media, structured on the scale of the wavelength, that are not generally analytically soluable. The basis for understanding optical phenomena such as photonic crystals and band gaps, anomalous diraction, mechanisms for optical connement, optical bers (new and old), nonlinearities, and integrated optical devices. Methods covered include linear algebra and eigensystems for Maxwell's equations, symmetry groups and representation theory, Bloch's theorem, numerical eigensolver methods, time and frequency- domain computation, perturbation theory, and coupled-mode theories. S. G. Johnson
+
+Covers the mathematical modeling of physical systems, with emphasis on the reading and presentation of papers. Addresses a broad range of topics, with particular focus on macroscopic physics and continuum systems: fluid dynamics, solid mechanics, and biophysics. Instruction and practice in written and oral communication provided. Enrollment limited. O. Kodio
+
+18.385[J] Nonlinear Dynamics and Chaos Same subject as 2.036[J] Prereq: 18.03 or 18.032 Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units
+
+18.376[J] Wave Propagation Same subject as 1.138[J], 2.062[J] Prereq: 2.003[J] and 18.075 G (Spring) 3-0-9 units
+
+Introduction to the theory of nonlinear dynamical systems with applications from science and engineering. Local and global existence of solutions, dependence on initial data and parameters. Elementary bifurcations, normal forms. Phase plane, limit cycles, relaxation oscillations, Poincare-Bendixson theory. Floquet theory. Poincare maps. Averaging. Near-equilibrium dynamics. Synchronization. Introduction to chaos. Universality. Strange attractors. Lorenz and Rossler systems. Hamiltonian dynamics and KAM theory. Uses MATLAB computing environment. R. R. Rosales
+
+See description under subject 2.062[J]. T. R. Akylas, R. R. Rosales
+
+16   |   Mathematics (Course 18)
+
+MATHEMATICS (COURSE 18)
+
+18.397 Mathematical Methods in Physics Prereq: 18.745 or some familiarity with Lie theory G (Fall) Not oered regularly; consult department 3-0-9 units Can be repeated for credit.
+
+18.4041[J] Theory of Computation Same subject as 6.5400J Subject meets with 18.404 Prereq: 6.1200[J] or 18.200 G (Fall) 4-0-8 units
+
+Content varies from year to year. Recent developments in quantum eld theory require mathematical techniques not usually covered in standard graduate subjects. V. G. Kac
+
+A more extensive and theoretical treatment of the material in 6.1400J/18.400[J], emphasizing computability and computational complexity theory. Regular and context-free languages. Decidable and undecidable problems, reducibility, recursive function theory. Time and space measures on computation, completeness, hierarchy theorems, inherently complex problems, oracles, probabilistic computation, and interactive proof systems. Students in Course 18 must register for the undergraduate version, 18.404. M. Sipser
+
+Theoretical Computer Science
+
+18.400[J] Computability and Complexity Theory Same subject as 6.1400J Prereq: (6.1200[J] and 6.1210) or permission of instructor U (Spring) 4-0-8 units
+
+18.405[J] Advanced Complexity Theory Same subject as 6.5410J Prereq: 18.404 G (Spring) 3-0-9 units
+
+See description under subject 6.1400J. R. Williams, R. Rubinfeld
+
+Current research topics in computational complexity theory. Nondeterministic, alternating, probabilistic, and parallel computation models. Boolean circuits. Complexity classes and complete sets. The polynomial-time hierarchy. Interactive proof systems. Relativization. Denitions of randomness. Pseudo- randomness and derandomizations. Interactive proof systems and probabilistically checkable proofs. R. Williams
+
+18.404 Theory of Computation Subject meets with 6.5400J, 18.4041J Prereq: 6.1200[J] or 18.200 U (Fall) 4-0-8 units
+
+A more extensive and theoretical treatment of the material in 6.1400J/18.400[J], emphasizing computability and computational complexity theory. Regular and context-free languages. Decidable and undecidable problems, reducibility, recursive function theory. Time and space measures on computation, completeness, hierarchy theorems, inherently complex problems, oracles, probabilistic computation, and interactive proof systems. M. Sipser
+
+18.408 Topics in Theoretical Computer Science Prereq: Permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Fall) 3-0-9 units Can be repeated for credit.
+
+Study of areas of current interest in theoretical computer science. Topics vary from term to term. Fall: D. Minzer. Spring: A. Moitra
+
+18.410[J] Design and Analysis of Algorithms Same subject as 6.1220J Prereq: 6.1200[J] and 6.1210 U (Fall, Spring) 4-0-8 units
+
+See description under subject 6.1220J. E. Demaine, M. Goemans, S. Raghuraman
+
+Mathematics (Course 18)   |   17
+
+MATHEMATICS (COURSE 18)
+
+18.413 Introduction to Computational Molecular Biology Subject meets with 18.417 Prereq: 6.1210 or permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (Spring) 3-0-9 units
+
+18.417 Introduction to Computational Molecular Biology Subject meets with 18.413 Prereq: 6.1210 or permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units
+
+Introduction to computational molecular biology with a focus on the basic computational algorithms used to solve problems in practice. Covers classical techniques in the eld for solving problems such as genome sequencing, assembly, and search; detecting genome rearrangements; constructing evolutionary trees; analyzing mass spectrometry data; connecting gene expression to cellular function; and machine learning for drug discovery. Prior knowledge of biology is not required. Particular emphasis on problem solving, collaborative learning, theoretical analysis, and practical implementation of algorithms. Students taking graduate version complete additional and more complex assignments. B. Berger
+
+Introduction to computational molecular biology with a focus on the basic computational algorithms used to solve problems in practice. Covers classical techniques in the eld for solving problems such as genome sequencing, assembly, and search; detecting genome rearrangements; constructing evolutionary trees; analyzing mass spectrometry data; connecting gene expression to cellular function; and machine learning for drug discovery. Prior knowledge of biology is not required. Particular emphasis on problem solving, collaborative learning, theoretical analysis, and practical implementation of algorithms. Students taking graduate version complete additional and more complex assignments. B. Berger
+
+18.415[J] Advanced Algorithms Same subject as 6.5210J Prereq: 6.1220[J] and (6.1200[J], 6.3700, or 18.600) Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Fall) 5-0-10 units
+
+18.418[J] Topics in Computational Molecular Biology Same subject as HST.504[J] Prereq: 6.8701[J], 18.417, or permission of instructor G (Fall) 3-0-9 units Can be repeated for credit.
+
+See description under subject 6.5210J. A. Moitra, D. R. Karger
+
+Covers current research topics in computational molecular biology. Recent research papers presented from leading conferences such as the International Conference on Computational Molecular Biology (RECOMB) and the Conference on Intelligent Systems for Molecular Biology (ISMB). Topics include original research (both theoretical and experimental) in comparative genomics, sequence and structure analysis, molecular evolution, proteomics, gene expression, transcriptional regulation, biological networks, drug discovery, and privacy. Recent research by course participants also covered. Participants will be expected to present individual projects to the class. B. Berger
+
+18.416[J] Randomized Algorithms Same subject as 6.5220J Prereq: (6.1200[J] or 6.3700) and (6.1220[J] or 6.5210[J]) Acad Year 2025-2026: G (Fall) Acad Year 2026-2027: Not oered 5-0-7 units
+
+See description under subject 6.5220J. D. R. Karger
+
+18.424 Seminar in Information Theory Prereq: (6.3700, 18.05, or 18.600) and (18.06, 18.700, or 18.701) U (Fall) 3-0-9 units
+
+Considers various topics in information theory, including data compression, Shannon's Theorems, and error-correcting codes. Students present and discuss the subject matter. Instruction and practice in written and oral communication provided. Enrollment limited. J. Kelner
+
+18   |   Mathematics (Course 18)
+
+MATHEMATICS (COURSE 18)
+
+18.425[J] Foundations of Cryptography Same subject as 6.5620J Prereq: 6.1220[J], 6.1400[J], or 18.4041[J] G (Fall) 3-0-9 units
+
+18.438[J] Quantum Information Science III (New) Same subject as 8.372[J] Prereq: 8.371[J] Acad Year 2025-2026: G (Fall) Acad Year 2026-2027: Not oered 3-0-9 units
+
+See description under subject 6.5620J. S. Goldwasser, S. Micali, V. Vaikuntanathan
+
+See description under subject 8.372[J]. A. Harrow
+
+18.434 Seminar in Theoretical Computer Science Prereq: 6.1220[J] U (Fall) 3-0-9 units
+
+18.453 Combinatorial Optimization Subject meets with 18.4531 Prereq: 18.06, 18.700, or 18.701 Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (Spring) 3-0-9 units
+
+Topics vary from year to year. Students present and discuss the subject matter. Instruction and practice in written and oral communication provided. Enrollment limited. Fall: E. Mossel. Spring: D. Minzer
+
+Thorough treatment of linear programming and combinatorial optimization. Topics include matching theory, network flow, matroid optimization, and how to deal with NP-hard optimization problems. Prior exposure to discrete mathematics (such as 18.200) helpful. Information: M. X. Goemans
+
+18.435[J] Quantum Computation Same subject as 2.111[J], 6.6410J, 8.370[J] Prereq: 8.05, 18.06, 18.700, 18.701, or 18.C06[J] G (Fall) 3-0-9 units
+
+18.4531 Combinatorial Optimization Subject meets with 18.453 Prereq: 18.06, 18.700, or 18.701 Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units
+
+Provides an introduction to the theory and practice of quantum computation. Topics covered: physics of information processing; quantum algorithms including the factoring algorithm and Grover's search algorithm; quantum error correction; quantum communication and cryptography. Knowledge of quantum mechanics helpful but not required. I. Chuang, A. Harrow, P. Shor
+
+Thorough treatment of linear programming and combinatorial optimization. Topics include matching theory, network flow, matroid optimization, and how to deal with NP-hard optimization problems. Prior exposure to discrete mathematics (such as 18.200) helpful. Students in Course 18 must register for the undergraduate version, 18.453. Information: M. X. Goemans
+
+18.436[J] Quantum Information Science Same subject as 6.6420J, 8.371[J] Prereq: 18.435[J] G (Spring) 3-0-9 units
+
+18.455 Advanced Combinatorial Optimization Prereq: 18.453 or permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units
+
+See description under subject 8.371[J]. I. Chuang, A. Harrow
+
+18.437[J] Distributed Algorithms Same subject as 6.5250J Prereq: 6.1220[J] Acad Year 2025-2026: G (Fall) Acad Year 2026-2027: Not oered 3-0-9 units
+
+Advanced treatment of combinatorial optimization with an emphasis on combinatorial aspects. Non-bipartite matchings, submodular functions, matroid intersection/union, matroid matching, submodular flows, multicommodity flows, packing and connectivity problems, and other recent developments. M. X. Goemans
+
+See description under subject 6.5250J. M. Ghaari
+
+Mathematics (Course 18)   |   19
+
+MATHEMATICS (COURSE 18)
+
+18.456[J] Algebraic Techniques and Semidenite Optimization Same subject as 6.7230J Prereq: 6.7210[J] or 15.093 Acad Year 2025-2026: G (Spring) Acad Year 2026-2027: Not oered 3-0-9 units
+
+Probability and Statistics
+
+18.600 Probability and Random Variables Prereq: Calculus II (GIR) U (Fall, Spring) 4-0-8 units. REST Credit cannot also be received for 6.3700, 6.3702
+
+See description under subject 6.7230J. P. Parrilo
+
+Probability spaces, random variables, distribution functions. Binomial, geometric, hypergeometric, Poisson distributions. Uniform, exponential, normal, gamma and beta distributions. Conditional probability, Bayes theorem, joint distributions. Chebyshev inequality, law of large numbers, and central limit theorem. Credit cannot also be received for 6.041A or 6.041B. Fall: S. Sheeld. Spring: J. Kelner
+
+Logic
+
+18.504 Seminar in Logic Prereq: (18.06, 18.510, 18.700, or 18.701) and (18.100A, 18.100B, 18.100P, or 18.100Q) Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (Fall) 3-0-9 units
+
+18.604 Seminar In Probability Theory Prereq: 18.05 or 18.600 U (Fall) 3-0-9 units
+
+Students present and discuss the subject matter taken from current journals or books. Topics vary from year to year. Instruction and practice in written and oral communication provided. Enrollment limited. H. Cohn
+
+Students work on group presentations on topics selected by students from a provided list of suggestions. Topics may include Benford's law, random walks and electrical networks, and Brownian motions. Assignments include three group presentations, two individual presentations, and a nal individual term paper. Instruction in oral and written communication provided to eectively communicate about probability theory. Limited to 16. H. Cohn, S. Sheeld
+
+18.510 Introduction to Mathematical Logic and Set Theory Prereq: None Acad Year 2025-2026: U (Spring) Acad Year 2026-2027: Not oered 3-0-9 units
+
+18.615 Introduction to Stochastic Processes Prereq: 6.3700 or 18.600 G (Fall) 3-0-9 units
+
+Propositional and predicate logic. Zermelo-Fraenkel set theory. Ordinals and cardinals. Axiom of choice and transnite induction. Elementary model theory: completeness, compactness, and Lowenheim-Skolem theorems. Godel's incompleteness theorem. H. Cohn
+
+Basics of stochastic processes. Markov chains, Poisson processes, random walks, birth and death processes, Brownian motion. J. He
+
+18.515 Mathematical Logic Prereq: Permission of instructor G (Spring) Not oered regularly; consult department 3-0-9 units
+
+18.619[J] Discrete Probability and Stochastic Processes Same subject as 6.7720J, 15.070[J] Prereq: 6.3702, 6.7700[J], 18.100A, 18.100B, or 18.100Q G (Spring) 3-0-9 units
+
+More rigorous treatment of basic mathematical logic, Godel's theorems, and Zermelo-Fraenkel set theory. First-order logic. Models and satisfaction. Deduction and proof. Soundness and completeness. Compactness and its consequences. Quantier elimination. Recursive sets and functions. Incompleteness and undecidability. Ordinals and cardinals. Set-theoretic formalization of mathematics. Information: B. Poonen
+
+See description under subject 15.070[J]. G. Bresler, D. Gamarnik, E. Mossel, Y. Polyanskiy
+
+20   |   Mathematics (Course 18)
+
+MATHEMATICS (COURSE 18)
+
+18.642 Topics in Mathematics with Applications in Finance Prereq: 18.03, 18.06, and (18.05 or 18.600) U (Fall) 3-0-9 units
+
+18.655 Mathematical Statistics Prereq: (18.650[J] and (18.100A, 18.100A, 18.100P, or 18.100Q)) or permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Fall) 3-0-9 units
+
+Introduction to mathematical concepts and techniques used in nance. Lectures focusing on linear algebra, probability, statistics, stochastic processes, and numerical methods are interspersed with lectures by nancial sector professionals illustrating the corresponding application in the industry. Prior knowledge of economics or nance helpful but not required. P. Kempthorne, V. Strela, J. Xia
+
+Decision theory, estimation, condence intervals, hypothesis testing. Introduces large sample theory. Asymptotic eciency of estimates. Exponential families. Sequential analysis. Prior exposure to both probability and statistics at the university level is assumed. P. Kempthorne
+
+18.650[J] Fundamentals of Statistics Same subject as IDS.014[J] Subject meets with 18.6501 Prereq: 6.3700 or 18.600 U (Fall, Spring) 4-0-8 units
+
+18.656[J] Mathematical Statistics: a Non-Asymptotic Approach Same subject as 6.7740J, 9.521[J], IDS.160[J] Prereq: (6.7700[J], 18.06, and 18.6501) or permission of instructor G (Spring) 3-0-9 units
+
+See description under subject 9.521[J]. S. Rakhlin, P. Rigollet
+
+A rapid introduction to the theoretical foundations of statistical methods that are useful in many applications. Covers a broad range of topics in a short amount of time with the goal of providing a rigorous and cohesive understanding of the modern statistical landscape. Mathematical language is used for intuition and basic derivations but not proofs. Main topics include: parametric estimation, condence intervals, hypothesis testing, Bayesian inference, and linear and logistic regression. Additional topics may include: causal inference, nonparametric estimation, and classication. Fall: P. Rigollet. Spring: A. Katsevich
+
+18.657 Topics in Statistics Prereq: Permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units Can be repeated for credit.
+
+Topics vary from term to term. P. Rigollet
+
+18.675 Theory of Probability Prereq: 18.100A, 18.100B, 18.100P, or 18.100Q G (Fall) 3-0-9 units
+
+18.6501 Fundamentals of Statistics Subject meets with 18.650[J], IDS.014[J] Prereq: 6.3700 or 18.600 G (Fall, Spring) 4-0-8 units
+
+Sums of independent random variables, central limit phenomena, innitely divisible laws, Levy processes, Brownian motion, conditioning, and martingales. Prior exposure to probability (e.g., 18.600) recommended. Y. Shenfeld
+
+A rapid introduction to the theoretical foundations of statistical methods that are useful in many applications. Covers a broad range of topics in a short amount of time with the goal of providing a rigorous and cohesive understanding of the modern statistical landscape. Mathematical language is used for intuition and basic derivations but not proofs. Main topics include: parametric estimation, condence intervals, hypothesis testing, Bayesian inference, and linear and logistic regression. Additional topics may include: causal inference, nonparametric estimation, and classication. Students in Course 18 must register for the undergraduate version, 18.650[J]. Fall: P. Rigollet. Spring: A. Katsevich
+
+Mathematics (Course 18)   |   21
+
+MATHEMATICS (COURSE 18)
+
+18.676 Stochastic Calculus Prereq: 18.675 G (Spring) 3-0-9 units
+
+18.702 Algebra II Prereq: 18.701 U (Spring) 3-0-9 units
+
+Introduction to stochastic processes, building on the fundamental example of Brownian motion. Topics include Brownian motion, continuous parameter martingales, Ito's theory of stochastic dierential equations, Markov processes and partial dierential equations, and may also include local time and excursion theory. Students should have familiarity with Lebesgue integration and its application to probability. N. Sun
+
+Continuation of 18.701. Focuses on group representations, rings, ideals, elds, polynomial rings, modules, factorization, integers in quadratic number elds, eld extensions, and Galois theory. A. Negut
+
+18.703 Modern Algebra Prereq: Calculus II (GIR) U (Spring) 3-0-9 units
+
+18.677 Topics in Stochastic Processes Prereq: 18.675 G (Spring) 3-0-9 units Can be repeated for credit.
+
+Focuses on traditional algebra topics that have found greatest application in science and engineering as well as in mathematics: group theory, emphasizing nite groups; ring theory, including ideals and unique factorization in polynomial and Euclidean rings; eld theory, including properties and applications of nite elds. 18.700 and 18.703 together form a standard algebra sequence. V. G. Kac
+
+Topics vary from year to year. A. Borodin
+
+18.704 Seminar in Algebra Prereq: 18.701, (18.06 and 18.703), or (18.700 and 18.703) U (Fall, Spring) 3-0-9 units
+
+Algebra and Number Theory
+
+18.700 Linear Algebra Prereq: Calculus II (GIR) U (Fall) 3-0-9 units. REST Credit cannot also be received for 6.C06[J], 18.06, 18.C06[J], CC.1806
+
+Topics vary from year to year. Students present and discuss the subject matter. Instruction and practice in written and oral communication provided. Some experience with proofs required. Enrollment limited. K. Vashaw
+
+Vector spaces, systems of linear equations, bases, linear independence, matrices, determinants, eigenvalues, inner products, quadratic forms, and canonical forms of matrices. More emphasis on theory and proofs than in 18.06. V. Kac
+
+18.705 Commutative Algebra Prereq: 18.702 G (Fall) 3-0-9 units
+
+18.701 Algebra I Prereq: 18.100A, 18.100B, 18.100P, 18.100Q, 18.090, or permission of instructor U (Fall) 3-0-9 units
+
+Exactness, direct limits, tensor products, Cayley-Hamilton theorem, integral dependence, localization, Cohen-Seidenberg theory, Noether normalization, Nullstellensatz, chain conditions, primary decomposition, length, Hilbert functions, dimension theory, completion, Dedekind domains. W. Zhang
+
+18.701-18.702 is more extensive and theoretical than the 18.700-18.703 sequence. Experience with proofs necessary. 18.701 focuses on group theory, geometry, and linear algebra. H. Cohn
+
+22   |   Mathematics (Course 18)
+
+MATHEMATICS (COURSE 18)
+
+18.706 Noncommutative Algebra Prereq: 18.702 Acad Year 2025-2026: G (Spring) Acad Year 2026-2027: Not oered 3-0-9 units
+
+18.725 Algebraic Geometry I Prereq: None. Coreq: 18.705 G (Fall) 3-0-9 units
+
+Introduces the basic notions and techniques of modern algebraic geometry. Covers fundamental notions and results about algebraic varieties over an algebraically closed eld; relations between complex algebraic varieties and complex analytic varieties; and examples with emphasis on algebraic curves and surfaces. Introduction to the language of schemes and properties of morphisms. Knowledge of elementary algebraic topology, elementary dierential geometry recommended, but not required. D. Maulik
+
+Topics may include Wedderburn theory and structure of Artinian rings, Morita equivalence and elements of category theory, localization and Goldie's theorem, central simple algebras and the Brauer group, representations, polynomial identity rings, invariant theory growth of algebras, Gelfand-Kirillov dimension. R. Bezrukavnikov
+
+18.708 Topics in Algebra Prereq: 18.705 G (Fall, Spring) 3-0-9 units Can be repeated for credit.
+
+18.726 Algebraic Geometry II Prereq: 18.725 G (Spring) 3-0-9 units
+
+Topics vary from year to year. P. I. Etingof
+
+Continuation of the introduction to algebraic geometry given in 18.725. More advanced properties of the varieties and morphisms of schemes, as well as sheaf cohomology. D. Maulik
+
+18.715 Introduction to Representation Theory Prereq: 18.702 or 18.703 Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units
+
+18.727 Topics in Algebraic Geometry Prereq: 18.725 Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units Can be repeated for credit.
+
+Algebras, representations, Schur's lemma. Representations of SL(2). Representations of nite groups, Maschke's theorem, characters, applications. Induced representations, Burnside's theorem, Mackey formula, Frobenius reciprocity. Representations of quivers. G. Lusztig
+
+Topics vary from year to year. A. Negut
+
+18.721 Introduction to Algebraic Geometry Prereq: 18.702 and 18.901 Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (Spring) 3-0-9 units
+
+18.737 Algebraic Groups Prereq: 18.705 Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units
+
+Presents basic examples of complex algebraic varieties, ane and projective algebraic geometry, sheaves, cohomology. Sta
+
+Structure of linear algebraic groups over an algebraically closed eld, with emphasis on reductive groups. Representations of groups over a nite eld using methods from etale cohomology. Some results from algebraic geometry are stated without proof. J.-L. Kim
+
+Mathematics (Course 18)   |   23
+
+MATHEMATICS (COURSE 18)
+
+18.745 Lie Groups and Lie Algebras I Prereq: (18.701 or 18.703) and (18.100A, 18.100B, 18.100P, or 18.100Q) G (Fall) 3-0-9 units
+
+18.757 Representations of Lie Groups Prereq: 18.745 or 18.755 Acad Year 2025-2026: G (Fall) Acad Year 2026-2027: Not oered 3-0-9 units
+
+Covers fundamentals of the theory of Lie algebras and related groups. Topics may include theorems of Engel and Lie; enveloping algebra, Poincare-Birkho-Witt theorem; classication and construction of semisimple Lie algebras; the center of their enveloping algebras; elements of representation theory; compact Lie groups and/or nite Chevalley groups. V. G. Kac
+
+Covers representations of locally compact groups, with emphasis on compact groups and abelian groups. Includes Peter-Weyl theorem and Cartan-Weyl highest weight theory for compact Lie groups. P. I. Etingof
+
+18.758 Methods of Representation Theory Prereq: 18.745 and (18.737 or 18.755) Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units
+
+18.747 Innite-dimensional Lie Algebras Prereq: 18.745 Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Fall) 3-0-9 units
+
+Devoted to contemporary methods in representation theory of Lie groups, algebraic groups, and their generalizations. Topics may include: Springer correspondence, highest weight modules and Harish-Chandra bimodules, quantum groups and their representations, modular representations of algebraic groups and relation to quantum groups at a root of unity, representations of p-adic group, introduction to automorphic forms and Langlands duality, and representations of nite Chevalley groups. Z. Yun
+
+Topics vary from year to year. P. I. Etingof
+
+18.748 Topics in Lie Theory Prereq: Permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units Can be repeated for credit.
+
+18.781 Theory of Numbers Prereq: None U (Spring) 3-0-9 units
+
+Topics vary from year to year. P. I. Etingof
+
+An elementary introduction to number theory with no algebraic prerequisites. Primes, congruences, quadratic reciprocity, diophantine equations, irrational numbers, continued fractions, partitions. M.-T. Trinh
+
+18.755 Lie Groups and Lie Algebras II Prereq: 18.745 or permission of instructor G (Spring) 3-0-9 units
+
+A more in-depth treatment of Lie groups and Lie algebras. Topics may include homogeneous spaces and groups of automorphisms; representations of compact groups and their geometric realizations, Peter-Weyl theorem; invariant dierential forms and cohomology of Lie groups and homogeneous spaces; complex reductive Lie groups, classication of real reductive groups. Z. Yun
+
+18.782 Introduction to Arithmetic Geometry Prereq: 18.702 Acad Year 2025-2026: U (Spring) Acad Year 2026-2027: Not oered 3-0-9 units
+
+Exposes students to arithmetic geometry, motivated by the problem of nding rational points on curves. Includes an introduction to p- adic numbers and some fundamental results from number theory and algebraic geometry, such as the Hasse-Minkowski theorem and the Riemann-Roch theorem for curves. Additional topics may include Mordell's theorem, the Weil conjectures, and Jacobian varieties. S. Chidambaram
+
+24   |   Mathematics (Course 18)
+
+MATHEMATICS (COURSE 18)
+
+18.783 Elliptic Curves Subject meets with 18.7831 Prereq: 18.702, 18.703, or permission of instructor Acad Year 2025-2026: U (Fall) Acad Year 2026-2027: Not oered 3-0-9 units
+
+18.786 Number Theory II Prereq: 18.785 G (Spring) 3-0-9 units
+
+Continuation of 18.785. More advanced topics in number theory, such as Galois cohomology, proofs of class eld theory, modular forms and automorphic forms, Galois representations, or quadratic forms. A. Sutherland
+
+Computationally focused introduction to elliptic curves, with applications to number theory and cryptography. Topics include point-counting, isogenies, pairings, and the theory of complex multiplication, with applications to integer factorization, primality proving, and elliptic curve cryptography. Includes a brief introduction to modular curves and the proof of Fermat's Last Theorem. A. Sutherland
+
+18.787 Topics in Number Theory Prereq: Permission of instructor Acad Year 2025-2026: G (Fall) Acad Year 2026-2027: Not oered 3-0-9 units Can be repeated for credit.
+
+18.7831 Elliptic Curves Subject meets with 18.783 Prereq: 18.702, 18.703, or permission of instructor Acad Year 2025-2026: G (Fall) Acad Year 2026-2027: Not oered 3-0-9 units
+
+Topics vary from year to year. W. Zhang
+
+Mathematics Laboratory
+
+Computationally focused introduction to elliptic curves, with applications to number theory and cryptography. Topics include point-counting, isogenies, pairings, and the theory of complex multiplication, with applications to integer factorization, primality proving, and elliptic curve cryptography. Includes a brief introduction to modular curves and the proof of Fermat's Last Theorem. Students in Course 18 must register for the undergraduate version, 18.783. A. Sutherland
+
+18.821 Project Laboratory in Mathematics Prereq: Two mathematics subjects numbered 18.100 or above U (Fall, Spring) 3-6-3 units. Institute LAB
+
+Guided research in mathematics, employing the scientic method. Students confront puzzling and complex mathematical situations, through the acquisition of data by computer, pencil and paper, or physical experimentation, and attempt to explain them mathematically. Students choose three projects from a large collection of options. Each project results in a laboratory report subject to revision; oral presentation on one or two projects. Projects drawn from many areas, including dynamical systems, number theory, algebra, fluid mechanics, asymptotic analysis, knot theory, and probability. Enrollment limited. Fall: A. Negut. Spring: L. Piccirillo
+
+18.784 Seminar in Number Theory Prereq: 18.701 or (18.703 and (18.06 or 18.700)) U (Spring) 3-0-9 units
+
+Topics vary from year to year. Students present and discuss the subject matter. Instruction and practice in written and oral communication provided. Enrollment limited. A. Landesman
+
+18.896[J] Leadership and Professional Strategies & Skills Training (LEAPS), Part I: Advancing Your Professional Strategies and Skills Same subject as 5.961[J], 8.396[J], 9.980[J], 12.396[J] Prereq: None G (Spring; second half of term) 2-0-1 units
+
+18.785 Number Theory I Prereq: None. Coreq: 18.705 G (Fall) 3-0-9 units
+
+Dedekind domains, unique factorization of ideals, splitting of primes. Lattice methods, niteness of the class group, Dirichlet's unit theorem. Local elds, ramication, discriminants. Zeta and L-functions, analytic class number formula. Adeles and ideles. Statements of class eld theory and the Chebotarev density theorem. B. Poonen
+
+See description under subject 8.396[J]. Limited to 80. A. Frebel
+
+Mathematics (Course 18)   |   25
+
+MATHEMATICS (COURSE 18)
+
+18.897[J] Leadership and Professional Strategies & Skills Training (LEAPS), Part II: Developing Your Leadership Competencies Same subject as 5.962[J], 8.397[J], 9.981[J], 12.397[J] Prereq: None G (Spring; rst half of term) 2-0-1 units
+
+18.9011 Introduction to Topology Subject meets with 18.901 Prereq: 18.100A, 18.100B, 18.100P, 18.100Q, or permission of instructor G (Fall) 3-0-9 units
+
+Introduces topology, covering topics fundamental to modern analysis and geometry. Topological spaces and continuous functions, connectedness, compactness, separation axioms, covering spaces, and the fundamental group. Students in Course 18 must register for the undergraduate version, 18.901. Fall: A. Pieloch. Spring: R. Jiang
+
+See description under subject 8.397[J]. Limited to 80. D. Rigos
+
+18.899 Internship in Mathematics Prereq: None G (Fall, Spring, Summer) Units arranged [P/D/F]
+
+18.904 Seminar in Topology Prereq: 18.901 U (Spring) 3-0-9 units
+
+Provides academic credit for students pursuing internships to gain practical experience applications of mathematical concepts and methods as related to their eld of research. J. Kelner, D. Maulik, Z. Yun
+
+Topics vary from year to year. Students present and discuss the subject matter. Instruction and practice in written and oral communication provided. Enrollment limited. A. Ward
+
+Topology and Geometry
+
+18.900 Geometry and Topology in the Plane Prereq: 18.03 or 18.06 U (Spring) 3-0-9 units
+
+18.905 Algebraic Topology I Prereq: 18.901 and (18.701 or 18.703) G (Spring) 3-0-9 units
+
+Introduction to selected aspects of geometry and topology, using concepts that can be visualized easily. Mixes geometric topics (such as hyperbolic geometry or billiards) and more topological ones (such as loops in the plane). Suitable for students with no prior exposure to dierential geometry or topology. P. Seidel
+
+Singular homology, CW complexes, universal coecient and Künneth theorems, cohomology, cup products, Poincaré duality. D. Alvarez-Gavela
+
+18.906 Homotopical Methods in Algebraic Topology Prereq: 18.905 G (Fall) 3-0-9 units
+
+18.901 Introduction to Topology Subject meets with 18.9011 Prereq: 18.100A, 18.100B, 18.100P, 18.100Q, or permission of instructor U (Fall) 3-0-9 units
+
+Continues the development of algebraic topology, with a focus on homotopical questions and computational tools. Topics include basic homotopy theory, classifying spaces, spectral sequences, and cohomology operations. Usually, only one of 18.906 or 18.916 is oered in a given academic year. T. S. Mrowka
+
+Introduces topology, covering topics fundamental to modern analysis and geometry. Topological spaces and continuous functions, connectedness, compactness, separation axioms, covering spaces, and the fundamental group. Fall: A. Pieloch. Spring: R. Jiang
+
+26   |   Mathematics (Course 18)
+
+MATHEMATICS (COURSE 18)
+
+18.916 Geometric Methods in Algebraic Topology (New) Prereq: 18.905 and (18.101 or 18.965) Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Fall) 12-0-0 units
+
+18.950 Dierential Geometry Subject meets with 18.9501 Prereq: (18.06, 18.700, or 18.701) and (18.100A, 18.100B, 18.100P, or 18.100Q) U (Fall) 3-0-9 units
+
+Continues the development of algebraic topology, with a focus on methods from dierential and geometric topology. Topics include characteristic classes, cobordism, and K-theory. Usually, only one of 18.906 or 18.916 is oered in a given academic year. T. Mrowka
+
+Introduction to dierential geometry, centered on notions of curvature. Starts with curves in the plane, and proceeds to higher dimensional submanifolds. Computations in coordinate charts: rst and second fundamental form, Christoel symbols. Discusses the distinction between extrinsic and intrinsic aspects, in particular Gauss' theorema egregium. The Gauss-Bonnet theorem. Geodesics. Examples such as hyperbolic space. G. Franz
+
+18.917 Topics in Algebraic Topology Prereq: 18.906 Acad Year 2025-2026: G (Spring) Acad Year 2026-2027: Not oered 3-0-9 units Can be repeated for credit.
+
+18.9501 Dierential Geometry Subject meets with 18.950 Prereq: (18.06, 18.700, or 18.701) and (18.100A, 18.100B, 18.100P, or 18.100Q) G (Fall) 3-0-9 units
+
+Content varies from year to year. Introduces new and signicant developments in algebraic topology with the focus on homotopy theory and related areas. Information: T. Schlank
+
+Introduction to dierential geometry, centered on notions of curvature. Starts with curves in the plane, and proceeds to higher dimensional submanifolds. Computations in coordinate charts: rst and second fundamental form, Christoel symbols. Discusses the distinction between extrinsic and intrinsic aspects, in particular Gauss' theorema egregium. The Gauss-Bonnet theorem. Geodesics. Examples such as hyperbolic space. Students in Course 18 must register for the undergraduate version, 18.950. G. Franz
+
+18.919 Graduate Topology Seminar Prereq: 18.906 G (Spring) 3-0-9 units
+
+Study and discussion of important original papers in the various parts of topology. Open to all students who have taken 18.906 or the equivalent, not only prospective topologists. T. Schlank
+
+18.952 Theory of Dierential Forms Prereq: 18.101 and (18.700 or 18.701) Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (Spring) 3-0-9 units
+
+18.937 Topics in Geometric Topology Prereq: Permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Fall, Spring) 3-0-9 units Can be repeated for credit.
+
+Multilinear algebra: tensors and exterior forms. Dierential forms on R n : exterior dierentiation, the pull-back operation and the Poincaré lemma. Applications to physics: Maxwell's equations from the dierential form perspective. Integration of forms on open sets of R n . The change of variables formula revisited. The degree of a dierentiable mapping. Dierential forms on manifolds and De Rham theory. Integration of forms on manifolds and Stokes' theorem. The push-forward operation for forms. Thom forms and intersection theory. Applications to dierential topology. V. W. Guillemin
+
+Content varies from year to year. Introduces new and signicant developments in geometric topology. T. S. Mrowka
+
+Mathematics (Course 18)   |   27
+
+MATHEMATICS (COURSE 18)
+
+18.965 Geometry of Manifolds I Prereq: 18.101, 18.950, or 18.952 G (Fall) 3-0-9 units
+
+18.994 Seminar in Geometry Prereq: (18.06, 18.700, or 18.701) and (18.100A, 18.100B, 18.100P, or 18.100Q) U (Spring) 3-0-9 units
+
+Dierential forms, introduction to Lie groups, the DeRham theorem, Riemannian manifolds, curvature, the Hodge theory. 18.966 is a continuation of 18.965 and focuses more deeply on various aspects of the geometry of manifolds. Contents vary from year to year, and can range from Riemannian geometry (curvature, holonomy) to symplectic geometry, complex geometry and Hodge-Kahler theory, or smooth manifold topology. Prior exposure to calculus on manifolds, as in 18.952, recommended. W. Minicozzi
+
+Students present and discuss subject matter taken from current journals or books. Topics vary from year to year. Instruction and practice in written and oral communication provided. Enrollment limited. Q. Deng
+
+18.999 Research in Mathematics Prereq: Permission of instructor G (Fall, IAP, Spring, Summer) Units arranged Can be repeated for credit.
+
+18.966 Geometry of Manifolds II Prereq: 18.965 G (Spring) 3-0-9 units
+
+Opportunity for study of graduate-level topics in mathematics under the supervision of a member of the department. For graduate students desiring advanced work not provided in regular subjects. Information: W. Minicozzi
+
+Continuation of 18.965, focusing more deeply on various aspects of the geometry of manifolds. Contents vary from year to year, and can range from Riemannian geometry (curvature, holonomy) to symplectic geometry, complex geometry and Hodge-Kahler theory, or smooth manifold topology. T. Colding
+
+18.C20[J] Introduction to Computational Science and Engineering Same subject as 9.C20[J], 16.C20[J], CSE.C20[J] Prereq: 6.100A; Coreq: 8.01 and 18.01 U (Fall, Spring) 2-0-4 units Credit cannot also be received for 6.1000, 6.100B
+
+18.968 Topics in Geometry Prereq: 18.965 Acad Year 2025-2026: Not oered Acad Year 2026-2027: G (Spring) 3-0-9 units Can be repeated for credit.
+
+See description under subject 16.C20[J]. D. L. Darmofal, N. Seethapathi
+
+18.C21 Interdisciplinary Numerical Methods (New) Engineering School-Wide Elective Subject. Oered under: 16.C21, 18.C21 Prereq: 18.03 and 18.06 U (Spring; rst half of term) 2-0-4 units
+
+Content varies from year to year. P. Seidel
+
+18.979 Graduate Geometry Seminar Prereq: Permission of instructor G (Spring) Not oered regularly; consult department 3-0-9 units Can be repeated for credit.
+
+See description under subject *UNKNOWN*. S. Johnson, Q. Wang
+
+18.C21A Numerical Methods for Partial Dierential Equations (New) Engineering School-Wide Elective Subject. Oered under: 16.C21A, 18.C21A Prereq: 18.C21 U (Spring; second half of term) 2-0-4 units
+
+Content varies from year to year. Study of classical papers in geometry and in applications of analysis to geometry and topology. T. Mrowka
+
+See description under subject *UNKNOWN*. Q. Wang
+
+28   |   Mathematics (Course 18)
+
+MATHEMATICS (COURSE 18)
+
+18.C21B Numerical Methods for Large-Scale Linear Algebra (New) Engineering School-Wide Elective Subject. Oered under: 16.C21B, 18.C21B Prereq: 18.C21 U (Spring; second half of term) 2-0-4 units
+
+18.TAC Classroom Teaching in Mathematics Prereq: None G (Fall, IAP, Spring) 12-0-0 units
+
+For classroom training in Mathematics, in cases where teaching assignment is to fulll academic teaching requirement by the department. Sta
+
+See description under subject *UNKNOWN*. S. Johnson
+
+18.THG Graduate Thesis Prereq: Permission of instructor G (Fall, IAP, Spring, Summer) Units arranged Can be repeated for credit.
+
+18.C21C Parallel Numerical Methods (New) Engineering School-Wide Elective Subject. Oered under: 16.C21C, 18.C21C Prereq: 18.C21 Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (Spring; second half of term) 2-0-4 units
+
+Program of research leading to the writing of a Ph.D. thesis; to be arranged by the student and an appropriate MIT faculty member. Information: W. Minicozzi
+
+See description under subject *UNKNOWN*. A. Edelman
+
+18.S001 Special Subject in Mathematics (New) Prereq: None Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (Spring) 5-0-7 units
+
+18.C25[J] Real World Computation with Julia Same subject as 1.C25[J], 6.C25[J], 12.C25[J], 16.C25[J], 22.C25[J] Prereq: 6.100A, 18.03, and 18.06 Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (Fall) 3-0-9 units
+
+Opportunity for group study of subjects in mathematics not otherwise included in the curriculum. Oerings are initiated by member of the Mathematics faculty on an ad hoc basis, subject to departmental approval. M. King
+
+Focuses on algorithms and techniques for writing and using modern technical soware in a job, lab, or research group environment that may consist of interdisciplinary teams, where performance may be critical, and where the soware needs to be flexible and adaptable. Topics include automatic dierentiation, matrix calculus, scientic machine learning, parallel and GPU computing, and performance optimization with introductory applications to climate science, economics, agent-based modeling, and other areas. Labs and projects focus on performant, readable, composable algorithms, and soware. Programming will be in Julia. Expects students to have some familiarity with Python, Matlab, or R. No Julia experience necessary. A. Edelman, R. Ferrari, B. Forget, C. Leiseron,Y. Marzouk, J. Williams
+
+18.S096 Special Subject in Mathematics Prereq: Permission of instructor U (Fall, IAP) Units arranged Can be repeated for credit.
+
+Opportunity for group study of subjects in mathematics not otherwise included in the curriculum. Oerings are initiated by members of the Mathematics faculty on an ad hoc basis, subject to departmental approval. Sta
+
+18.UR Undergraduate Research Prereq: Permission of instructor U (Fall, IAP, Spring, Summer) Units arranged [P/D/F] Can be repeated for credit.
+
+Undergraduate research opportunities in mathematics. Permission required in advance to register for this subject. For further information, consult the departmental coordinator. Information: W. Minicozzi
+
+Mathematics (Course 18)   |   29
+
+MATHEMATICS (COURSE 18)
+
+18.S097 Special Subject in Mathematics Prereq: Permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (Fall) Units arranged Can be repeated for credit.
+
+18.S995 Special Subject in Mathematics Prereq: Permission of instructor G (Fall, Spring) Units arranged Can be repeated for credit.
+
+Opportunity for group study of advanced subjects in mathematics not otherwise included in the curriculum. Oerings are initiated by members of the mathematics faculty on an ad hoc basis, subject to departmental approval. Sta
+
+Opportunity for group study of subjects in mathematics not otherwise included in the curriculum. Oerings are initiated by members of the Mathematics faculty on an ad hoc basis, subject to departmental approval. 18.S097 is graded P/D/F. Sta
+
+18.S996 Special Subject in Mathematics Prereq: Permission of instructor G (Spring) Units arranged Can be repeated for credit.
+
+18.S190 Special Subject in Mathematics Prereq: Permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (IAP) Units arranged Can be repeated for credit.
+
+Opportunity for group study of advanced subjects in mathematics not otherwise included in the curriculum. Oerings are initiated by members of the Mathematics faculty on an ad hoc basis, subject to Departmental approval. Sta
+
+Opportunity for group study of subjects in mathematics not otherwise included in the curriculum. Oerings are initiated by members of the Mathematics faculty on an ad hoc basis, subject to departmental approval. Sta
+
+18.S997 Special Subject in Mathematics Prereq: Permission of instructor G (Spring) Units arranged Can be repeated for credit.
+
+18.S191 Special Subject in Mathematics Prereq: Permission of instructor Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (Spring) Units arranged Can be repeated for credit.
+
+Opportunity for group study of advanced subjects in mathematics not otherwise included in the curriculum. Oerings are initiated by members of the Mathematics faculty on an ad hoc basis, subject to Departmental approval. Sta
+
+Opportunity for group study of subjects in mathematics not otherwise included in the curriculum. Oerings are initiated by members of the Mathematics faculty on an ad hoc basis, subject to departmental approval. Sta
+
+18.S998 Special Subject in Mathematics Prereq: Permission of instructor G (Spring) Units arranged Can be repeated for credit.
+
+18.S192 Special Subject in Mathematics Prereq: None Acad Year 2025-2026: Not oered Acad Year 2026-2027: U (Spring; second half of term) Units arranged Can be repeated for credit.
+
+Opportunity for group study of advanced subjects in mathematics not otherwise included in the curriculum. Oerings are initiated by members of the Mathematics faculty on an ad hoc basis, subject to departmental approval. Sta
+
+Opportunity for group study of subjects in mathematics not otherwise included in the curriculum.  Oerings are initiated by member of the Mathematics faculty on an ad hoc basis, subject to departmental approval. S. Johnson
+
+30   |   Mathematics (Course 18)
