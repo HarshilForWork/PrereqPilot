@@ -1,0 +1,159 @@
+.info-icon-container {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.info-icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background: var(--bg-surface);
+  border: 1.5px solid var(--border);
+  color: var(--text-secondary);
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.info-icon-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent-hover);
+  background: var(--accent-light);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px var(--accent-glow);
+}
+
+.info-icon-btn--active {
+  background: var(--accent-light);
+  border-color: var(--accent);
+  color: var(--accent-hover);
+  box-shadow: inset 0 0 10px rgba(99, 102, 241, 0.15), 0 0 15px var(--accent-glow);
+}
+
+.info-popover {
+  position: absolute;
+  top: calc(100% + 1rem);
+  right: 0;
+  width: 320px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  z-index: 1000;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6), 0 0 0 1px var(--border);
+  animation: popoverFadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  transform-origin: top right;
+}
+
+@keyframes popoverFadeIn {
+  from { opacity: 0; transform: translateY(8px) scale(0.95); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.info-popover::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  right: 14px;
+  width: 12px;
+  height: 12px;
+  background: var(--bg-card);
+  border-top: 1px solid var(--border);
+  border-left: 1px solid var(--border);
+  transform: rotate(45deg);
+}
+
+.info-popover-header h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.35rem;
+  background: linear-gradient(135deg, #fff, var(--accent-hover));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.info-popover-header p {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+}
+
+.info-popover-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.info-ep-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: var(--bg-elevated);
+  border: 1px solid rgba(255,255,255,0.03);
+  border-radius: var(--radius-sm);
+  padding: 0.85rem;
+  transition: background 0.2s;
+}
+
+.info-ep-card:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.info-ep-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.15rem;
+}
+
+.info-ep-label {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--accent-hover);
+}
+
+.info-ep-route {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.2rem 0.45rem;
+  border-radius: 4px;
+  color: var(--blue);
+  letter-spacing: -0.01em;
+}
+
+.info-ep-desc {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.info-ep-use {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+  border-top: 1px solid rgba(255,255,255,0.05);
+  padding-top: 0.5rem;
+}
+
+.info-ep-use strong {
+  color: var(--text-secondary);
+}
+
+@media (max-width: 480px) {
+  .info-popover {
+    width: 280px;
+    right: -20px;
+  }
+}

@@ -14,8 +14,7 @@ export default function ClarifyingQuestionsUI({
       aria-live="polite"
     >
       <div className="clarify-header">
-        <span className="clarify-icon">ℹ️</span>
-        <h3 className="clarify-title">Information Needed</h3>
+        <h3 className="clarify-title">Refinement Requested</h3>
       </div>
       <p className="clarify-summary">
         To provide a more accurate response, please include the following details in your query above:

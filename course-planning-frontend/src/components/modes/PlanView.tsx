@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useAppContext } from '../../context/AppContext';
 import { queryPlan } from '../../services/api';
+import { Button } from '@/components/animate-ui/components/buttons/button';
 import CitationSection from '../shared/CitationSection';
 import ClarifyingQuestionsUI from '../shared/ClarifyingQuestionsUI';
 import ResponseFallback from '../shared/ResponseFallback';
@@ -112,14 +113,14 @@ export default function PlanView() {
             />
           </div>
         </div>
-        <button
+        <Button
           type="submit"
           className="btn btn-primary"
           disabled={status === 'loading'}
           aria-busy={status === 'loading'}
         >
           {status === 'loading' ? 'Planning…' : 'Generate Course Plan'}
-        </button>
+        </Button>
       </form>
 
       {/* ── States ── */}

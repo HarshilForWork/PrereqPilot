@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useAppContext } from '../../context/AppContext';
 import { queryAsk } from '../../services/api';
+import { Button } from '@/components/animate-ui/components/buttons/button';
 import CitationSection from '../shared/CitationSection';
 import ClarifyingQuestionsUI from '../shared/ClarifyingQuestionsUI';
 import ResponseFallback from '../shared/ResponseFallback';
@@ -46,14 +47,14 @@ export default function AskView() {
             aria-required="true"
           />
         </div>
-        <button
+        <Button
           type="submit"
           className="btn btn-primary"
           disabled={status === 'loading' || !question.trim()}
           aria-busy={status === 'loading'}
         >
           {status === 'loading' ? 'Asking…' : 'Ask'}
-        </button>
+        </Button>
       </form>
 
       {/* ── States ── */}
@@ -72,9 +73,8 @@ export default function AskView() {
           {/* Abstained fallback */}
           {data.abstained ? (
             <div className="abstain-box" role="alert">
-              <span className="abstain-icon">🤔</span>
               <div>
-                <p className="abstain-title">Information not available</p>
+                <p className="abstain-title">Information Unavailable</p>
                 <p className="abstain-body">
                   {data.answer ||
                     "I don't have that information in the provided catalog/policies. Please check your academic advisor or the department's official website."}

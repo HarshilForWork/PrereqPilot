@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useAppContext } from '../../context/AppContext';
 import { queryPrereq } from '../../services/api';
+import { Button } from '@/components/animate-ui/components/buttons/button';
 import CitationSection from '../shared/CitationSection';
 import ClarifyingQuestionsUI from '../shared/ClarifyingQuestionsUI';
 import ResponseFallback from '../shared/ResponseFallback';
@@ -71,14 +72,14 @@ export default function PrereqView() {
             disabled={status === 'loading'}
           />
         </div>
-        <button
+        <Button
           type="submit"
           className="btn btn-primary"
           disabled={status === 'loading' || !question.trim()}
           aria-busy={status === 'loading'}
         >
           {status === 'loading' ? 'Checking…' : 'Check Prerequisites'}
-        </button>
+        </Button>
       </form>
 
       {/* ── States ── */}
@@ -159,7 +160,7 @@ function GraphResultDisplay({ result }: { result: PrereqResponse }) {
   return (
     <div className="graph-display">
       <div className={`eligibility-indicator ${gr.eligible ? 'eligible' : 'not-eligible'}`}>
-        {gr.eligible ? '✅ Eligible based on graph' : '❌ Not eligible based on graph'}
+        {gr.eligible ? 'ELIGIBLE BASED ON CATALOG' : 'INELIGIBLE BASED ON CATALOG'}
       </div>
       {gr.prereq_path.length > 0 && (
         <div className="prereq-path">

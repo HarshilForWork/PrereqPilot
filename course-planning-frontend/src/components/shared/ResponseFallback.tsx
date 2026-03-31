@@ -1,3 +1,5 @@
+import { Button } from '@/components/animate-ui/components/buttons/button';
+
 interface ResponseFallbackProps {
   message?: string;
   onRetry?: () => void;
@@ -11,9 +13,13 @@ export default function ResponseFallback({
 }: ResponseFallbackProps) {
   if (type === 'loading') {
     return (
-      <div className="fallback fallback--loading" role="status" aria-live="polite" aria-label="Loading response">
-        <div className="spinner" aria-hidden="true" />
-        <p>Thinking…</p>
+      <div className="premium-loader" role="status" aria-live="polite" aria-label="Loading response">
+        <div className="loader-container">
+          <div className="loader-ring" />
+          <div className="loader-ring" />
+          <div className="loader-ring" />
+        </div>
+        <p className="loader-text">Analyzing Academic Data</p>
       </div>
     );
   }
@@ -21,12 +27,14 @@ export default function ResponseFallback({
   if (type === 'error') {
     return (
       <div className="fallback fallback--error" role="alert" aria-live="assertive">
-        <span className="fallback-icon">⚠️</span>
+        <p className="fallback-msg" style={{ fontSize: '1.1rem', fontWeight: 600, color: 'var(--red)' }}>
+           System Error
+        </p>
         <p className="fallback-msg">{message ?? 'Something went wrong.'}</p>
         {onRetry && (
-          <button className="btn btn-outline" onClick={onRetry} aria-label="Retry request">
+          <Button variant="outline" className="btn btn-outline" onClick={onRetry} aria-label="Retry request">
             Retry
-          </button>
+          </Button>
         )}
       </div>
     );
@@ -34,8 +42,8 @@ export default function ResponseFallback({
 
   return (
     <div className="fallback fallback--empty" aria-label="No results yet">
-      <span className="fallback-icon">🎓</span>
-      <p className="fallback-msg">{message ?? 'Submit a query to get started.'}</p>
+      <div className="header-mark" style={{ opacity: 0.3, filter: 'grayscale(1)', marginBottom: '1rem' }}>P</div>
+      <p className="fallback-msg">{message ?? 'Enter your course query to begin analysis.'}</p>
     </div>
   );
 }

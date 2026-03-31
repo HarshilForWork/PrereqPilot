@@ -1,11 +1,14 @@
 import { useAppContext } from '../../context/AppContext';
+import InfoIcon from '../shared/InfoIcon';
+import { GravityStarsBackground } from '@/components/animate-ui/components/backgrounds/gravity-stars';
+import { Button } from '@/components/animate-ui/components/buttons/button';
 
 type Mode = 'prereq' | 'plan' | 'ask';
 
 const TABS: { id: Mode; label: string; icon: string; desc: string }[] = [
-  { id: 'prereq', label: 'Check Prerequisites', icon: '🔍', desc: 'Am I eligible for a course?' },
-  { id: 'plan', label: 'Course Plan', icon: '📋', desc: 'Build my next term schedule' },
-  { id: 'ask', label: 'Ask Anything', icon: '💡', desc: 'General course questions' },
+  { id: 'prereq', label: 'Prerequisites', icon: 'PRE', desc: 'Eligibility check' },
+  { id: 'plan', label: 'Course Plan', icon: 'PLN', desc: 'Schedule builder' },
+  { id: 'ask', label: 'Consultant', icon: 'ASK', desc: 'General help' },
 ];
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
@@ -13,24 +16,38 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="app-layout">
+      <GravityStarsBackground 
+        starsCount={150} 
+        starsSize={1.5} 
+        starsOpacity={0.6} 
+        glowIntensity={30}
+        glowAnimation="spring"
+        movementSpeed={0.5}
+        mouseInfluence={180}
+        mouseGravity="attract"
+        gravityStrength={120}
+        className="fixed inset-0 z-[-1] pointer-events-auto bg-black"
+      />
       {/* ── Header ── */}
       <header className="app-header" role="banner">
         <div className="header-inner">
           <div className="header-brand">
-            <span className="header-logo" aria-hidden="true">🎓</span>
+            <div className="header-mark">P</div>
             <div>
-              <h1 className="header-title">Course Planning Assistant</h1>
-              <p className="header-subtitle">Agentic RAG — Powered by your academic catalog</p>
+              <h1 className="header-title">PrereqPilot</h1>
+              <p className="header-subtitle">Intelligent Academic Catalog Assistant</p>
             </div>
           </div>
+          <InfoIcon />
         </div>
       </header>
 
       {/* ── Tab Navigation ── */}
       <nav className="tab-nav" role="navigation" aria-label="Query modes">
         {TABS.map((tab) => (
-          <button
+          <Button
             key={tab.id}
+            variant="ghost"
             className={`tab-btn ${state.activeMode === tab.id ? 'tab-btn--active' : ''}`}
             onClick={() => dispatch({ type: 'SET_MODE', mode: tab.id })}
             aria-selected={state.activeMode === tab.id}
@@ -43,7 +60,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
               <span className="tab-label">{tab.label}</span>
               <span className="tab-desc">{tab.desc}</span>
             </span>
-          </button>
+          </Button>
         ))}
       </nav>
 
