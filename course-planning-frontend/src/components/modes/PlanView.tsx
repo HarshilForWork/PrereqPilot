@@ -10,31 +10,16 @@ export default function PlanView() {
   const { state, dispatch } = useAppContext();
   const { status, data, error } = state.plan;
 
-  const [completedCourses, setCompletedCourses] = useState('');
-  const [targetMajor, setTargetMajor] = useState('');
-  const [targetTerm, setTargetTerm] = useState('');
-  const [maxCredits, setMaxCredits] = useState('');
   const [question, setQuestion] = useState('');
 
-  const buildRequest = (extraContext?: string): { student_profile: any; question: string } => {
-    const baseQuestion = question || "Generate a course plan";
-    return {
-      question: extraContext
-        ? `${baseQuestion}\n\nAdditional context: ${extraContext}`
-        : baseQuestion,
-      student_profile: {
-        completed_courses: completedCourses.split(',').map((c) => c.trim()).filter(Boolean),
-        target_major: targetMajor || undefined,
-        target_term: targetTerm || undefined,
-        max_credits: maxCredits ? parseInt(maxCredits, 10) : undefined,
-      },
-    };
-  };
-
-  const submit = async (extra?: string) => {
+  const submit = async (extraContext?: string) => {
+    if (!question.trim()) return;
     dispatch({ type: 'FETCH_START', mode: 'plan' });
     try {
-      const res = await queryPlan(buildRequest(extra));
+      const queryText = extraContext 
+        ? `${question}\n\nAdditional context: ${extraContext}` 
+        : question;
+      const res = await queryPlan({ query: queryText });
       dispatch({ type: 'FETCH_SUCCESS_PLAN', data: res });
     } catch (e: unknown) {
       dispatch({ type: 'FETCH_ERROR', mode: 'plan', error: (e as Error).message });
@@ -52,71 +37,19 @@ export default function PlanView() {
           <textarea
             id="plan-question"
             className="form-textarea"
-            rows={2}
-            placeholder="e.g. Plan for Fall 2026 for Computer Science major"
+            rows={3}
+            placeholder="e.g. Plan for Fall 2026 for Computer Science major after CS101"
             value={question}
             onChange={(e) => setQuestion(e.target.value)}
             disabled={status === 'loading'}
+            required
+            aria-required="true"
           />
-        </div>
-        <div className="form-group">
-          <label htmlFor="plan-courses" className="form-label">
-            Completed courses <span className="form-hint">(comma-separated)</span>
-          </label>
-          <input
-            id="plan-courses"
-            type="text"
-            className="form-input"
-            placeholder="CS101, CS201, MATH120"
-            value={completedCourses}
-            onChange={(e) => setCompletedCourses(e.target.value)}
-            disabled={status === 'loading'}
-          />
-        </div>
-        <div className="form-row">
-          <div className="form-group">
-            <label htmlFor="plan-major" className="form-label">Target major</label>
-            <input
-              id="plan-major"
-              type="text"
-              className="form-input"
-              placeholder="Computer Science"
-              value={targetMajor}
-              onChange={(e) => setTargetMajor(e.target.value)}
-              disabled={status === 'loading'}
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="plan-term" className="form-label">Target term</label>
-            <input
-              id="plan-term"
-              type="text"
-              className="form-input"
-              placeholder="Fall 2025"
-              value={targetTerm}
-              onChange={(e) => setTargetTerm(e.target.value)}
-              disabled={status === 'loading'}
-            />
-          </div>
-          <div className="form-group form-group--sm">
-            <label htmlFor="plan-credits" className="form-label">Max credits</label>
-            <input
-              id="plan-credits"
-              type="number"
-              className="form-input"
-              placeholder="18"
-              min={1}
-              max={30}
-              value={maxCredits}
-              onChange={(e) => setMaxCredits(e.target.value)}
-              disabled={status === 'loading'}
-            />
-          </div>
         </div>
         <Button
           type="submit"
           className="btn btn-primary"
-          disabled={status === 'loading'}
+          disabled={status === 'loading' || !question.trim()}
           aria-busy={status === 'loading'}
         >
           {status === 'loading' ? 'Planning…' : 'Generate Course Plan'}

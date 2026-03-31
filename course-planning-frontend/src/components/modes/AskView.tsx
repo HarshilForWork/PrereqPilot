@@ -12,15 +12,12 @@ export default function AskView() {
 
   const [question, setQuestion] = useState('');
 
-  const buildRequest = (extra?: string) => ({
-    question: extra ? `${question}\n\nAdditional context: ${extra}` : question,
-  });
-
   const submit = async (extra?: string) => {
     if (!question.trim()) return;
     dispatch({ type: 'FETCH_START', mode: 'ask' });
     try {
-      const res = await queryAsk(buildRequest(extra));
+      const queryText = extra ? `${question}\n\nAdditional context: ${extra}` : question;
+      const res = await queryAsk({ query: queryText });
       dispatch({ type: 'FETCH_SUCCESS_ASK', data: res });
     } catch (e: unknown) {
       dispatch({ type: 'FETCH_ERROR', mode: 'ask', error: (e as Error).message });

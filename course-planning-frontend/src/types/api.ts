@@ -8,18 +8,17 @@ export interface CitationModel {
 
 export type ModeStatus = 'idle' | 'loading' | 'success' | 'error';
 
+// ─── Simplified Request Pattern ─────────────────────────────────────────────
+// The backend uses an IntakeAgent to extract profile details (major, credits, 
+// completed courses) directly from the natural language query.
+
+export interface QueryRequest {
+  query: string;
+}
+
 // ─── Prereq ─────────────────────────────────────────────────────────────────
 
-export interface StudentProfilePrereq {
-  completed_courses: string[];
-  grades?: Record<string, string>;
-  catalog_year?: string;
-}
-
-export interface PrereqRequest {
-  question: string;
-  student_profile: StudentProfilePrereq;
-}
+export interface PrereqRequest extends QueryRequest {}
 
 export interface GraphResult {
   eligible: boolean;
@@ -42,18 +41,7 @@ export interface PrereqResponse {
 
 // ─── Plan ────────────────────────────────────────────────────────────────────
 
-export interface StudentProfilePlan {
-  completed_courses: string[];
-  grades?: Record<string, string>;
-  target_major?: string;
-  target_term?: string;
-  max_credits?: number;
-}
-
-export interface PlanRequest {
-  student_profile: StudentProfilePlan;
-  question: string;
-}
+export interface PlanRequest extends QueryRequest {}
 
 export interface PlannedCourse {
   course_code: string;
@@ -76,10 +64,7 @@ export interface PlanResponse {
 
 // ─── Ask ─────────────────────────────────────────────────────────────────────
 
-export interface AskRequest {
-  question: string;
-  student_profile?: Partial<StudentProfilePrereq>;
-}
+export interface AskRequest extends QueryRequest {}
 
 export interface AskResponse {
   answer: string;

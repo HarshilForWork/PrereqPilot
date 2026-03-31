@@ -18,20 +18,13 @@ export default function PrereqView() {
   const { status, data, error } = state.prereq;
 
   const [question, setQuestion] = useState('');
-  const [courses, setCourses] = useState('');
-
-  const buildRequest = (extra?: string) => ({
-    question: extra ? `${question}\n\nAdditional context: ${extra}` : question,
-    student_profile: {
-      completed_courses: courses.split(',').map((c) => c.trim()).filter(Boolean),
-    },
-  });
 
   const submit = async (extra?: string) => {
     if (!question.trim()) return;
     dispatch({ type: 'FETCH_START', mode: 'prereq' });
     try {
-      const res = await queryPrereq(buildRequest(extra));
+      const queryText = extra ? `${question}\n\nAdditional context: ${extra}` : question;
+      const res = await queryPrereq({ query: queryText });
       dispatch({ type: 'FETCH_SUCCESS_PREREQ', data: res });
     } catch (e: unknown) {
       dispatch({ type: 'FETCH_ERROR', mode: 'prereq', error: (e as Error).message });
@@ -56,20 +49,6 @@ export default function PrereqView() {
             disabled={status === 'loading'}
             required
             aria-required="true"
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="prereq-courses" className="form-label">
-            Completed courses <span className="form-hint">(comma-separated)</span>
-          </label>
-          <input
-            id="prereq-courses"
-            type="text"
-            className="form-input"
-            placeholder="CS101, CS201, MATH120"
-            value={courses}
-            onChange={(e) => setCourses(e.target.value)}
-            disabled={status === 'loading'}
           />
         </div>
         <Button
